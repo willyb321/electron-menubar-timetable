@@ -1,0 +1,9 @@
+{
+  "name": "electron-test",
+  "version": "0.0.1",
+  "main": "main.js",
+  "devDependencies": {
+    "menubar": "^4.1.1",
+    "electron-prebuilt": "^1.1.1"
+  }
+}
