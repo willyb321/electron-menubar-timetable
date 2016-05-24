@@ -12,4 +12,5 @@ You can click on the image to change from week a to week b. If you only have one
 <https://github.com/maxogden/menubar> - used for menubar  
 <https://electron.atom.io> - for the main thing
 ***
+# Example
 ![Example](/example.gif "Example")
