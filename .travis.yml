@@ -11,7 +11,16 @@ addons:
       - xvfb
 
 install:
-  - export DISPLAY=':99.0'
-  - Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
+  - npm install -g tslint typescript tsd
+    - npm install
+    - tsd install
+    - export DISPLAY=':99.0'
+    - Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
 script:
-  - npm test
+  - tslint --version
+    - tslint $(git ls-files | grep '.ts$')
+    - tsc --version
+    - tsc -p src/browser
+    - tsc src/renderer/*.ts --out build/src/renderer
+    - tsc -p tests/browser
+    - npm test -- --travis
