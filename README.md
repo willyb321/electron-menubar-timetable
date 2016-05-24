@@ -1,4 +1,4 @@
-# Electron Timetable
+# Electron Timetable [![Build Status](https://travis-ci.org/willyb321/electron-menubar-timetable.svg?branch=master)](https://travis-ci.org/willyb321/electron-menubar-timetable)
 TimeTable in the menubar using electron
 ***
 # How to use?  
