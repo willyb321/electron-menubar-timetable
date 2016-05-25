@@ -6,7 +6,8 @@ Clone the repo, and then replace images a.png and b.png with your own timetable.
 Package the files using your preferred method of packaging, and then run it. It'll appear in your menubar.  
 ???  
 Profit.  
-You can click on the image to change from week a to week b. If you only have one week in your timetable, just remove b.png from ./img folder
+You can click on the image to change from week a to week b. If you only have one week in your timetable, just remove b.png from ./img folder  
+At the moment, only OS X is supported, because Windows/Linux doesn't have a menubar.
 ***
 # Credits
 <https://github.com/maxogden/menubar> - used for menubar  
