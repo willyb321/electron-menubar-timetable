@@ -1,25 +1,9 @@
-var Application = require('spectron').Application
-var assert = require('assert')
-
-describe('application launch', function () {
-  this.timeout(10000)
-
-  beforeEach(function () {
-    this.app = new Application({
-      path: '/Applications/MyApp.app/Contents/MacOS/MyApp'
-    })
-    return this.app.start()
-  })
-
-  afterEach(function () {
-    if (this.app && this.app.isRunning()) {
-      return this.app.stop()
-    }
-  })
-
-  it('shows an initial window', function () {
-    return this.app.client.getWindowCount().then(function (count) {
-      assert.equal(count, 1)
-    })
-  })
-})
+var assert = require('chai').assert;
+describe('Array', function() {
+  describe('#indexOf()', function () {
+    it('should return -1 when the value is not present', function () {
+      assert.equal(-1, [1,2,3].indexOf(5));
+      assert.equal(-1, [1,2,3].indexOf(0));
+    });
+  });
+});
