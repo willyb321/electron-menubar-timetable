@@ -7,7 +7,6 @@ mb.on('ready', function ready () {
   mb.setOption("width", "800");
   mb.setOption("height", "600");
   mb.setOption("preload-window", "true")
-  mb.showWindow()
   // your app code here
 
 const electron = require('electron');

@@ -17,6 +17,16 @@
                 image.src = "./img/a.png"
             }
         }
+function thanks() {
+        let myNotification = new Notification('App is ready.', {
+  body: 'Thanks for using this app!'
+});
+
+myNotification.onclick = () => {
+  console.log('Notification clicked');
+};
+}
+thanks()
     </script>
 </body>
 
