@@ -1,7 +1,7 @@
 <p align="center">
   <img src="./TTIcon.png" width=15% height=15%/>
 </p>
-# Electron Timetable [![Build Status](https://travis-ci.org/willyb321/electron-menubar-timetable.svg?branch=master)](https://travis-ci.org/willyb321/electron-menubar-timetable)
+# Electron Timetable [![Build Status](https://travis-ci.org/willyb321/electron-menubar-timetable.svg?branch=master)](https://travis-ci.org/willyb321/electron-menubar-timetable)[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/willyb321/electron-menubar-timetable/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 TimeTable in the menubar using electron
 ***
 # How to use?  
@@ -20,5 +20,5 @@ At the moment, only OS X is supported, because Windows/Linux doesn't have a menu
 ![Example](/example.gif "Example")
 
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/willyb321/electron-menubar-timetable/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
 
