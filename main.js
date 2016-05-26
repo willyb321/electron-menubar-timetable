@@ -6,7 +6,8 @@ mb.on('ready', function ready() {
   console.log('app is ready')
   mb.setOption("width", "800");
   mb.setOption("height", "600");
-  mb.setOption("preload-window", "false")
+  mb.setOption("preload-window", "true")
+  mb.showWindow()
     // your app code here
 
   const electron = require('electron');
@@ -26,8 +27,8 @@ mb.on('ready', function ready() {
   function createWindow() {
     // Create the browser window.
     win = new BrowserWindow({
-      width: 1280,
-      height: 800
+      width: 800,
+      height: 600
     });
 
     // and load the index.html of the app.
