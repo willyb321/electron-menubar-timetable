@@ -18,3 +18,7 @@ At the moment, only OS X is supported, because Windows/Linux doesn't have a menu
 ***
 # Example
 ![Example](/example.gif "Example")
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/willyb321/electron-menubar-timetable/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
