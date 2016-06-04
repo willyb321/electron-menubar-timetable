@@ -3,6 +3,8 @@
 </p>
 # Electron Timetable [![Build Status](https://travis-ci.org/willyb321/electron-menubar-timetable.svg?branch=master)](https://travis-ci.org/willyb321/electron-menubar-timetable)
 TimeTable in the menubar using electron. I have a [website](http://bit.ly/1XXz4iH) for this project.
+***  
+# [View the website](http://bit.ly/1XXz4iH)  
 ***
 # How to use?  
 Clone the repo, and then replace images ./img/a.png and ./img/b.png with your own timetable. I will eventually come up with a better way of doing this.  
