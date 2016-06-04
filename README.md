@@ -2,7 +2,7 @@
   <img src="./TTIcon.png" width=15% height=15%/>
 </p>
 # Electron Timetable [![Build Status](https://travis-ci.org/willyb321/electron-menubar-timetable.svg?branch=master)](https://travis-ci.org/willyb321/electron-menubar-timetable)
-TimeTable in the menubar using electron
+TimeTable in the menubar using electron. I have a [website](http://bit.ly/1XXz4iH) for this project.
 ***
 # How to use?  
 Clone the repo, and then replace images a.png and b.png with your own timetable. Run NPM install for good measure.  
