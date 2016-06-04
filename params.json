@@ -1,0 +1,6 @@
+{
+  "name": "Electron Menubar TimeTable!",
+  "tagline": "TimeTable in your menubar using electron!",
+  "body": "<p align=\"center\">\r\n <img src=\"https://raw.githubusercontent.com/willyb321/electron-menubar-timetable/master/TTIcon.png\" />\r\n</p>\r\n# Electron Timetable [![Build Status](https://travis-ci.org/willyb321/electron-menubar-timetable.svg?branch=master)](https://travis-ci.org/willyb321/electron-menubar-timetable)\r\nTimeTable in the menubar using electron\r\n***\r\n# How to use?  \r\nClone the repo, and then replace images a.png and b.png with your own timetable. Run NPM install for good measure.  \r\nPackage the files using your preferred method of packaging, and then run it. It'll appear in your menubar.  \r\n???  \r\nProfit.  \r\nYou can click on the image to change from week a to week b. If you only have one week in your timetable, just remove b.png from ./img folder  \r\nAt the moment, only OS X is supported, because Windows/Linux doesn't have a menubar.\r\n***\r\n# Credits\r\n<https://github.com/maxogden/menubar> - used for menubar  \r\n<https://electron.atom.io> - for the main thing\r\n***\r\n# Example\r\n![Example](https://github.com/willyb321/electron-menubar-timetable/raw/master/example.gif)\r\n\r\n\r\n\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
