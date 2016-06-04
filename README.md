@@ -5,7 +5,8 @@
 TimeTable in the menubar using electron. I have a [website](http://bit.ly/1XXz4iH) for this project.
 ***
 # How to use?  
-Clone the repo, and then replace images a.png and b.png with your own timetable. Run NPM install for good measure.  
+Clone the repo, and then replace images ./img/a.png and ./img/b.png with your own timetable. I will eventually come up with a better way of doing this.  
+Run `npm install`.  
 Package the files using your preferred method of packaging, and then run it. It'll appear in your menubar.  
 ???  
 Profit.  
