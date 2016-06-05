@@ -12,7 +12,7 @@ Run `npm install`.
 Package the files using your preferred method of packaging, and then run it. It'll appear in your menubar, and a dialog will come up - select your 2 timetable images, and press open, then boom, timetable!    
 ???  
 Profit.  
-You can click on the image to change from week a to week b. If you only have one week in your timetable, just remove b.png from ./img folder  
+You can click on the image to change from week a to week b. If you only have one week in your timetable, ~~just remove b.png from ./img folder~~  
 At the moment, only OS X is supported, because Windows/Linux doesn't have a menubar.
 ***
 # Credits
