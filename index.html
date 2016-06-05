@@ -9,15 +9,24 @@
 <body>
     <img id="imgTT" src="./img/a.png" onclick="changeImg()" width=100% height=25%></img>
     <script>
+    var image = document.getElementById('imgTT');
+    
     function changeImg() {
-        var image = document.getElementById('imgTT');
-        if (image.src.match("./img/a.png")) {
-            image.src = "./img/b.png"
+        
+
+        if (image.src.match(path[0])) {
+            image.src = path[1]
         } else {
-            image.src = "./img/a.png"
+            image.src = path[0]
         }
     }
+ const remote = require('electron').remote;
+    var dialog = remote.require('electron').dialog;
 
+    
+var path = dialog.showOpenDialog({properties: ['openFile', 'openDirectory', 'multiSelections']});
+console.log(path);
+image.src = path[0]
     function thanks() {
         let myNotification = new Notification('App is ready.', {
             body: 'Thanks for using this app!'
@@ -28,7 +37,8 @@
             Notification.Close()
         };
     }
-    thanks()
+    thanks();
+    
     </script>
 </body>
 
