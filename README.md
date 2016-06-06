@@ -1,7 +1,7 @@
 <p align="center">
   <img src="./TTIcon.png" width=15% height=15%/>
 </p>
-# Electron Timetable [![Build Status](https://travis-ci.org/willyb321/electron-menubar-timetable.svg?branch=master)](https://travis-ci.org/willyb321/electron-menubar-timetable)
+# Electron Timetable [![Build Status](https://travis-ci.org/willyb321/electron-menubar-timetable.svg?branch=master)](https://travis-ci.org/willyb321/electron-menubar-timetable)[![Dependency Status](https://www.versioneye.com/user/projects/57555eb37757a0003bd4b14f/badge.svg?style=flat)](https://www.versioneye.com/user/projects/57555eb37757a0003bd4b14f)
 TimeTable in the menubar using electron. I have a [website](http://bit.ly/1XXz4iH) for this project.
 ***  
 # [View the website](http://bit.ly/1XXz4iH)  
