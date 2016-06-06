@@ -15,7 +15,6 @@ install:
 - Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
 script:
 - npm test
-after_script: 
 - electron-packager . --platform=darwin --arch=x64
 deploy:
   provider: releases
