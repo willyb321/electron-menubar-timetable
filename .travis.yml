@@ -1,10 +1,6 @@
 language: node_js
 node_js:
 - v6
-- v5
-- v4
-- '0.12'
-- '0.10'
 addons:
   apt:
     packages:
@@ -17,7 +13,7 @@ script:
 - npm test
 - electron-packager . --platform=darwin --arch=x64
 - cd /home/travis/build/willyb321/electron-menubar-timetable/TimeTable-darwin-x64/
-- zip -r TimeTable.zip *
+- zip -r -q TimeTable.zip *
 deploy:
   skip_cleanup: true
   provider: releases
