@@ -9,6 +9,8 @@ install:
 - npm install &>/dev/null
 - export DISPLAY=':99.0'
 - Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
+before_install:
+- export TZ=Australia/Sydney
 script:
 - npm test
 - electron-packager . --platform=darwin --arch=x64
