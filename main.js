@@ -1,7 +1,6 @@
 var menubar = require('menubar')
 var mb = menubar()
 mb.on('ready', function ready() {
-    console.log('app is ready')
     mb.setOption("width", "800");
     mb.setOption("height", "600");
     mb.setOption("preload-window", "true")
