@@ -16,7 +16,8 @@ before_install:
 before_script:
 - git config --global user.email "wbwilliam7@gmail.com"
 - git config --global user.name "willyb321"
-repo: 'https://' + process.env.GH_TOKEN + '@github.com/willyb321/electron-menubar-timetable.git',
+repo: 
+- 'https://' + process.env.GH_TOKEN + '@github.com/willyb321/electron-menubar-timetable.git',
 script:
 - npm test
 - npm version minor -m "Bump version to %s [ci skip]"
