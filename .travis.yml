@@ -14,7 +14,8 @@ script:
 - electron-packager . --platform=darwin --arch=x64
 - cd /home/travis/build/willyb321/electron-menubar-timetable/TimeTable-darwin-x64/
 - zip -r -q TimeTable.zip *
-before_deploy: 
+before_deploy:
+export TAGPERM=[secure]
  - git config --global user.email "builds@travis-ci.com"
   - git config --global user.name "Travis CI"
   - export GIT_TAG=$TRAVIS_BRANCH-0.1.$TRAVIS_BUILD_NUMBER
