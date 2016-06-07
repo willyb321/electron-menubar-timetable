@@ -1,5 +1,5 @@
-var menubar = require('menubar')
-var mb = menubar()
+let menubar = require('menubar')
+let mb = menubar()
 mb.on('ready', function ready() {
     mb.setOption("width", "800");
     mb.setOption("height", "600");
