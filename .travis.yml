@@ -13,7 +13,7 @@ before_install:
 - export TZ=Australia/Sydney
 - git config --global user.email "builds@travis-ci.com"
 - git config --global user.name "Travis CI"
-- npm version minor
+- npm version minor -m "Bump version to %s [ci skip]"
 script:
 - npm test
 - electron-packager . --platform=darwin --arch=x64
