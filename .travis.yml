@@ -14,6 +14,9 @@ script:
 - electron-packager . --platform=darwin --arch=x64
 - cd /home/travis/build/willyb321/electron-menubar-timetable/TimeTable-darwin-x64/
 - zip -r -q TimeTable.zip *
+before_deploy: 
+ - export GIT_TAG=$TRAVIS_BRANCH-0.1.$TRAVIS_BUILD_NUMBER
+ - git tag $GIT_TAG -a -m "Generated tag from TravisCI for build $TRAVIS_BUILD_NUMBER"
 deploy:
   skip_cleanup: true
   provider: releases
