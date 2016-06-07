@@ -11,6 +11,8 @@ install:
 - Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
 before_install:
 - export TZ=Australia/Sydney
+- git config --global user.email "wbwilliam7@gmail.com"
+- git config --global user.name "willyb321"
 - git config credential.helper "store --file=.git/credentials"
 - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
 - npm version minor -m "Bump version to %s [ci skip]"
