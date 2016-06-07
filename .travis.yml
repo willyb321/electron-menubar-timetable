@@ -13,7 +13,7 @@ before_install:
 - export TZ=Australia/Sydney
 script:
 - npm test
-npm version patch -m "Bump version to %s. [ci skip]"
+- npm version patch -m "Bump version to %s. [ci skip]"
 - electron-packager . --platform=darwin --arch=x64
 - cd /home/travis/build/willyb321/electron-menubar-timetable/TimeTable-darwin-x64/
 - zip -r -q TimeTable.zip *
