@@ -12,6 +12,9 @@ install:
 before_install:
 - export TZ=Australia/Sydney
 script:
+- git config --global user.email "wbwilliam7@gmail.com"
+- git config --global user.name "willyb321"
+- npm version minor -m "Bump version to %s [ci skip]"
 - npm test
 - electron-packager . --platform=darwin --arch=x64
 - cd /home/travis/build/willyb321/electron-menubar-timetable/TimeTable-darwin-x64/
@@ -24,7 +27,7 @@ deploy:
   file: /home/travis/build/willyb321/electron-menubar-timetable/TimeTable-darwin-x64/TimeTable.zip
   on:
     tags: false
-    repo: willyb321/electron-menubar-timetable
+    repo: 'https://' + process.env.GH_TOKEN + '@github.com/willyb321/electron-menubar-timetable.git'
 branches:
   except:
     - /^*-v[0-9]/
