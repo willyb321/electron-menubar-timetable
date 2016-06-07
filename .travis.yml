@@ -11,17 +11,8 @@ install:
 - Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
 before_install:
 - export TZ=Australia/Sydney
-- git config credential.helper "store --file=.git/credentials"
-- echo "https://${GH_TOKEN}:@github.com" > .git/credentials
-before_script:
-- git config --global user.email "wbwilliam7@gmail.com"
-- git config --global user.name "willyb321"
 script:
 - npm test
-- npm version minor -m "Bump version to %s [ci skip]"
-- git config credential.helper "store --file=.git/credentials"
-- echo "https://${GH_TOKEN}:@github.com" > .git/credentials
-- git push 'https://$GH_TOKEN@github.com/willyb321/electron-menubar-timetable.git',
 - electron-packager . --platform=darwin --arch=x64
 - cd /home/travis/build/willyb321/electron-menubar-timetable/TimeTable-darwin-x64/
 - zip -r -q TimeTable.zip *
@@ -42,6 +33,3 @@ after_success:
   - export GIT_TAG=build-$TRAVIS_BUILD_NUMBER-$TRAVIS_BRANCH-$(date "+%Y-%m-%d-%I-%M")
   - git tag $GIT_TAG -a -m "Generated tag from TravisCI build $TRAVIS_BUILD_NUMBER"
   - git push origin $GIT_TAG
-env:
-  global:
-    secure: 0JOU1MGxICDnNDE8DUr7R6DR+iSa2xSvz0jPNNv7qKpWxZ7Au4ECUNvrlVp74JBKsfUTXduMH5EBHnyt9rJieAhqQJPudi+2mviHeZFyJWo+crsn0qb/bXjD2iqbm2FalKTBtshIXN8HcV/Kfz7RAbZOHAmZCljLShvF2Klr4tpMtn6pnr2ReavUglNtNPC2F2mGa6pAVV+MJbc8/SJ/Go2gTLRyt6KTBhsjvdCESIDqHjRTedH00ZxzuFIrrSWThpuDVPkKV8rCjtOHUBWAPEHj5lG2K1kQAe6HEobt1N6Y78jYkb9GKDSsgKHjQ0bmd1YbwS3voE11EbNenPBVkh0n3kM/4o1eKjUG4kW56LnVBzRtY18NCJW8WMbet4BW0NMT5aqJDqmtOj48SPh0GLZoT1bvh5ZGHr6IQHie3e1mUqGrOWJL97MHNckMrBod1d5GUq7otf0O8BA6+qtvZ0aC+Wx2Lrrd3wsvXsOjkZ4wzzBR2qjztcnKNzPNBJcnwbbyYi7i0p8rnS3caFcD29Kqq4yXCaq8J6KC6S9cFEpKdmofrrMh0zsXSPpB7yscRCf7TOn8lHwsHQ6Jhdjy6OQMzoVJW6hZpOg/D7I1GbDUleqC0aF1mGM11ZfKDZLy4R8WQ1yFtZvaMhGf2F4l8m+f97t1WFFpl5UnCl8f0Hc=
