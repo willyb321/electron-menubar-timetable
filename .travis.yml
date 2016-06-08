@@ -18,8 +18,6 @@ script:
 - electron-packager . --platform=darwin --arch=x64
 - cd /home/travis/build/willyb321/electron-menubar-timetable/TimeTable-darwin-x64/
 - zip -r -q TimeTable.zip *
-after_script:
-  
 deploy:
   skip_cleanup: true
   provider: releases
@@ -29,11 +27,15 @@ deploy:
   on:
     tags: false
     repo: willyb321/electron-menubar-timetable
+  provider: bintray
+  file: ../bintraydescriptor.json
+  user: willyb321
+  key:
+    secure: ZfrFXsc3nyjZIDKeB3vRyVaSvPOqErH+JdN9+gj9YLJDbFr0TMiFGwe64LfOySpH/K+Icq9+o6bHVXh6WW9YumPDdgGgxtIOcpzV/45WRE4JSUWcAyC5Uoy1xeK1pG0TwedJ/dRX8Byg/ZzMAO5MI7qH7NPNHszlhBJGMn4D0E9Q6x1j1mFT/649ToBR9IUF331BsgzqPg6Ubg43sIrQUA3YToaJmykeGUWkK6bfQ2Uc0snLy/qWFEN4t1ZcbK/rTCUCgSAfNFVcjcguUFmXmUyT3lobWCr1tlUQ2vCJj8Cx2fRaBN67/eywQTxPy1vbx2b/wmwJaQCsnvFZ2FLUf11e1PLolej0ZHB7gj26apfNZCjrlpktRhUFc8Whdg1PSchRGSCrVA+oFQ5VXfFO3ZS0m0uYPnsE/Rlik+t20FTftPnkUvpkW3sbErB3ZWDgKHoVnxyPUo0C20DvE7YxL+fxH3rAlN7rai4XhwSCESAcZ9Sbw2pGVha0uWgyrOjz0PouOOmvNZh9RZnPTpfetMHSIeasp5ircbgV4J37vSf8K6B17r41fa6jm/61lJYmOyV05P5+c2E4wrm19vG/ztt7kRW93IupfzxHKcKHQDs1fZ6Wh/E+2ByTthgg5iAVnyvnb1VO2KE7SOuypdZ2jkQ3oC6W3YAsJxqJCj0Mbl0=
 branches:
   except:
-    - /^*-v[0-9]/
-
+  - /^*-v[0-9]/
 after_success:
-  - export GIT_TAG=build-$TRAVIS_BUILD_NUMBER-$TRAVIS_BRANCH-$(date "+%Y-%m-%d-%I-%M")
-  - git tag $GIT_TAG -a -m "Generated tag from TravisCI build $TRAVIS_BUILD_NUMBER"
-  - git push origin $GIT_TAG
+- export GIT_TAG=build-$TRAVIS_BUILD_NUMBER-$TRAVIS_BRANCH-$(date "+%Y-%m-%d-%I-%M")
+- git tag $GIT_TAG -a -m "Generated tag from TravisCI build $TRAVIS_BUILD_NUMBER"
+- git push origin $GIT_TAG
