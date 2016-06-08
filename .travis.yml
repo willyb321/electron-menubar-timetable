@@ -11,25 +11,19 @@ install:
 - Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
 before_install:
 - export TZ=Australia/Sydney
-before_script:
-  - npm install -g gulp
-  - npm install gulp
-  - git remote rm origin
-  - git remote add origin https://willyb321:${GH_TOKEN2}@github.com/willyb321/electron-menubar-timetable.git
 script:
-- git config --global user.email "travis@travis-ci.com"
-- git config --global user.name "Travis CI"
+- git config --global user.email "wbwilliam7@gmail.com"
+- git config --global user.name "willyb321"
 - npm test
-- npm version patch -m "Bump version to %s. [ci skip]"
-- git push --force
-- gulp electron
-- cd release
+- electron-packager . --platform=darwin --arch=x64 --icon="./TTIcon.icns"
+- cd /home/travis/build/willyb321/electron-menubar-timetable/TimeTable-darwin-x64/
+- zip -r -q TimeTable.zip *
 deploy:
   skip_cleanup: true
   provider: releases
   api_key:
     secure: 0JOU1MGxICDnNDE8DUr7R6DR+iSa2xSvz0jPNNv7qKpWxZ7Au4ECUNvrlVp74JBKsfUTXduMH5EBHnyt9rJieAhqQJPudi+2mviHeZFyJWo+crsn0qb/bXjD2iqbm2FalKTBtshIXN8HcV/Kfz7RAbZOHAmZCljLShvF2Klr4tpMtn6pnr2ReavUglNtNPC2F2mGa6pAVV+MJbc8/SJ/Go2gTLRyt6KTBhsjvdCESIDqHjRTedH00ZxzuFIrrSWThpuDVPkKV8rCjtOHUBWAPEHj5lG2K1kQAe6HEobt1N6Y78jYkb9GKDSsgKHjQ0bmd1YbwS3voE11EbNenPBVkh0n3kM/4o1eKjUG4kW56LnVBzRtY18NCJW8WMbet4BW0NMT5aqJDqmtOj48SPh0GLZoT1bvh5ZGHr6IQHie3e1mUqGrOWJL97MHNckMrBod1d5GUq7otf0O8BA6+qtvZ0aC+Wx2Lrrd3wsvXsOjkZ4wzzBR2qjztcnKNzPNBJcnwbbyYi7i0p8rnS3caFcD29Kqq4yXCaq8J6KC6S9cFEpKdmofrrMh0zsXSPpB7yscRCf7TOn8lHwsHQ6Jhdjy6OQMzoVJW6hZpOg/D7I1GbDUleqC0aF1mGM11ZfKDZLy4R8WQ1yFtZvaMhGf2F4l8m+f97t1WFFpl5UnCl8f0Hc=
-  file: /home/travis/build/willyb321/electron-menubar-timetable/release/TimeTable-1.3.1-darwin-x64.zip
+  file: /home/travis/build/willyb321/electron-menubar-timetable/TimeTable-darwin-x64/TimeTable.zip
   on:
     tags: false
     repo: willyb321/electron-menubar-timetable

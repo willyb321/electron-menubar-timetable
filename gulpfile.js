@@ -4,7 +4,7 @@ var packageJson = require('./package.json');
 
 gulp.task('electron', function() {
 
-    gulp.src(".")
+    gulp.src("./src")
     .pipe(electron({
         src: './src',
         packageJson: packageJson,
@@ -12,7 +12,7 @@ gulp.task('electron', function() {
         cache: './cache',
         version: 'v1.2.1',
         packaging: true,
-        token: process.env.GH_TOKEN2, /** global: $GH_TOKEN2 */
+        token: '5c101a3ef621bb3f5f71f6e7ca4de5797f1f82a7', /** global: $GH_TOKEN2 process.env.GH_TOKEN2*/
         platforms: ['darwin-x64'],
         platformResources: {
             darwin: {
