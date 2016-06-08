@@ -11,6 +11,8 @@ install:
 - Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
 before_install:
 - export TZ=Australia/Sydney
+before_script:
+  - npm install -g gulp
 script:
 - git config --global user.email "travis@travis-ci.com"
 - git config --global user.name "Travis CI"
