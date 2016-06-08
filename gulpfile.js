@@ -20,7 +20,7 @@ gulp.task('electron', function() {
                 CFBundleIdentifier: packageJson.name,
                 CFBundleName: packageJson.name,
                 CFBundleVersion: packageJson.version,
-                icon: 'TTIcon.icns'
+                icon: './src/TTIcon.icns'
             },
             win: {
                 "version-string": packageJson.version,
