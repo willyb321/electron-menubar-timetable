@@ -27,7 +27,7 @@ deploy:
   file: /home/travis/build/willyb321/electron-menubar-timetable/TimeTable-darwin-x64/TimeTable.zip
   on:
     tags: false
-    repo: 'https://' + process.env.GH_TOKEN + '@github.com/willyb321/electron-menubar-timetable.git'
+    repo: willyb321/electron-menubar-timetable
 branches:
   except:
     - /^*-v[0-9]/
