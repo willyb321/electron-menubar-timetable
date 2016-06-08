@@ -11,6 +11,7 @@ install:
 - Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
 before_install:
 - export TZ=Australia/Sydney
+secure: "3RwQsuT2ufqdwJKKc1gs8Ng84oU8CTSaLW/SostNGaDpQtnaRjpA6sXZ4+r5/U48eAKE5mU62yMpC8gkQL7VlChteZfozxwz5o9LQWrzeUzsDIjvFXrbHSQnuvU5RsmAOnGPexXqlsZwi85LqqICBr3RRJ0QNO7s3jEiJhl1neZvQ4tyJNAbRrHHFm5xzif5anx1SmRqnp7r0twBC9CZ8nD46GX1P+q0/2PathC0bGNGVLyZNHacaxoK1l7XpaZTEYNXLid0t+b77TxDKvR2BGtlHxZZEDhvwTvKciqtnB80pYQqhD9knUqVD0JOnPdi8nlhtU4GL/15Lxqggar/e+r9Kct+NlXHqoBsFOCWURqQHO0UyWdaOg+BazFhRBBH9me6uYQwM8QqbBnJUp6tKy1Lx1icVFXADcwkpXv5A6O/SpJ6OVKZL9b7LZIZB6opZYr04fT77cgxqtaCTABWkz5QEjgWXLMuDRWHr6urssS81z5UaDzaxg4S89xYT9/o1ykcCmFo+HfjKYy+ctvwFkMuv7oglHQM6t1UwIdBzUyyS7jWt0QR37VY/Xu3Ikwn4JgTvzXyXqrrX5yRRWWsb97G8Mx+c93wNTTnk5NJW/lJPZRQq+nfeUh4JnnaGfyq7YvZaBSsoouc4PM1MwTYd0VtJ2f0eFfSHSAunQcCAAY="
 before_script:
   - npm install -g gulp
   - npm install gulp
