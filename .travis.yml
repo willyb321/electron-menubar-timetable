@@ -15,13 +15,15 @@ script:
 - git config --global user.email "wbwilliam7@gmail.com"
 - git config --global user.name "willyb321"
 - npm version minor -m "Bump version to %s [ci skip]"
+- git config credential.helper "store --file=.git/credentials"
+- echo "https://${GH_TOKEN}:@github.com" > .git/credentials
+- git push
 - npm test
 - electron-packager . --platform=darwin --arch=x64
 - cd /home/travis/build/willyb321/electron-menubar-timetable/TimeTable-darwin-x64/
 - zip -r -q TimeTable.zip *
 after_script:
-  - git config credential.helper "store --file=.git/credentials"
-  - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
+  
 deploy:
   skip_cleanup: true
   provider: releases
@@ -38,4 +40,4 @@ branches:
 after_success:
   - export GIT_TAG=build-$TRAVIS_BUILD_NUMBER-$TRAVIS_BRANCH-$(date "+%Y-%m-%d-%I-%M")
   - git tag $GIT_TAG -a -m "Generated tag from TravisCI build $TRAVIS_BUILD_NUMBER"
-  - git push && git push origin $GIT_TAG
+  - git push origin $GIT_TAG
