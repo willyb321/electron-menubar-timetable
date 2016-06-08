@@ -13,6 +13,7 @@ before_install:
 - export TZ=Australia/Sydney
 before_script:
   - npm install -g gulp
+  - npm install gulp
   - git remote rm origin
   - git remote add origin https://willyb321:${GH_TOKEN}@github.com/willyb321/electron-menubar-timetable.git
 script:
