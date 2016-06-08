@@ -14,10 +14,6 @@ before_install:
 script:
 - git config --global user.email "wbwilliam7@gmail.com"
 - git config --global user.name "willyb321"
-- npm-bump minor
-- git config credential.helper "store --file=.git/credentials"
-- echo "https://${GH_TOKEN}:@github.com" > .git/credentials
-- git push
 - npm test
 - electron-packager . --platform=darwin --arch=x64
 - cd /home/travis/build/willyb321/electron-menubar-timetable/TimeTable-darwin-x64/
