@@ -12,7 +12,7 @@ gulp.task('electron', function() {
         cache: './cache',
         version: 'v1.2.1',
         packaging: true,
-        token: 'GH_TOKEN2', /** global: $GH_TOKEN2 */
+        token: $GH_TOKEN2, /** global: $GH_TOKEN2 */
         platforms: ['darwin-x64'],
         platformResources: {
             darwin: {

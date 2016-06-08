@@ -21,7 +21,7 @@ script:
 - git config --global user.name "Travis CI"
 - npm test
 - npm version patch -m "Bump version to %s. [ci skip]"
-- git push --quiet "https://$GH_TOKEN2:x-oauth-basic@github.com/willyb321/electron-menubar-timetable.git"
+- git push --quiet
 - gulp electron
 - cd release
 - zip -r -q TimeTable.zip *
