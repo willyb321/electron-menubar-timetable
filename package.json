@@ -15,6 +15,7 @@
     "istanbul": "^0.4.3",
     "menubar": "^4.1.1",
     "mocha": "^2.5.3",
+    "npm-bump": "0.0.18",
     "npm-check-updates": "^2.6.5",
     "spectron": "^3.2.3"
   },
