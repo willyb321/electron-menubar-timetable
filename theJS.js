@@ -18,15 +18,4 @@ function changeImg () {
 }
 
 console.log(path)
-image.src = path[0]
-// thank the user, and let em know its ready.
-function thanks () {
-  let myNotification = new Notification('App is ready.', { /** global: Notification */
-    body: 'Thanks for using this app!'
-  })
-
-  myNotification.onclick = () => {
-    Notification.Close()
-  }
-}
-thanks()
+changeImg()
