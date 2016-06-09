@@ -16,7 +16,8 @@
     "mocha": "^2.5.3",
     "npm-bump": "0.0.18",
     "npm-check-updates": "^2.6.7",
-    "spectron": "^3.2.3"
+    "spectron": "^3.2.3",
+    "standard": "^7.1.2"
   },
   "dependencies": {
     "chai": "^3.5.0",
