@@ -3,7 +3,9 @@
   "version": "1.5.0",
   "main": "./main.js",
   "scripts": {
-    "test": "mocha"
+    "lint": "standard",
+    "test": "mocha",
+      "posttest": "npm run lint"
   },
   "devDependencies": {
     "chai": "^3.5.0",
@@ -16,7 +18,8 @@
     "mocha": "^2.5.3",
     "npm-bump": "0.0.18",
     "npm-check-updates": "^2.6.7",
-    "spectron": "^3.2.3"
+    "spectron": "^3.2.3",
+    "standard": "^7.1.2"
   },
   "dependencies": {
     "chai": "^3.5.0",
@@ -27,5 +30,10 @@
     "mocha": "^2.5.3",
     "npm-check-updates": "^2.6.7",
     "spectron": "^3.2.3"
-  }
+  },
+"standard": {
+  "ignore": [
+    "test.js"
+  ]
+}
 }
