@@ -1,9 +1,9 @@
-// requires
+// requires be here
 let remote = require('electron').remote
 let dialog = remote.require('electron').dialog
 let image = document.getElementById('imgTT')
 let path = dialog.showOpenDialog({
-  properties: ['openFile', 'openDirectory', 'multiSelections']
+  properties: ['openFile', 'multiSelections']
 })
 
 function changeImg () {
