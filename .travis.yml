@@ -27,7 +27,9 @@ deploy:
   on:
     tags: false
     repo: willyb321/electron-menubar-timetable
+    branch: master
   branches:
+
   except:
   - /^*-v[0-9]/
 after_success:
