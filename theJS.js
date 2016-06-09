@@ -1,4 +1,10 @@
+//requires
+let remote = require('electron').remote;
+let dialog = remote.require('electron').dialog;
 let image = document.getElementById('imgTT');
+let path = dialog.showOpenDialog({
+    properties: ['openFile', 'openDirectory', 'multiSelections']
+});
 
 function changeImg() {
     // find the image, and then change the src to the path.
@@ -10,14 +16,7 @@ function changeImg() {
         console.log("Swapped to image 2");
     }
 }
-//require dialog module
-let remote = require('electron').remote;
-let dialog = remote.require('electron').dialog;
 
-
-let path = dialog.showOpenDialog({
-    properties: ['openFile', 'openDirectory', 'multiSelections']
-});
 console.log(path);
 image.src = path[0]
     //thank the user, and let em know its ready.
