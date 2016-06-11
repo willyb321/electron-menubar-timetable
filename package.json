@@ -1,6 +1,6 @@
 {
   "name": "TimeTable",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "main": "./main.js",
   "scripts": {
     "lint": "standard",
@@ -23,15 +23,12 @@
     "standard": "^7.1.2"
   },
   "dependencies": {
-    "chai": "^3.5.0",
     "chai-as-promised": "^5.3.0",
     "coffee-script": "^1.10.0",
     "electron-packager": "^7.0.3",
     "electron-prebuilt": "^1.2.2",
     "menubar": "^4.1.1",
-    "mocha": "^2.5.3",
-    "npm-check-updates": "^2.6.7",
-    "spectron": "^3.2.3"
+    "npm-check-updates": "^2.6.7"
   },
   "standard": {
     "ignore": [
