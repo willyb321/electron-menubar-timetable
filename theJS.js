@@ -7,7 +7,7 @@ const conf = new Config()
 if (conf.get('imgPath') === undefined) {
   var path = dialog.showOpenDialog({
     properties: ['openFile', 'multiSelections']
-  })}
+  }) }
 conf.set('imgPath', path)
 function changeImg () {
   // find the image, and then change the src to the path.
