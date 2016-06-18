@@ -19,6 +19,13 @@ function changeImg () {
     console.log('Swapped to image 2')
   }
 }
-
+function clearConf() {
+	conf.delete('imgPath');
+	var path = dialog.showOpenDialog({
+		properties: ['openFile', 'multiSelections']
+	})
+	conf.set('imgPath', path) 
+	changeImg();
+}
 console.log(conf.get('imgPath'))
 changeImg()
