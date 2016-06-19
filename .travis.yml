@@ -3,7 +3,7 @@ node_js:
 - v6
 addons:
   apt:
-    packages:
+    packages:>/dev/null 2>&1
     - xvfb
 install:
 - npm install &>/dev/null
@@ -18,7 +18,7 @@ script:
 - git config --global user.name "William"
 - git config --global user.email "wbwilliam7@gmail.com"
 - git remote rm origin
-- git remote add origin https://willyb321:${GH_TOKEN2}@github.com/willyb321/electron-menubar-timetable.git
+- git remote add origin https://willyb321:$GH_TOKEN2@github.com/willyb321/electron-menubar-timetable.git
 - npm test
 - npm run build
 - cd /home/travis/build/willyb321/electron-menubar-timetable/TimeTable-darwin-x64/
@@ -40,4 +40,4 @@ deploy:
 after_success:
 - export GIT_TAG=build-$TRAVIS_BUILD_NUMBER-$TRAVIS_BRANCH-$(date "+%Y-%m-%d-%I-%M")
 - git tag $GIT_TAG -a -m "Generated tag from TravisCI build $TRAVIS_BUILD_NUMBER"
-- git push origin $GIT_TAG 
+- git push origin $GIT_TAG >/dev/null 2>&1
