@@ -17,6 +17,7 @@ before_install:
 script:
 - git config --global user.email "wbwilliam7@gmail.com"
 - git config --global user.name "willyb321"
+- git config --global user.pass $GH_TOKEN2
 - npm test
 - npm run build
 - cd /home/travis/build/willyb321/electron-menubar-timetable/TimeTable-darwin-x64/
