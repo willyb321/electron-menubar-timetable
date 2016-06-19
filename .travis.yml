@@ -40,4 +40,4 @@ deploy:
 after_success:
 - export GIT_TAG=build-$TRAVIS_BUILD_NUMBER-$TRAVIS_BRANCH-$(date "+%Y-%m-%d-%I-%M")
 - git tag $GIT_TAG -a -m "Generated tag from TravisCI build $TRAVIS_BUILD_NUMBER"
-- git push origin $GIT_TAG >/dev/null 2>&1
+- git push origin $GIT_TAG 
