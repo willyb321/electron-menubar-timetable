@@ -15,6 +15,8 @@ before_script:
 before_install:
 - export TZ=Australia/Sydney
 script:
+- git config --global user.name "William"
+- git config --global user.email "wbwilliam7@gmail.com"
 - git remote rm origin
 - git remote add origin https://willyb321:${GH_TOKEN2}@github.com/willyb321/electron-menubar-timetable.git
 - npm test
@@ -38,4 +40,4 @@ deploy:
 after_success:
 - export GIT_TAG=build-$TRAVIS_BUILD_NUMBER-$TRAVIS_BRANCH-$(date "+%Y-%m-%d-%I-%M")
 - git tag $GIT_TAG -a -m "Generated tag from TravisCI build $TRAVIS_BUILD_NUMBER"
-- git push origin $GIT_TAG
+- git push origin $GIT_TAG >/dev/null 2>&1
