@@ -15,10 +15,6 @@ before_script:
 before_install:
 - export TZ=Australia/Sydney
 script:
-- git config user.name "Travis CI"
-- git config user.email "travis@travis-ci.com"
-- npm version patch -m "Bump version to %s. [ci skip]"
-- git push --quiet "https://$GH_TOKEN:x-oauth-basic@github.com/willyb321/electron-menubar-timetable.git" HEAD:master > /dev/null 2>&1
 - npm test
 - npm run build
 - cd /home/travis/build/willyb321/electron-menubar-timetable/TimeTable-darwin-x64/
@@ -38,6 +34,10 @@ deploy:
   except:
   - /^*-v[0-9]/
 after_success:
+- git config user.name "Travis CI"
+- git config user.email "travis@travis-ci.com"
+- npm version patch -m "Bump version to %s. [ci skip]"
+- git push --quiet "https://$GH_TOKEN:x-oauth-basic@github.com/willyb321/electron-menubar-timetable.git" HEAD:master > /dev/null 2>&1
 - export GIT_TAG=build-$TRAVIS_BUILD_NUMBER-$TRAVIS_BRANCH-$(date "+%Y-%m-%d-%I-%M")
 - git tag $GIT_TAG -a -m "Generated tag from TravisCI build $TRAVIS_BUILD_NUMBER"
 - git push origin $GIT_TAG
