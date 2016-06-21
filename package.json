@@ -14,7 +14,7 @@
   "scripts": {
     "lint": "standard",
     "start": "electron .",
-    "build": "electron-packager . --platform=darwin --arch=x64 --icon=./TimeTable.icns --prune",
+    "build": "electron-packager . --platform=darwin --arch=x64 --icon=./TimeTable.icns --prune --app-version=${npm_package_version}",
     "pretest": "echo pls work",
     "test": "mocha",
     "posttest": "npm run lint && echo yay it worked"
