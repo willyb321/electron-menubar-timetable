@@ -25,7 +25,7 @@
     "coffee-script": "^1.10.0",
     "electron-packager": "^7.0.4",
     "electron-prebuilt": "^1.2.4",
-    "menubar": "^4.1.1",
+    "menubar": "^4.1.2",
     "mocha": "^2.5.3",
     "npm-check-updates": "^2.6.7",
     "spectron": "^3.2.3",
@@ -37,7 +37,7 @@
     "electron-config": "^0.2.0",
     "electron-packager": "^7.0.3",
     "electron-prebuilt": "^1.2.4",
-    "menubar": "^4.1.1",
+    "menubar": "^4.1.2",
     "npm-check-updates": "^2.6.7"
   },
   "standard": {
