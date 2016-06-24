@@ -23,7 +23,7 @@
     "chai": "^3.5.0",
     "chai-as-promised": "^5.3.0",
     "coffee-script": "^1.10.0",
-    "electron-packager": "^7.0.4",
+    "electron-packager": "^7.1.0",
     "electron-prebuilt": "^1.2.5",
     "menubar": "^4.1.2",
     "mocha": "^2.5.3",
