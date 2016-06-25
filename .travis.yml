@@ -17,14 +17,12 @@ before_install:
 script:
 - npm test
 - npm run build
-- cd /home/travis/build/willyb321/electron-menubar-timetable/TimeTable-darwin-x64/
-- zip -r -q TimeTable.zip *
 deploy:
   skip_cleanup: true
   provider: releases
   api_key:
     secure: 0JOU1MGxICDnNDE8DUr7R6DR+iSa2xSvz0jPNNv7qKpWxZ7Au4ECUNvrlVp74JBKsfUTXduMH5EBHnyt9rJieAhqQJPudi+2mviHeZFyJWo+crsn0qb/bXjD2iqbm2FalKTBtshIXN8HcV/Kfz7RAbZOHAmZCljLShvF2Klr4tpMtn6pnr2ReavUglNtNPC2F2mGa6pAVV+MJbc8/SJ/Go2gTLRyt6KTBhsjvdCESIDqHjRTedH00ZxzuFIrrSWThpuDVPkKV8rCjtOHUBWAPEHj5lG2K1kQAe6HEobt1N6Y78jYkb9GKDSsgKHjQ0bmd1YbwS3voE11EbNenPBVkh0n3kM/4o1eKjUG4kW56LnVBzRtY18NCJW8WMbet4BW0NMT5aqJDqmtOj48SPh0GLZoT1bvh5ZGHr6IQHie3e1mUqGrOWJL97MHNckMrBod1d5GUq7otf0O8BA6+qtvZ0aC+Wx2Lrrd3wsvXsOjkZ4wzzBR2qjztcnKNzPNBJcnwbbyYi7i0p8rnS3caFcD29Kqq4yXCaq8J6KC6S9cFEpKdmofrrMh0zsXSPpB7yscRCf7TOn8lHwsHQ6Jhdjy6OQMzoVJW6hZpOg/D7I1GbDUleqC0aF1mGM11ZfKDZLy4R8WQ1yFtZvaMhGf2F4l8m+f97t1WFFpl5UnCl8f0Hc=
-  file: /home/travis/build/willyb321/electron-menubar-timetable/TimeTable-darwin-x64/TimeTable.zip
+  file: /home/travis/build/willyb321/electron-menubar-timetable/TimeTable-darwin-x64.zip
   on:
     tags: false
     repo: willyb321/electron-menubar-timetable
