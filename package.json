@@ -14,7 +14,7 @@
   "scripts": {
     "lint": "standard",
     "start": "electron .",
-    "build": "electron-zip-packager . --platform=darwin --arch=x64 --icon=./TimeTable.icns --prune --app-version=${npm_package_version}",
+    "build": "electron-packager . --platform=darwin --arch=x64 --icon=./TimeTable.icns --prune --app-version=${npm_package_version}",
     "pretest": "echo pls work",
     "test": "mocha",
     "posttest": "npm run lint && echo yay it worked"
@@ -25,7 +25,6 @@
     "coffee-script": "^1.10.0",
     "electron-packager": "^7.1.0",
     "electron-prebuilt": "^1.2.5",
-    "electron-zip-packager": "^1.0.4",
     "menubar": "^4.1.2",
     "mocha": "^2.5.3",
     "npm-check-updates": "^2.6.7",

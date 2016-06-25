@@ -17,6 +17,8 @@ before_install:
 script:
 - npm test
 - npm run build
+- cd /home/travis/build/willyb321/electron-menubar-timetable/TimeTable-darwin-x64/
+- zip -r -q TimeTable.zip *
 deploy:
   skip_cleanup: true
   provider: releases
