@@ -13,11 +13,14 @@
   "main": "./main.js",
   "scripts": {
     "lint": "standard",
-    "start": "electron .",
     "build": "electron-zip-packager . --platform=darwin --arch=x64 --icon=./TimeTable.icns --prune --app-version=${npm_package_version}",
     "pretest": "echo pls work",
     "test": "mocha",
-    "posttest": "npm run lint && echo yay it worked"
+    "posttest": "npm run lint && echo yay it worked",
+    "electron": "electron .",
+    "deps": "ncu -u -a",
+    "prestart": "npm install",
+    "start": "npm run electron"
   },
   "devDependencies": {
     "chai": "^3.5.0",
