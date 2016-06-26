@@ -39,7 +39,7 @@ after_success:
 - git config user.email "travis@travis-ci.com"
 - export GIT_TAG=build-$TRAVIS_BUILD_NUMBER-$TRAVIS_BRANCH-$(date "+%Y-%m-%d-%I-%M")
 - git tag $GIT_TAG -a -m "Generated tag from TravisCI build $TRAVIS_BUILD_NUMBER"
-- git push --quiet "https://$GH_TOKEN:x-oauth-basic@github.com/willyb321/npm_cards.git" --tags $GIT_TAG
+- git push origin $GIT_TAG
 after_deploy:
 - npm version patch -m "Bump version to %s. [ci skip]"
 - git push --quiet "https://$GH_TOKEN:x-oauth-basic@github.com/willyb321/electron-menubar-timetable.git" HEAD:master > /dev/null 2>&1
