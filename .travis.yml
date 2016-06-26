@@ -13,8 +13,8 @@ install:
 - export DISPLAY=':99.0'
 - Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
 before_script: 
-- npm install -g standard
-- npm install standard
+- npm install -g standard &>/dev/null
+- npm install standard &>/dev/null
 before_install:
 - export TZ=Australia/Sydney
 script:
