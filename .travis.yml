@@ -1,7 +1,7 @@
 language: node_js
 node_js:
 - v6
- cache:
+cache:
   directories:
   - node_modules
 addons:
