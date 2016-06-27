@@ -25,14 +25,12 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "chai-as-promised": "^5.3.0",
-    "coffee-script": "^1.10.0",
     "electron-packager": "^7.1.0",
     "electron-prebuilt": "^1.2.5",
     "electron-zip-packager": "^2.0.0",
     "menubar": "^4.1.2",
     "mocha": "^2.5.3",
     "npm-check-updates": "^2.6.7",
-    "spectron": "^3.2.3",
     "standard": "^7.1.2"
   },
   "dependencies": {
