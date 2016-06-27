@@ -38,7 +38,6 @@
   "dependencies": {
     "electron-config": "^0.2.0",
     "electron-packager": "^7.0.3",
-    "electron-prebuilt": "^1.2.5",
     "menubar": "^4.1.2",
     "npm-check-updates": "^2.6.7"
   },
