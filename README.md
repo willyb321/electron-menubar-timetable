@@ -15,7 +15,10 @@ Package the files using your preferred method of packaging, and then run it. It'
 Profit.  
 You can click on the image to change from week a to week b. If you only have one week in your timetable, ~~just remove b.png from ./img folder~~  
 At the moment, only OS X is supported, because Windows/Linux doesn't have a menubar.
-***
+***  
+## Changelog  
+See (https://github.com/willyb321/npm_cards/blob/master/CHANGELOG.md)[CHANGELOG.md] for the changes happening.  
+
 # Credits
 <https://github.com/maxogden/menubar> - used for menubar  
 <https://electron.atom.io> - for the main thing
