@@ -10,6 +10,7 @@ addons:
     - xvfb
 install:
 - npm install &>/dev/null
+- gem install github_changelog_generator
 - export DISPLAY=':99.0'
 - Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
 before_script: 
@@ -19,6 +20,9 @@ before_install:
 - export TZ=Australia/Sydney
 script:
 - npm test
+- github_changelog_generator
+- git commit -am "Update CHANGELOG.md [ci skip]"
+- git push --quiet "https://$GH_TOKEN:x-oauth-basic@github.com/willyb321/electron-menubar-timetable.git" HEAD:master > /dev/null 2>&1
 - npm run build
 deploy:
   skip_cleanup: true
@@ -43,3 +47,4 @@ after_success:
 after_deploy:
 - npm version patch -m "Bump version to %s. [ci skip]"
 - git push --quiet "https://$GH_TOKEN:x-oauth-basic@github.com/willyb321/electron-menubar-timetable.git" HEAD:master > /dev/null 2>&1
+
