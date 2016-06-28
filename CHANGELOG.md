@@ -1,5 +1,8 @@
 # Change Log
 
+## [build-314-master-2016-06-28-02-22](https://github.com/willyb321/electron-menubar-timetable/tree/build-314-master-2016-06-28-02-22) (2016-06-28)
+[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-313-master-2016-06-28-02-10...build-314-master-2016-06-28-02-22)
+
 ## [build-313-master-2016-06-28-02-10](https://github.com/willyb321/electron-menubar-timetable/tree/build-313-master-2016-06-28-02-10) (2016-06-28)
 [Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-310-master-2016-06-28-01-52...build-313-master-2016-06-28-02-10)
 
