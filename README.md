@@ -17,7 +17,7 @@ You can click on the image to change from week a to week b. If you only have one
 At the moment, only OS X is supported, because Windows/Linux doesn't have a menubar.
 ***  
 ## Changelog  
-See (https://github.com/willyb321/npm_cards/blob/master/CHANGELOG.md)[CHANGELOG.md] for the changes happening.  
+See [CHANGELOG.md](https://github.com/willyb321/electron-menubar-timetable/blob/master/CHANGELOG.md) for the changes happening.  
 
 # Credits
 <https://github.com/maxogden/menubar> - used for menubar  
