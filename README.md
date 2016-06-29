@@ -40,7 +40,6 @@ See [CHANGELOG.md](https://github.com/willyb321/electron-menubar-timetable/blob/
 # See some of my other projects:
 [My GitHub profile](https://github.com/willyb321)  
 [NPM Cards](https://github.com/willyb321/npm_cards)  
-[]()  
 
 ***
 # Example
