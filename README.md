@@ -7,10 +7,12 @@ TimeTable in the menubar using electron. I have a [website](http://bit.ly/1XXz4i
 ## [View the website](http://bit.ly/1XXz4iH)  
 
 ***  
+
 ## How to use? (Easy way)  
 
 1. Download the latest release, unzip and then run timetable.app.  
 2. Select your timetable images in the dialog that comes up.  
+
 ***  
 
 ## How to use? (Hard way)  
