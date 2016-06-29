@@ -1,5 +1,14 @@
 # Change Log
 
+## [build-326-master-2016-06-30-07-28](https://github.com/willyb321/electron-menubar-timetable/tree/build-326-master-2016-06-30-07-28) (2016-06-29)
+[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-323-master-2016-06-30-07-23...build-326-master-2016-06-30-07-28)
+
+## [build-323-master-2016-06-30-07-23](https://github.com/willyb321/electron-menubar-timetable/tree/build-323-master-2016-06-30-07-23) (2016-06-29)
+[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/untagged-ca58d738a4654793b1fd...build-323-master-2016-06-30-07-23)
+
+## [untagged-ca58d738a4654793b1fd](https://github.com/willyb321/electron-menubar-timetable/tree/untagged-ca58d738a4654793b1fd) (2016-06-29)
+[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-320-master-2016-06-30-07-00...untagged-ca58d738a4654793b1fd)
+
 ## [build-320-master-2016-06-30-07-00](https://github.com/willyb321/electron-menubar-timetable/tree/build-320-master-2016-06-30-07-00) (2016-06-29)
 [Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-316-master-2016-06-28-05-51...build-320-master-2016-06-30-07-00)
 
@@ -196,13 +205,13 @@
 [Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/untagged-20392dedbcbba35c0abe...build-158-master-2016-06-08-10-09)
 
 ## [untagged-20392dedbcbba35c0abe](https://github.com/willyb321/electron-menubar-timetable/tree/untagged-20392dedbcbba35c0abe) (2016-06-07)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-141-master-2016-06-07-08-25...untagged-20392dedbcbba35c0abe)
-
-## [build-141-master-2016-06-07-08-25](https://github.com/willyb321/electron-menubar-timetable/tree/build-141-master-2016-06-07-08-25) (2016-06-07)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-140-master-2016-06-07-08-24...build-141-master-2016-06-07-08-25)
+[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-140-master-2016-06-07-08-24...untagged-20392dedbcbba35c0abe)
 
 ## [build-140-master-2016-06-07-08-24](https://github.com/willyb321/electron-menubar-timetable/tree/build-140-master-2016-06-07-08-24) (2016-06-07)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-136-master-2016-06-07-05-20...build-140-master-2016-06-07-08-24)
+[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-141-master-2016-06-07-08-25...build-140-master-2016-06-07-08-24)
+
+## [build-141-master-2016-06-07-08-25](https://github.com/willyb321/electron-menubar-timetable/tree/build-141-master-2016-06-07-08-25) (2016-06-07)
+[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-136-master-2016-06-07-05-20...build-141-master-2016-06-07-08-25)
 
 ## [build-136-master-2016-06-07-05-20](https://github.com/willyb321/electron-menubar-timetable/tree/build-136-master-2016-06-07-05-20) (2016-06-07)
 [Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-128-master-2016-06-07-04-16...build-136-master-2016-06-07-05-20)
@@ -259,13 +268,13 @@
 [Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/untagged-6a64fd6791a394e6d967...untagged-ec28e28a20be1510774f)
 
 ## [untagged-6a64fd6791a394e6d967](https://github.com/willyb321/electron-menubar-timetable/tree/untagged-6a64fd6791a394e6d967) (2016-06-06)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/untagged-362f5ed72a4c60961978...untagged-6a64fd6791a394e6d967)
-
-## [untagged-362f5ed72a4c60961978](https://github.com/willyb321/electron-menubar-timetable/tree/untagged-362f5ed72a4c60961978) (2016-06-06)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/untagged-8e5b9c1b8852062d705b...untagged-362f5ed72a4c60961978)
+[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/untagged-8e5b9c1b8852062d705b...untagged-6a64fd6791a394e6d967)
 
 ## [untagged-8e5b9c1b8852062d705b](https://github.com/willyb321/electron-menubar-timetable/tree/untagged-8e5b9c1b8852062d705b) (2016-06-06)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/untagged-b23c1aadeeb640a506ac...untagged-8e5b9c1b8852062d705b)
+[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/untagged-362f5ed72a4c60961978...untagged-8e5b9c1b8852062d705b)
+
+## [untagged-362f5ed72a4c60961978](https://github.com/willyb321/electron-menubar-timetable/tree/untagged-362f5ed72a4c60961978) (2016-06-06)
+[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/untagged-b23c1aadeeb640a506ac...untagged-362f5ed72a4c60961978)
 
 ## [untagged-b23c1aadeeb640a506ac](https://github.com/willyb321/electron-menubar-timetable/tree/untagged-b23c1aadeeb640a506ac) (2016-06-06)
 [Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/1.3.1...untagged-b23c1aadeeb640a506ac)
