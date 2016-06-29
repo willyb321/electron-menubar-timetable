@@ -45,7 +45,6 @@ after_success:
 - git push origin $GIT_TAG
 after_deploy:
 - github_changelog_generator
-- npm version patch -m "Update version to %s [ci skip]" --no-git-tag-version
 - git commit -am "Update CHANGELOG.md & bump version [ci skip]"
 - git push --quiet "https://$GH_TOKEN:x-oauth-basic@github.com/willyb321/electron-menubar-timetable.git" HEAD:master > /dev/null 2>&1
 
