@@ -6,14 +6,20 @@ TimeTable in the menubar using electron. I have a [website](http://bit.ly/1XXz4i
 ***  
 # [View the website](http://bit.ly/1XXz4iH)  
 ***
-# How to use?  
-Download the latest release, unzip and then run timetable.app, or:  
-Clone the repo, ~~and then replace images ./img/a.png and ./img/b.png with your own timetable.~~ I will eventually come up with a better way of doing this. I did. Now you just select your own images on opening the app.    
-Run `npm install`.  
-Package the files using your preferred method of packaging, and then run it. It'll appear in your menubar, and a dialog will come up - select your 2 timetable images, and press open, then boom, timetable!    
-???  
-Profit.  
-You can click on the image to change from week a to week b. If you only have one week in your timetable, ~~just remove b.png from ./img folder~~  
+# How to use? (Easy way)
+1. Download the latest release, unzip and then run timetable.app.  
+2. Select your timetable images in the dialog that comes up.  
+***  
+# How to use? (Hard way)  
+2. Clone the repo.  
+3. ```$ cd electron-menubar-timetable```  
+4. ```$ npm install```  
+5. ```$ npm run build```  
+6. Run the newly created application.  
+7. Select your timetable images in the dialog that comes up.  
+8. ???  
+9. Profit.  
+***  
 At the moment, only OS X is supported, because Windows/Linux doesn't have a menubar.
 ***  
 ## Changelog  
@@ -22,6 +28,12 @@ See [CHANGELOG.md](https://github.com/willyb321/electron-menubar-timetable/blob/
 # Credits
 <https://github.com/maxogden/menubar> - used for menubar  
 <https://electron.atom.io> - for the main thing
+
+# See some of my other projects:
+[My GitHub profile](https://github.com/willyb321)  
+[NPM Cards](https://github.com/willyb321/npm_cards)  
+[]()  
+
 ***
 # Example
 ![Example](/example.gif "Example")
