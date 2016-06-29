@@ -41,6 +41,7 @@ after_success:
 - export GIT_TAG=build-$TRAVIS_BUILD_NUMBER-$TRAVIS_BRANCH-$(date "+%Y-%m-%d-%I-%M")
 - git tag $GIT_TAG -a -m "Generated tag from TravisCI build $TRAVIS_BUILD_NUMBER"
 - git push origin $GIT_TAG
+after_deploy:
 - github_changelog_generator
 - npm version patch -m "Update version to %s [ci skip]" --no-git-tag-version
 - git commit -am "Update CHANGELOG.md & bump version [ci skip]"
