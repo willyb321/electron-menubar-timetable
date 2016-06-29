@@ -22,9 +22,7 @@ script:
 - npm test
 - git config user.name "Travis CI"
 - git config user.email "travis@travis-ci.com"
-- npm version patch -m "Update version to %s [ci skip]" --no-git-tag-version && github_changelog_generator
-- git commit -am "Update CHANGELOG.md [ci skip] & bump version"
-- git push --quiet "https://$GH_TOKEN:x-oauth-basic@github.com/willyb321/electron-menubar-timetable.git" HEAD:master > /dev/null 2>&1
+- npm version patch -m "Update version to %s [ci skip]" --no-git-tag-version
 - npm run build
 deploy:
   skip_cleanup: true
@@ -44,5 +42,7 @@ after_success:
 - export GIT_TAG=build-$TRAVIS_BUILD_NUMBER-$TRAVIS_BRANCH-$(date "+%Y-%m-%d-%I-%M")
 - git tag $GIT_TAG -a -m "Generated tag from TravisCI build $TRAVIS_BUILD_NUMBER"
 - git push origin $GIT_TAG
-
+- github_changelog_generator
+- git commit -am "Update CHANGELOG.md & bump version [ci skip]"
+- git push --quiet "https://$GH_TOKEN:x-oauth-basic@github.com/willyb321/electron-menubar-timetable.git" HEAD:master > /dev/null 2>&1
 
