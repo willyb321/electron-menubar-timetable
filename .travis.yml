@@ -23,6 +23,8 @@ script:
 - git config user.name "Travis CI"
 - git config user.email "travis@travis-ci.com"
 - npm run build
+before_deploy:
+- npm version patch -m "Update version to %s [ci skip]" --no-git-tag-version
 deploy:
   skip_cleanup: true
   provider: releases
