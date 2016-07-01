@@ -18,6 +18,7 @@ before_script:
 - npm install standard &>/dev/null
 before_install:
 - export TZ=Australia/Sydney
+- rvm install ruby-2.3.1
 script:
 - npm test
 - git config user.name "Travis CI"
