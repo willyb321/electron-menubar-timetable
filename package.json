@@ -30,7 +30,7 @@
     "electron-zip-packager": "^2.0.0",
     "menubar": "^4.1.2",
     "mocha": "^3.0.0-0",
-    "npm-check-updates": "^2.6.8",
+    "npm-check-updates": "^2.7.0",
     "standard": "^7.1.2"
   },
   "dependencies": {
