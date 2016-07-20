@@ -2,6 +2,7 @@
   "name": "TimeTable",
   "version": "1.5.47",
   "description": "Get your TimeTable in your menubar!",
+  "license": "MIT",
   "author": "Willyb321",
   "repository": {
     "type": "git",
