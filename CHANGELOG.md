@@ -1,5 +1,12 @@
 # Change Log
 
+## [build-368-master-2016-07-20-10-47](https://github.com/willyb321/electron-menubar-timetable/tree/build-368-master-2016-07-20-10-47) (2016-07-20)
+[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-364-master-2016-07-17-04-20...build-368-master-2016-07-20-10-47)
+
+**Merged pull requests:**
+
+- npm-check-updates@2.7.2 untested ⚠️ [\#22](https://github.com/willyb321/electron-menubar-timetable/pull/22) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
+
 ## [build-364-master-2016-07-17-04-20](https://github.com/willyb321/electron-menubar-timetable/tree/build-364-master-2016-07-17-04-20) (2016-07-16)
 [Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-360-master-2016-07-15-11-37...build-364-master-2016-07-17-04-20)
 
