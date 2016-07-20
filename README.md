@@ -26,7 +26,7 @@ TimeTable in the menubar using electron. I have a [website](http://bit.ly/1XXz4i
 9. Profit.  
 
 ***  
-At the moment, only OS X is supported, because Windows/Linux doesn't have a menubar.  
+At the moment, only macOS is supported, because Windows/Linux doesn't have a menubar.  
 
 ***  
 
