@@ -36,7 +36,6 @@
   },
   "dependencies": {
     "electron-config": "^0.2.1",
-    "electron-packager": "^7.4.0",
     "menubar": "^5.1.0"
   },
   "standard": {
