@@ -1,5 +1,12 @@
 # Change Log
 
+## [build-410-master-2016-08-02-08-40](https://github.com/willyb321/electron-menubar-timetable/tree/build-410-master-2016-08-02-08-40) (2016-08-01)
+[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-405-master-2016-08-01-04-12...build-410-master-2016-08-02-08-40)
+
+**Merged pull requests:**
+
+- boom fixed highlight [\#33](https://github.com/willyb321/electron-menubar-timetable/pull/33) ([willyb321](https://github.com/willyb321))
+
 ## [build-405-master-2016-08-01-04-12](https://github.com/willyb321/electron-menubar-timetable/tree/build-405-master-2016-08-01-04-12) (2016-08-01)
 [Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-400-master-2016-08-01-10-21...build-405-master-2016-08-01-04-12)
 
