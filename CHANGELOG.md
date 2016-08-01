@@ -1,5 +1,12 @@
 # Change Log
 
+## [build-405-master-2016-08-01-04-12](https://github.com/willyb321/electron-menubar-timetable/tree/build-405-master-2016-08-01-04-12) (2016-08-01)
+[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-400-master-2016-08-01-10-21...build-405-master-2016-08-01-04-12)
+
+**Merged pull requests:**
+
+- changed npm test to just lint because reasons [\#32](https://github.com/willyb321/electron-menubar-timetable/pull/32) ([willyb321](https://github.com/willyb321))
+
 ## [build-400-master-2016-08-01-10-21](https://github.com/willyb321/electron-menubar-timetable/tree/build-400-master-2016-08-01-10-21) (2016-08-01)
 [Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-393-master-2016-08-01-09-49...build-400-master-2016-08-01-10-21)
 
