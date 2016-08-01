@@ -1,5 +1,13 @@
 # Change Log
 
+## [build-400-master-2016-08-01-10-21](https://github.com/willyb321/electron-menubar-timetable/tree/build-400-master-2016-08-01-10-21) (2016-08-01)
+[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-393-master-2016-08-01-09-49...build-400-master-2016-08-01-10-21)
+
+**Merged pull requests:**
+
+- well i broke it [\#31](https://github.com/willyb321/electron-menubar-timetable/pull/31) ([willyb321](https://github.com/willyb321))
+- removed not needed deps [\#30](https://github.com/willyb321/electron-menubar-timetable/pull/30) ([willyb321](https://github.com/willyb321))
+
 ## [build-393-master-2016-08-01-09-49](https://github.com/willyb321/electron-menubar-timetable/tree/build-393-master-2016-08-01-09-49) (2016-07-31)
 [Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-391-master-2016-08-01-08-08...build-393-master-2016-08-01-09-49)
 
