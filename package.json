@@ -16,19 +16,16 @@
     "lint": "standard",
     "build": "electron-zip-packager . --platform=darwin --arch=x64 --icon=./TimeTable.icns --prune --app-version=${npm_package_version}",
     "pretest": "echo pls work",
-    "test": "mocha",
-    "posttest": "npm run lint && echo yay it worked",
+    "test": "npm run lint",
     "electron": "electron .",
     "deps": "ncu -u -a",
     "prestart": "npm install",
     "start": "npm run electron"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
     "electron-prebuilt": "^1.3.1",
     "electron-zip-packager": "^2.0.0",
     "menubar": "^5.0.0",
-    "mocha": "^3.0.0-0",
     "standard": "^7.1.2"
   },
   "dependencies": {
