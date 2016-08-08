@@ -1,414 +1,372 @@
-# Change Log
-
-## [build-400-master-2016-08-01-10-21](https://github.com/willyb321/electron-menubar-timetable/tree/build-400-master-2016-08-01-10-21) (2016-08-01)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-393-master-2016-08-01-09-49...build-400-master-2016-08-01-10-21)
-
-**Merged pull requests:**
-
-- well i broke it [\#31](https://github.com/willyb321/electron-menubar-timetable/pull/31) ([willyb321](https://github.com/willyb321))
-- removed not needed deps [\#30](https://github.com/willyb321/electron-menubar-timetable/pull/30) ([willyb321](https://github.com/willyb321))
-
-## [build-393-master-2016-08-01-09-49](https://github.com/willyb321/electron-menubar-timetable/tree/build-393-master-2016-08-01-09-49) (2016-07-31)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-391-master-2016-08-01-08-08...build-393-master-2016-08-01-09-49)
-
-## [build-391-master-2016-08-01-08-08](https://github.com/willyb321/electron-menubar-timetable/tree/build-391-master-2016-08-01-08-08) (2016-07-31)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-387-master-2016-07-28-07-56...build-391-master-2016-08-01-08-08)
-
-**Merged pull requests:**
-
-- electron-packager@7.4.0 untested ⚠️ [\#29](https://github.com/willyb321/electron-menubar-timetable/pull/29) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
-
-## [build-387-master-2016-07-28-07-56](https://github.com/willyb321/electron-menubar-timetable/tree/build-387-master-2016-07-28-07-56) (2016-07-27)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-382-master-2016-07-27-03-58...build-387-master-2016-07-28-07-56)
-
-**Merged pull requests:**
-
-- menubar@5.1.0 untested ⚠️ [\#27](https://github.com/willyb321/electron-menubar-timetable/pull/27) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
-- menubar@5.1.0 untested ⚠️ [\#26](https://github.com/willyb321/electron-menubar-timetable/pull/26) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
-
-## [build-382-master-2016-07-27-03-58](https://github.com/willyb321/electron-menubar-timetable/tree/build-382-master-2016-07-27-03-58) (2016-07-27)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-378-master-2016-07-26-08-21...build-382-master-2016-07-27-03-58)
-
-**Merged pull requests:**
-
-- electron-prebuilt@1.3.1 untested ⚠️ [\#25](https://github.com/willyb321/electron-menubar-timetable/pull/25) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
-
-## [build-378-master-2016-07-26-08-21](https://github.com/willyb321/electron-menubar-timetable/tree/build-378-master-2016-07-26-08-21) (2016-07-25)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-376-master-2016-07-25-03-27...build-378-master-2016-07-26-08-21)
-
-## [build-376-master-2016-07-25-03-27](https://github.com/willyb321/electron-menubar-timetable/tree/build-376-master-2016-07-25-03-27) (2016-07-25)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-372-master-2016-07-21-05-34...build-376-master-2016-07-25-03-27)
-
-**Merged pull requests:**
-
-- electron-prebuilt@1.3.0 untested ⚠️ [\#24](https://github.com/willyb321/electron-menubar-timetable/pull/24) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
-
-## [build-372-master-2016-07-21-05-34](https://github.com/willyb321/electron-menubar-timetable/tree/build-372-master-2016-07-21-05-34) (2016-07-21)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-370-master-2016-07-20-11-23...build-372-master-2016-07-21-05-34)
-
-**Merged pull requests:**
-
-- electron-prebuilt@1.2.8 untested ⚠️ [\#23](https://github.com/willyb321/electron-menubar-timetable/pull/23) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
-
-## [build-370-master-2016-07-20-11-23](https://github.com/willyb321/electron-menubar-timetable/tree/build-370-master-2016-07-20-11-23) (2016-07-20)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-368-master-2016-07-20-10-47...build-370-master-2016-07-20-11-23)
-
-## [build-368-master-2016-07-20-10-47](https://github.com/willyb321/electron-menubar-timetable/tree/build-368-master-2016-07-20-10-47) (2016-07-20)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-364-master-2016-07-17-04-20...build-368-master-2016-07-20-10-47)
-
-**Merged pull requests:**
-
-- npm-check-updates@2.7.2 untested ⚠️ [\#22](https://github.com/willyb321/electron-menubar-timetable/pull/22) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
-
-## [build-364-master-2016-07-17-04-20](https://github.com/willyb321/electron-menubar-timetable/tree/build-364-master-2016-07-17-04-20) (2016-07-16)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-360-master-2016-07-15-11-37...build-364-master-2016-07-17-04-20)
-
-**Merged pull requests:**
-
-- npm-check-updates@2.7.1 untested ⚠️ [\#21](https://github.com/willyb321/electron-menubar-timetable/pull/21) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
-
-## [build-360-master-2016-07-15-11-37](https://github.com/willyb321/electron-menubar-timetable/tree/build-360-master-2016-07-15-11-37) (2016-07-15)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-358-master-2016-07-13-04-12...build-360-master-2016-07-15-11-37)
-
-## [build-358-master-2016-07-13-04-12](https://github.com/willyb321/electron-menubar-timetable/tree/build-358-master-2016-07-13-04-12) (2016-07-13)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-354-master-2016-07-13-02-54...build-358-master-2016-07-13-04-12)
-
-**Merged pull requests:**
-
-- electron-prebuilt@1.2.7 untested ⚠️ [\#20](https://github.com/willyb321/electron-menubar-timetable/pull/20) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
-
-## [build-354-master-2016-07-13-02-54](https://github.com/willyb321/electron-menubar-timetable/tree/build-354-master-2016-07-13-02-54) (2016-07-12)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-350-master-2016-07-11-01-33...build-354-master-2016-07-13-02-54)
-
-**Merged pull requests:**
-
-- electron-config@0.2.1 untested ⚠️ [\#19](https://github.com/willyb321/electron-menubar-timetable/pull/19) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
-
-## [build-350-master-2016-07-11-01-33](https://github.com/willyb321/electron-menubar-timetable/tree/build-350-master-2016-07-11-01-33) (2016-07-11)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-346-master-2016-07-11-09-42...build-350-master-2016-07-11-01-33)
-
-**Merged pull requests:**
-
-- Update menubar to version 5.0.0 🚀 [\#17](https://github.com/willyb321/electron-menubar-timetable/pull/17) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
-
-## [build-346-master-2016-07-11-09-42](https://github.com/willyb321/electron-menubar-timetable/tree/build-346-master-2016-07-11-09-42) (2016-07-10)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-340-master-2016-07-10-09-53...build-346-master-2016-07-11-09-42)
-
-**Merged pull requests:**
-
-- electron-packager@7.3.0 untested ⚠️ [\#18](https://github.com/willyb321/electron-menubar-timetable/pull/18) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
-
-## [build-340-master-2016-07-10-09-53](https://github.com/willyb321/electron-menubar-timetable/tree/build-340-master-2016-07-10-09-53) (2016-07-09)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-336-master-2016-07-09-04-50...build-340-master-2016-07-10-09-53)
-
-**Merged pull requests:**
-
-- menubar@4.1.3 untested ⚠️ [\#16](https://github.com/willyb321/electron-menubar-timetable/pull/16) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
-
-## [build-336-master-2016-07-09-04-50](https://github.com/willyb321/electron-menubar-timetable/tree/build-336-master-2016-07-09-04-50) (2016-07-08)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-332-master-2016-07-08-12-15...build-336-master-2016-07-09-04-50)
-
-**Merged pull requests:**
-
-- npm-check-updates@2.7.0 untested ⚠️ [\#15](https://github.com/willyb321/electron-menubar-timetable/pull/15) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
-
-## [build-332-master-2016-07-08-12-15](https://github.com/willyb321/electron-menubar-timetable/tree/build-332-master-2016-07-08-12-15) (2016-07-07)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-330-master-2016-07-05-05-18...build-332-master-2016-07-08-12-15)
-
-## [build-330-master-2016-07-05-05-18](https://github.com/willyb321/electron-menubar-timetable/tree/build-330-master-2016-07-05-05-18) (2016-07-04)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-328-master-2016-07-01-12-06...build-330-master-2016-07-05-05-18)
-
-## [build-328-master-2016-07-01-12-06](https://github.com/willyb321/electron-menubar-timetable/tree/build-328-master-2016-07-01-12-06) (2016-07-01)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-326-master-2016-06-30-07-28...build-328-master-2016-07-01-12-06)
-
-## [build-326-master-2016-06-30-07-28](https://github.com/willyb321/electron-menubar-timetable/tree/build-326-master-2016-06-30-07-28) (2016-06-29)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-323-master-2016-06-30-07-23...build-326-master-2016-06-30-07-28)
-
-## [build-323-master-2016-06-30-07-23](https://github.com/willyb321/electron-menubar-timetable/tree/build-323-master-2016-06-30-07-23) (2016-06-29)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/untagged-ca58d738a4654793b1fd...build-323-master-2016-06-30-07-23)
-
-## [untagged-ca58d738a4654793b1fd](https://github.com/willyb321/electron-menubar-timetable/tree/untagged-ca58d738a4654793b1fd) (2016-06-29)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-320-master-2016-06-30-07-00...untagged-ca58d738a4654793b1fd)
-
-## [build-320-master-2016-06-30-07-00](https://github.com/willyb321/electron-menubar-timetable/tree/build-320-master-2016-06-30-07-00) (2016-06-29)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-316-master-2016-06-28-05-51...build-320-master-2016-06-30-07-00)
-
-## [build-316-master-2016-06-28-05-51](https://github.com/willyb321/electron-menubar-timetable/tree/build-316-master-2016-06-28-05-51) (2016-06-28)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-315-master-2016-06-28-02-30...build-316-master-2016-06-28-05-51)
-
-## [build-315-master-2016-06-28-02-30](https://github.com/willyb321/electron-menubar-timetable/tree/build-315-master-2016-06-28-02-30) (2016-06-28)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-314-master-2016-06-28-02-22...build-315-master-2016-06-28-02-30)
-
-## [build-314-master-2016-06-28-02-22](https://github.com/willyb321/electron-menubar-timetable/tree/build-314-master-2016-06-28-02-22) (2016-06-28)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-313-master-2016-06-28-02-10...build-314-master-2016-06-28-02-22)
-
-## [build-313-master-2016-06-28-02-10](https://github.com/willyb321/electron-menubar-timetable/tree/build-313-master-2016-06-28-02-10) (2016-06-28)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-310-master-2016-06-28-01-52...build-313-master-2016-06-28-02-10)
-
-## [build-310-master-2016-06-28-01-52](https://github.com/willyb321/electron-menubar-timetable/tree/build-310-master-2016-06-28-01-52) (2016-06-28)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-308-master-2016-06-28-01-44...build-310-master-2016-06-28-01-52)
-
-## [build-308-master-2016-06-28-01-44](https://github.com/willyb321/electron-menubar-timetable/tree/build-308-master-2016-06-28-01-44) (2016-06-28)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-306-master-2016-06-28-01-38...build-308-master-2016-06-28-01-44)
-
-## [build-306-master-2016-06-28-01-38](https://github.com/willyb321/electron-menubar-timetable/tree/build-306-master-2016-06-28-01-38) (2016-06-28)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-304-master-2016-06-27-09-05...build-306-master-2016-06-28-01-38)
-
-## [build-304-master-2016-06-27-09-05](https://github.com/willyb321/electron-menubar-timetable/tree/build-304-master-2016-06-27-09-05) (2016-06-27)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-302-master-2016-06-27-05-39...build-304-master-2016-06-27-09-05)
-
-## [build-302-master-2016-06-27-05-39](https://github.com/willyb321/electron-menubar-timetable/tree/build-302-master-2016-06-27-05-39) (2016-06-27)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-300-master-2016-06-27-05-33...build-302-master-2016-06-27-05-39)
-
-## [build-300-master-2016-06-27-05-33](https://github.com/willyb321/electron-menubar-timetable/tree/build-300-master-2016-06-27-05-33) (2016-06-27)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-298-master-2016-06-27-05-28...build-300-master-2016-06-27-05-33)
-
-## [build-298-master-2016-06-27-05-28](https://github.com/willyb321/electron-menubar-timetable/tree/build-298-master-2016-06-27-05-28) (2016-06-27)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-295-master-2016-06-27-05-23...build-298-master-2016-06-27-05-28)
-
-## [build-295-master-2016-06-27-05-23](https://github.com/willyb321/electron-menubar-timetable/tree/build-295-master-2016-06-27-05-23) (2016-06-27)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-293-master-2016-06-27-05-19...build-295-master-2016-06-27-05-23)
-
-## [build-293-master-2016-06-27-05-19](https://github.com/willyb321/electron-menubar-timetable/tree/build-293-master-2016-06-27-05-19) (2016-06-27)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-291-master-2016-06-27-08-21...build-293-master-2016-06-27-05-19)
-
-## [build-291-master-2016-06-27-08-21](https://github.com/willyb321/electron-menubar-timetable/tree/build-291-master-2016-06-27-08-21) (2016-06-26)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-289-master-2016-06-26-10-20...build-291-master-2016-06-27-08-21)
-
-## [build-289-master-2016-06-26-10-20](https://github.com/willyb321/electron-menubar-timetable/tree/build-289-master-2016-06-26-10-20) (2016-06-26)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-287-master-2016-06-26-10-17...build-289-master-2016-06-26-10-20)
-
-## [build-287-master-2016-06-26-10-17](https://github.com/willyb321/electron-menubar-timetable/tree/build-287-master-2016-06-26-10-17) (2016-06-26)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-281-master-2016-06-26-10-03...build-287-master-2016-06-26-10-17)
-
-## [build-281-master-2016-06-26-10-03](https://github.com/willyb321/electron-menubar-timetable/tree/build-281-master-2016-06-26-10-03) (2016-06-26)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-279-master-2016-06-26-05-37...build-281-master-2016-06-26-10-03)
-
-## [build-279-master-2016-06-26-05-37](https://github.com/willyb321/electron-menubar-timetable/tree/build-279-master-2016-06-26-05-37) (2016-06-26)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-277-master-2016-06-25-10-58...build-279-master-2016-06-26-05-37)
-
-## [build-277-master-2016-06-25-10-58](https://github.com/willyb321/electron-menubar-timetable/tree/build-277-master-2016-06-25-10-58) (2016-06-25)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-274-master-2016-06-25-10-46...build-277-master-2016-06-25-10-58)
-
-## [build-274-master-2016-06-25-10-46](https://github.com/willyb321/electron-menubar-timetable/tree/build-274-master-2016-06-25-10-46) (2016-06-25)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-273-master-2016-06-25-04-30...build-274-master-2016-06-25-10-46)
-
-## [build-273-master-2016-06-25-04-30](https://github.com/willyb321/electron-menubar-timetable/tree/build-273-master-2016-06-25-04-30) (2016-06-25)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-271-master-2016-06-25-04-22...build-273-master-2016-06-25-04-30)
-
-## [build-271-master-2016-06-25-04-22](https://github.com/willyb321/electron-menubar-timetable/tree/build-271-master-2016-06-25-04-22) (2016-06-25)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-270-master-2016-06-25-09-46...build-271-master-2016-06-25-04-22)
-
-## [build-270-master-2016-06-25-09-46](https://github.com/willyb321/electron-menubar-timetable/tree/build-270-master-2016-06-25-09-46) (2016-06-24)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-269-master-2016-06-24-09-07...build-270-master-2016-06-25-09-46)
-
-## [build-269-master-2016-06-24-09-07](https://github.com/willyb321/electron-menubar-timetable/tree/build-269-master-2016-06-24-09-07) (2016-06-23)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-268-master-2016-06-22-03-40...build-269-master-2016-06-24-09-07)
-
-## [build-268-master-2016-06-22-03-40](https://github.com/willyb321/electron-menubar-timetable/tree/build-268-master-2016-06-22-03-40) (2016-06-22)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-267-master-2016-06-22-09-17...build-268-master-2016-06-22-03-40)
-
-## [build-267-master-2016-06-22-09-17](https://github.com/willyb321/electron-menubar-timetable/tree/build-267-master-2016-06-22-09-17) (2016-06-21)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-266-master-2016-06-21-12-12...build-267-master-2016-06-22-09-17)
-
-## [build-266-master-2016-06-21-12-12](https://github.com/willyb321/electron-menubar-timetable/tree/build-266-master-2016-06-21-12-12) (2016-06-21)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-265-master-2016-06-20-05-24...build-266-master-2016-06-21-12-12)
-
-## [build-265-master-2016-06-20-05-24](https://github.com/willyb321/electron-menubar-timetable/tree/build-265-master-2016-06-20-05-24) (2016-06-20)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-264-master-2016-06-20-04-33...build-265-master-2016-06-20-05-24)
-
-## [build-264-master-2016-06-20-04-33](https://github.com/willyb321/electron-menubar-timetable/tree/build-264-master-2016-06-20-04-33) (2016-06-20)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-256-master-2016-06-20-03-40...build-264-master-2016-06-20-04-33)
-
-## [build-256-master-2016-06-20-03-40](https://github.com/willyb321/electron-menubar-timetable/tree/build-256-master-2016-06-20-03-40) (2016-06-20)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-244-master-2016-06-18-12-13...build-256-master-2016-06-20-03-40)
-
-**Merged pull requests:**
-
-- did some stuff and things. [\#14](https://github.com/willyb321/electron-menubar-timetable/pull/14) ([willyb321](https://github.com/willyb321))
-
-## [build-244-master-2016-06-18-12-13](https://github.com/willyb321/electron-menubar-timetable/tree/build-244-master-2016-06-18-12-13) (2016-06-18)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-237-master-2016-06-17-02-58...build-244-master-2016-06-18-12-13)
-
-**Merged pull requests:**
-
-- Make standard ignore clearconf\(\) [\#13](https://github.com/willyb321/electron-menubar-timetable/pull/13) ([willyb321](https://github.com/willyb321))
-- Added a button to clear the config/fix images [\#12](https://github.com/willyb321/electron-menubar-timetable/pull/12) ([willyb321](https://github.com/willyb321))
-
-## [build-237-master-2016-06-17-02-58](https://github.com/willyb321/electron-menubar-timetable/tree/build-237-master-2016-06-17-02-58) (2016-06-17)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-231-master-2016-06-16-10-03...build-237-master-2016-06-17-02-58)
-
-**Merged pull requests:**
-
-- Added electron-config, and tweaked dialog to allow storing image path. [\#11](https://github.com/willyb321/electron-menubar-timetable/pull/11) ([willyb321](https://github.com/willyb321))
-
-## [build-231-master-2016-06-16-10-03](https://github.com/willyb321/electron-menubar-timetable/tree/build-231-master-2016-06-16-10-03) (2016-06-16)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-227-master-2016-06-12-10-43...build-231-master-2016-06-16-10-03)
-
-**Closed issues:**
-
-- Figure out a better way of showing timetable. [\#1](https://github.com/willyb321/electron-menubar-timetable/issues/1)
-
-**Merged pull requests:**
-
-- More deps updating [\#10](https://github.com/willyb321/electron-menubar-timetable/pull/10) ([willyb321](https://github.com/willyb321))
-
-## [build-227-master-2016-06-12-10-43](https://github.com/willyb321/electron-menubar-timetable/tree/build-227-master-2016-06-12-10-43) (2016-06-12)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-223-master-2016-06-11-08-00...build-227-master-2016-06-12-10-43)
-
-**Merged pull requests:**
-
-- added some stuff to package.json also removed deps [\#9](https://github.com/willyb321/electron-menubar-timetable/pull/9) ([willyb321](https://github.com/willyb321))
-
-## [build-223-master-2016-06-11-08-00](https://github.com/willyb321/electron-menubar-timetable/tree/build-223-master-2016-06-11-08-00) (2016-06-11)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-219-master-2016-06-11-03-06...build-223-master-2016-06-11-08-00)
-
-**Merged pull requests:**
-
-- added an icon because why not, made better use of npm [\#8](https://github.com/willyb321/electron-menubar-timetable/pull/8) ([willyb321](https://github.com/willyb321))
-
-## [build-219-master-2016-06-11-03-06](https://github.com/willyb321/electron-menubar-timetable/tree/build-219-master-2016-06-11-03-06) (2016-06-11)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-213-master-2016-06-09-04-58...build-219-master-2016-06-11-03-06)
-
-**Merged pull requests:**
-
-- did some more updating [\#7](https://github.com/willyb321/electron-menubar-timetable/pull/7) ([willyb321](https://github.com/willyb321))
-
-## [build-213-master-2016-06-09-04-58](https://github.com/willyb321/electron-menubar-timetable/tree/build-213-master-2016-06-09-04-58) (2016-06-09)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-208-master-2016-06-09-12-57...build-213-master-2016-06-09-04-58)
-
-**Merged pull requests:**
-
-- did some updating [\#6](https://github.com/willyb321/electron-menubar-timetable/pull/6) ([willyb321](https://github.com/willyb321))
-
-## [build-208-master-2016-06-09-12-57](https://github.com/willyb321/electron-menubar-timetable/tree/build-208-master-2016-06-09-12-57) (2016-06-09)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-204-master-2016-06-09-11-40...build-208-master-2016-06-09-12-57)
-
-**Merged pull requests:**
-
-- move requires to top of file. [\#5](https://github.com/willyb321/electron-menubar-timetable/pull/5) ([willyb321](https://github.com/willyb321))
-
-## [build-204-master-2016-06-09-11-40](https://github.com/willyb321/electron-menubar-timetable/tree/build-204-master-2016-06-09-11-40) (2016-06-09)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-199-master-2016-06-09-10-57...build-204-master-2016-06-09-11-40)
-
-**Merged pull requests:**
-
-- fixed travis almost deploying all branches [\#4](https://github.com/willyb321/electron-menubar-timetable/pull/4) ([willyb321](https://github.com/willyb321))
-
-## [build-199-master-2016-06-09-10-57](https://github.com/willyb321/electron-menubar-timetable/tree/build-199-master-2016-06-09-10-57) (2016-06-09)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-197-master-2016-06-09-09-23...build-199-master-2016-06-09-10-57)
-
-## [build-197-master-2016-06-09-09-23](https://github.com/willyb321/electron-menubar-timetable/tree/build-197-master-2016-06-09-09-23) (2016-06-08)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-195-master-2016-06-09-09-06...build-197-master-2016-06-09-09-23)
-
-## [build-195-master-2016-06-09-09-06](https://github.com/willyb321/electron-menubar-timetable/tree/build-195-master-2016-06-09-09-06) (2016-06-08)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-193-master-2016-06-09-08-59...build-195-master-2016-06-09-09-06)
-
-## [build-193-master-2016-06-09-08-59](https://github.com/willyb321/electron-menubar-timetable/tree/build-193-master-2016-06-09-08-59) (2016-06-08)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-190-master-2016-06-08-04-26...build-193-master-2016-06-09-08-59)
-
-## [build-190-master-2016-06-08-04-26](https://github.com/willyb321/electron-menubar-timetable/tree/build-190-master-2016-06-08-04-26) (2016-06-08)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-188-master-2016-06-08-04-11...build-190-master-2016-06-08-04-26)
-
-## [build-188-master-2016-06-08-04-11](https://github.com/willyb321/electron-menubar-timetable/tree/build-188-master-2016-06-08-04-11) (2016-06-08)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-166-master-2016-06-08-01-45...build-188-master-2016-06-08-04-11)
-
-## [build-166-master-2016-06-08-01-45](https://github.com/willyb321/electron-menubar-timetable/tree/build-166-master-2016-06-08-01-45) (2016-06-08)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-164-master-2016-06-08-10-39...build-166-master-2016-06-08-01-45)
-
-## [build-164-master-2016-06-08-10-39](https://github.com/willyb321/electron-menubar-timetable/tree/build-164-master-2016-06-08-10-39) (2016-06-08)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-160-master-2016-06-08-10-22...build-164-master-2016-06-08-10-39)
-
-## [build-160-master-2016-06-08-10-22](https://github.com/willyb321/electron-menubar-timetable/tree/build-160-master-2016-06-08-10-22) (2016-06-08)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-158-master-2016-06-08-10-09...build-160-master-2016-06-08-10-22)
-
-## [build-158-master-2016-06-08-10-09](https://github.com/willyb321/electron-menubar-timetable/tree/build-158-master-2016-06-08-10-09) (2016-06-08)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/untagged-20392dedbcbba35c0abe...build-158-master-2016-06-08-10-09)
-
-## [untagged-20392dedbcbba35c0abe](https://github.com/willyb321/electron-menubar-timetable/tree/untagged-20392dedbcbba35c0abe) (2016-06-07)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-140-master-2016-06-07-08-24...untagged-20392dedbcbba35c0abe)
-
-## [build-140-master-2016-06-07-08-24](https://github.com/willyb321/electron-menubar-timetable/tree/build-140-master-2016-06-07-08-24) (2016-06-07)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-141-master-2016-06-07-08-25...build-140-master-2016-06-07-08-24)
-
-## [build-141-master-2016-06-07-08-25](https://github.com/willyb321/electron-menubar-timetable/tree/build-141-master-2016-06-07-08-25) (2016-06-07)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-136-master-2016-06-07-05-20...build-141-master-2016-06-07-08-25)
-
-## [build-136-master-2016-06-07-05-20](https://github.com/willyb321/electron-menubar-timetable/tree/build-136-master-2016-06-07-05-20) (2016-06-07)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-128-master-2016-06-07-04-16...build-136-master-2016-06-07-05-20)
-
-## [build-128-master-2016-06-07-04-16](https://github.com/willyb321/electron-menubar-timetable/tree/build-128-master-2016-06-07-04-16) (2016-06-07)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/untagged-252e33a35ce11358aece...build-128-master-2016-06-07-04-16)
-
-## [untagged-252e33a35ce11358aece](https://github.com/willyb321/electron-menubar-timetable/tree/untagged-252e33a35ce11358aece) (2016-06-07)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/untagged-6cb72697620f5b5a306a...untagged-252e33a35ce11358aece)
-
-## [untagged-6cb72697620f5b5a306a](https://github.com/willyb321/electron-menubar-timetable/tree/untagged-6cb72697620f5b5a306a) (2016-06-07)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-121-master-2016-06-07-15-44...untagged-6cb72697620f5b5a306a)
-
-## [build-121-master-2016-06-07-15-44](https://github.com/willyb321/electron-menubar-timetable/tree/build-121-master-2016-06-07-15-44) (2016-06-07)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-master-2016-06-07-04-08-57-119...build-121-master-2016-06-07-15-44)
-
-## [build-master-2016-06-07-04-08-57-119](https://github.com/willyb321/electron-menubar-timetable/tree/build-master-2016-06-07-04-08-57-119) (2016-06-07)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-master-2016-06-07-03-56-58-117...build-master-2016-06-07-04-08-57-119)
-
-## [build-master-2016-06-07-03-56-58-117](https://github.com/willyb321/electron-menubar-timetable/tree/build-master-2016-06-07-03-56-58-117) (2016-06-07)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-master-2016-06-07-03-48-17-115...build-master-2016-06-07-03-56-58-117)
-
-## [build-master-2016-06-07-03-48-17-115](https://github.com/willyb321/electron-menubar-timetable/tree/build-master-2016-06-07-03-48-17-115) (2016-06-07)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-master-2016-06-07-03-14-15-113...build-master-2016-06-07-03-48-17-115)
-
-## [build-master-2016-06-07-03-14-15-113](https://github.com/willyb321/electron-menubar-timetable/tree/build-master-2016-06-07-03-14-15-113) (2016-06-07)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-master-2016-06-07-01-45-08-111...build-master-2016-06-07-03-14-15-113)
-
-## [build-master-2016-06-07-01-45-08-111](https://github.com/willyb321/electron-menubar-timetable/tree/build-master-2016-06-07-01-45-08-111) (2016-06-07)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-master-2016-06-07-01-19-53-109...build-master-2016-06-07-01-45-08-111)
-
-## [build-master-2016-06-07-01-19-53-109](https://github.com/willyb321/electron-menubar-timetable/tree/build-master-2016-06-07-01-19-53-109) (2016-06-07)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-master-2016-06-07-00-42-37-107...build-master-2016-06-07-01-19-53-109)
-
-## [build-master-2016-06-07-00-42-37-107](https://github.com/willyb321/electron-menubar-timetable/tree/build-master-2016-06-07-00-42-37-107) (2016-06-07)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/untagged-0357a709c8f5b82e4e37...build-master-2016-06-07-00-42-37-107)
-
-## [untagged-0357a709c8f5b82e4e37](https://github.com/willyb321/electron-menubar-timetable/tree/untagged-0357a709c8f5b82e4e37) (2016-06-06)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/untagged-e830a0b950dafe338c15...untagged-0357a709c8f5b82e4e37)
-
-## [untagged-e830a0b950dafe338c15](https://github.com/willyb321/electron-menubar-timetable/tree/untagged-e830a0b950dafe338c15) (2016-06-06)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/untagged-7551403677121e7ffd50...untagged-e830a0b950dafe338c15)
-
-## [untagged-7551403677121e7ffd50](https://github.com/willyb321/electron-menubar-timetable/tree/untagged-7551403677121e7ffd50) (2016-06-06)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/untagged-5f278cfba729fd677aa5...untagged-7551403677121e7ffd50)
-
-## [untagged-5f278cfba729fd677aa5](https://github.com/willyb321/electron-menubar-timetable/tree/untagged-5f278cfba729fd677aa5) (2016-06-06)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/untagged-8733c181ec8e4e214b4c...untagged-5f278cfba729fd677aa5)
-
-## [untagged-8733c181ec8e4e214b4c](https://github.com/willyb321/electron-menubar-timetable/tree/untagged-8733c181ec8e4e214b4c) (2016-06-06)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/untagged-ec28e28a20be1510774f...untagged-8733c181ec8e4e214b4c)
-
-## [untagged-ec28e28a20be1510774f](https://github.com/willyb321/electron-menubar-timetable/tree/untagged-ec28e28a20be1510774f) (2016-06-06)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/untagged-6a64fd6791a394e6d967...untagged-ec28e28a20be1510774f)
-
-## [untagged-6a64fd6791a394e6d967](https://github.com/willyb321/electron-menubar-timetable/tree/untagged-6a64fd6791a394e6d967) (2016-06-06)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/untagged-8e5b9c1b8852062d705b...untagged-6a64fd6791a394e6d967)
-
-## [untagged-8e5b9c1b8852062d705b](https://github.com/willyb321/electron-menubar-timetable/tree/untagged-8e5b9c1b8852062d705b) (2016-06-06)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/untagged-362f5ed72a4c60961978...untagged-8e5b9c1b8852062d705b)
-
-## [untagged-362f5ed72a4c60961978](https://github.com/willyb321/electron-menubar-timetable/tree/untagged-362f5ed72a4c60961978) (2016-06-06)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/untagged-b23c1aadeeb640a506ac...untagged-362f5ed72a4c60961978)
-
-## [untagged-b23c1aadeeb640a506ac](https://github.com/willyb321/electron-menubar-timetable/tree/untagged-b23c1aadeeb640a506ac) (2016-06-06)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/1.3.1...untagged-b23c1aadeeb640a506ac)
-
-## [1.3.1](https://github.com/willyb321/electron-menubar-timetable/tree/1.3.1) (2016-06-06)
-[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/1.3.0...1.3.1)
-
-## [1.3.0](https://github.com/willyb321/electron-menubar-timetable/tree/1.3.0) (2016-06-05)
-**Merged pull requests:**
-
-- test PR [\#3](https://github.com/willyb321/electron-menubar-timetable/pull/3) ([willyb321](https://github.com/willyb321))
-- Add a Bitdeli Badge to README [\#2](https://github.com/willyb321/electron-menubar-timetable/pull/2) ([bitdeli-chef](https://github.com/bitdeli-chef))
-
-
-
-\* *This Change Log was automatically generated by [github_changelog_generator](https://github.com/skywinder/Github-Changelog-Generator)*
+* [[`9e674caf28`](https://github.com/willyb321/TimeTable/commit/9e674caf28)] - standard style i hate you (William Blythe)
+* [[`aefd091342`](https://github.com/willyb321/TimeTable/commit/aefd091342)] - update highlight to be only on selection thanks to new api (William Blythe)
+* [[`e5a455cd30`](https://github.com/willyb321/TimeTable/commit/e5a455cd30)] - changed npm test to just lint because reasons (William Blythe)
+* [[`d7644dc56b`](https://github.com/willyb321/TimeTable/commit/d7644dc56b)] - Update CHANGELOG.md & bump version \[ci skip\] (Travis CI)
+* [[`74f55ed312`](https://github.com/willyb321/TimeTable/commit/74f55ed312)] - Merge pull request #31 from willyb321/development (William)
+* [[`7d76f65a9a`](https://github.com/willyb321/TimeTable/commit/7d76f65a9a)] - well i broke it (William Blythe)
+
+* [[`113025e3ec`](https://github.com/willyb321/TimeTable/commit/113025e3ec)] - Merge pull request #30 from willyb321/development (William)
+* [[`0c64c234ca`](https://github.com/willyb321/TimeTable/commit/0c64c234ca)] - removed not needed deps (William Blythe)
+* [[`7b46ce1ecc`](https://github.com/willyb321/TimeTable/commit/7b46ce1ecc)] - Update CHANGELOG.md & bump version \[ci skip\] (Travis CI)
+* [[`94829cb7f9`](https://github.com/willyb321/TimeTable/commit/94829cb7f9)] - shouldn't be needed *touch wood* (William)
+* [[`5beab3e6c1`](https://github.com/willyb321/TimeTable/commit/5beab3e6c1)] - Update CHANGELOG.md & bump version \[ci skip\] (Travis CI)
+* [[`ad6e0e1c4c`](https://github.com/willyb321/TimeTable/commit/ad6e0e1c4c)] - Merge pull request #29 from willyb321/greenkeeper-electron-packager-7.4.0 (William)
+* [[`a51dda8858`](https://github.com/willyb321/TimeTable/commit/a51dda8858)] - chore(package): update electron-packager to version 7.4.0 (greenkeeperio-bot)
+* [[`ab4527f9c2`](https://github.com/willyb321/TimeTable/commit/ab4527f9c2)] - Update CHANGELOG.md & bump version \[ci skip\] (Travis CI)
+* [[`1035a9e4cd`](https://github.com/willyb321/TimeTable/commit/1035a9e4cd)] - Merge pull request #26 from willyb321/greenkeeper-menubar-5.1.0 (William)
+* [[`ab93ce4650`](https://github.com/willyb321/TimeTable/commit/ab93ce4650)] - chore(package): update menubar to version 5.1.0 (greenkeeperio-bot)
+* [[`6bf1282882`](https://github.com/willyb321/TimeTable/commit/6bf1282882)] - Update CHANGELOG.md & bump version \[ci skip\] (Travis CI)
+* [[`8b91ba8421`](https://github.com/willyb321/TimeTable/commit/8b91ba8421)] - Merge pull request #25 from willyb321/greenkeeper-electron-prebuilt-1.3.1 (William)
+* [[`ecfe82840a`](https://github.com/willyb321/TimeTable/commit/ecfe82840a)] - chore(package): update electron-prebuilt to version 1.3.1 (greenkeeperio-bot)
+* [[`dde1ff93b6`](https://github.com/willyb321/TimeTable/commit/dde1ff93b6)] - Update CHANGELOG.md & bump version \[ci skip\] (Travis CI)
+* [[`bec173a7e4`](https://github.com/willyb321/TimeTable/commit/bec173a7e4)] - bam (William)
+* [[`3309040fc9`](https://github.com/willyb321/TimeTable/commit/3309040fc9)] - Update CHANGELOG.md & bump version \[ci skip\] (Travis CI)
+* [[`6eb93c6bac`](https://github.com/willyb321/TimeTable/commit/6eb93c6bac)] - Merge pull request #24 from willyb321/greenkeeper-electron-prebuilt-1.3.0 (William)
+* [[`851119eca5`](https://github.com/willyb321/TimeTable/commit/851119eca5)] - chore(package): update electron-prebuilt to version 1.3.0 (greenkeeperio-bot)
+* [[`9818671fc7`](https://github.com/willyb321/TimeTable/commit/9818671fc7)] - Update CHANGELOG.md & bump version \[ci skip\] (Travis CI)
+* [[`6ef47db081`](https://github.com/willyb321/TimeTable/commit/6ef47db081)] - Merge pull request #23 from willyb321/greenkeeper-electron-prebuilt-1.2.8 (William)
+* [[`2f6c10bb0e`](https://github.com/willyb321/TimeTable/commit/2f6c10bb0e)] - chore(package): update electron-prebuilt to version 1.2.8 (greenkeeperio-bot)
+* [[`535b3f6447`](https://github.com/willyb321/TimeTable/commit/535b3f6447)] - OS X -> macOS \[ci skip\] (William)
+* [[`79ec2558ca`](https://github.com/willyb321/TimeTable/commit/79ec2558ca)] - Added a cool license because i forgot to earlier (William Blythe)
+* [[`d15bd8eb11`](https://github.com/willyb321/TimeTable/commit/d15bd8eb11)] - Update CHANGELOG.md & bump version \[ci skip\] (Travis CI)
+* [[`4dd225d142`](https://github.com/willyb321/TimeTable/commit/4dd225d142)] - Merge pull request #22 from willyb321/greenkeeper-npm-check-updates-2.7.2 (William)
+* [[`b33f2918df`](https://github.com/willyb321/TimeTable/commit/b33f2918df)] - chore(package): update npm-check-updates to version 2.7.2 (greenkeeperio-bot)
+* [[`579d6ac170`](https://github.com/willyb321/TimeTable/commit/579d6ac170)] - Update CHANGELOG.md & bump version \[ci skip\] (Travis CI)
+* [[`30c2917288`](https://github.com/willyb321/TimeTable/commit/30c2917288)] - Merge pull request #21 from willyb321/greenkeeper-npm-check-updates-2.7.1 (William)
+* [[`7d4d1fbe2b`](https://github.com/willyb321/TimeTable/commit/7d4d1fbe2b)] - chore(package): update npm-check-updates to version 2.7.1 (greenkeeperio-bot)
+* [[`67db903c8d`](https://github.com/willyb321/TimeTable/commit/67db903c8d)] - Update CHANGELOG.md & bump version \[ci skip\] (Travis CI)
+* [[`bd5d4557ec`](https://github.com/willyb321/TimeTable/commit/bd5d4557ec)] - greenkeeper seemed to mess menubar up somehow (William Blythe)
+* [[`4ea3aad37c`](https://github.com/willyb321/TimeTable/commit/4ea3aad37c)] - Update CHANGELOG.md & bump version \[ci skip\] (Travis CI)
+* [[`dda7005990`](https://github.com/willyb321/TimeTable/commit/dda7005990)] - Merge pull request #20 from willyb321/greenkeeper-electron-prebuilt-1.2.7 (William)
+* [[`8561101522`](https://github.com/willyb321/TimeTable/commit/8561101522)] - chore(package): update electron-prebuilt to version 1.2.7 (greenkeeperio-bot)
+* [[`fdeb14b58e`](https://github.com/willyb321/TimeTable/commit/fdeb14b58e)] - Update CHANGELOG.md & bump version \[ci skip\] (Travis CI)
+* [[`0e6ce24a45`](https://github.com/willyb321/TimeTable/commit/0e6ce24a45)] - Merge pull request #19 from willyb321/greenkeeper-electron-config-0.2.1 (William)
+* [[`26027dbb71`](https://github.com/willyb321/TimeTable/commit/26027dbb71)] - chore(package): update electron-config to version 0.2.1 (greenkeeperio-bot)
+* [[`1a3958f5b6`](https://github.com/willyb321/TimeTable/commit/1a3958f5b6)] - Update CHANGELOG.md & bump version \[ci skip\] (Travis CI)
+* [[`5b78346871`](https://github.com/willyb321/TimeTable/commit/5b78346871)] - Merge pull request #17 from willyb321/greenkeeper-menubar-5.0.0 (William)
+* [[`bc2c005ff4`](https://github.com/willyb321/TimeTable/commit/bc2c005ff4)] - Update CHANGELOG.md & bump version \[ci skip\] (Travis CI)
+* [[`93909d8569`](https://github.com/willyb321/TimeTable/commit/93909d8569)] - chore(package): update menubar to version 5.0.0 (greenkeeperio-bot)
+* [[`64c2842655`](https://github.com/willyb321/TimeTable/commit/64c2842655)] - Merge pull request #18 from willyb321/greenkeeper-electron-packager-7.3.0 (William)
+* [[`9250233720`](https://github.com/willyb321/TimeTable/commit/9250233720)] - chore(package): update electron-packager to version 7.3.0 (greenkeeperio-bot)
+* [[`67b7c0421d`](https://github.com/willyb321/TimeTable/commit/67b7c0421d)] - Update CHANGELOG.md & bump version \[ci skip\] (Travis CI)
+* [[`c36bcdb4de`](https://github.com/willyb321/TimeTable/commit/c36bcdb4de)] - Merge pull request #16 from willyb321/greenkeeper-menubar-4.1.3 (William)
+* [[`4a818e9e6e`](https://github.com/willyb321/TimeTable/commit/4a818e9e6e)] - chore(package): update menubar to version 4.1.3 (greenkeeperio-bot)
+* [[`e95cfde5ab`](https://github.com/willyb321/TimeTable/commit/e95cfde5ab)] - Update CHANGELOG.md & bump version \[ci skip\] (Travis CI)
+* [[`5ebad2fc49`](https://github.com/willyb321/TimeTable/commit/5ebad2fc49)] - Merge pull request #15 from willyb321/greenkeeper-npm-check-updates-2.7.0 (William)
+* [[`67173ccb62`](https://github.com/willyb321/TimeTable/commit/67173ccb62)] - chore(package): update npm-check-updates to version 2.7.0 (greenkeeperio-bot)
+* [[`09aa057c0c`](https://github.com/willyb321/TimeTable/commit/09aa057c0c)] - Update CHANGELOG.md & bump version \[ci skip\] (Travis CI)
+* [[`1a9faecfa8`](https://github.com/willyb321/TimeTable/commit/1a9faecfa8)] - update deps (William Blythe)
+* [[`41878d74a3`](https://github.com/willyb321/TimeTable/commit/41878d74a3)] - Update CHANGELOG.md & bump version \[ci skip\] (Travis CI)
+* [[`95cde1a476`](https://github.com/willyb321/TimeTable/commit/95cde1a476)] - update deps (William Blythe)
+* [[`397e6b0ed0`](https://github.com/willyb321/TimeTable/commit/397e6b0ed0)] - Update CHANGELOG.md & bump version \[ci skip\] (Travis CI)
+* [[`32cfd8b3b4`](https://github.com/willyb321/TimeTable/commit/32cfd8b3b4)] - well im apparently gonna have to do that now. (William)
+* [[`4d3b79b2d0`](https://github.com/willyb321/TimeTable/commit/4d3b79b2d0)] - Update CHANGELOG.md & bump version \[ci skip\] (Travis CI)
+* [[`41533ff312`](https://github.com/willyb321/TimeTable/commit/41533ff312)] - WHOOPSS (William)
+* [[`028bcc1395`](https://github.com/willyb321/TimeTable/commit/028bcc1395)] - whoops that'd be bad (William)
+* [[`2ede5ff597`](https://github.com/willyb321/TimeTable/commit/2ede5ff597)] - im bad apparently (William)
+* [[`b34d52c021`](https://github.com/willyb321/TimeTable/commit/b34d52c021)] - Update CHANGELOG.md & bump version \[ci skip\] (Travis CI)
+* [[`ea5fa93265`](https://github.com/willyb321/TimeTable/commit/ea5fa93265)] - even better (William)
+* [[`6568bbc24e`](https://github.com/willyb321/TimeTable/commit/6568bbc24e)] - this might be a bit better (William)
+* [[`24d77a866c`](https://github.com/willyb321/TimeTable/commit/24d77a866c)] - Update CHANGELOG.md \[ci skip\] & bump version (Travis CI)
+* [[`7393100108`](https://github.com/willyb321/TimeTable/commit/7393100108)] - removed accidental blank link (William Blythe)
+* [[`ab703a2775`](https://github.com/willyb321/TimeTable/commit/ab703a2775)] - update deps \[ci skip\] (William Blythe)
+* [[`6653fe75e4`](https://github.com/willyb321/TimeTable/commit/6653fe75e4)] - actually fixed it (William Blythe)
+* [[`53c73274b4`](https://github.com/willyb321/TimeTable/commit/53c73274b4)] - fixed up readme (William Blythe)
+
+* [[`f5d99ed4dd`](https://github.com/willyb321/TimeTable/commit/f5d99ed4dd)] - did readme stuff (William Blythe)
+* [[`942d953668`](https://github.com/willyb321/TimeTable/commit/942d953668)] - Update CHANGELOG.md \[ci skip\] & bump version (Travis CI)
+* [[`3e2b962439`](https://github.com/willyb321/TimeTable/commit/3e2b962439)] - boom (William)
+* [[`2986ca9eab`](https://github.com/willyb321/TimeTable/commit/2986ca9eab)] - Update CHANGELOG.md \[ci skip\] (Travis CI)
+* [[`d32ff7f049`](https://github.com/willyb321/TimeTable/commit/d32ff7f049)] - Merge branch 'master' of https://github.com/willyb321/electron-menubar-timetable (William Blythe)
+* [[`e8b509e152`](https://github.com/willyb321/TimeTable/commit/e8b509e152)] - make travis only commit once (William Blythe)
+* [[`a816b906a3`](https://github.com/willyb321/TimeTable/commit/a816b906a3)] - Bump version to 1.5.30. \[ci skip\] (Travis CI)
+* [[`c5205e0dc2`](https://github.com/willyb321/TimeTable/commit/c5205e0dc2)] - Update CHANGELOG.md \[ci skip\] (Travis CI)
+* [[`a4a1095a06`](https://github.com/willyb321/TimeTable/commit/a4a1095a06)] - wrong format url oops (William Blythe)
+* [[`1f333b0575`](https://github.com/willyb321/TimeTable/commit/1f333b0575)] - Bump version to 1.5.29. \[ci skip\] (Travis CI)
+* [[`749b6f19de`](https://github.com/willyb321/TimeTable/commit/749b6f19de)] - Update CHANGELOG.md \[ci skip\] (Travis CI)
+* [[`fd198dcc1a`](https://github.com/willyb321/TimeTable/commit/fd198dcc1a)] - whoops didnt set git config early enough (William Blythe)
+* [[`8a0feebe98`](https://github.com/willyb321/TimeTable/commit/8a0feebe98)] - auto changelog ahoy (William Blythe)
+* [[`3e0ed1051f`](https://github.com/willyb321/TimeTable/commit/3e0ed1051f)] - Bump version to 1.5.28. \[ci skip\] (Travis CI)
+* [[`4aa85b6aad`](https://github.com/willyb321/TimeTable/commit/4aa85b6aad)] - Merge branch 'master' of https://github.com/willyb321/electron-menubar-timetable (William Blythe)
+* [[`fa43f89dcb`](https://github.com/willyb321/TimeTable/commit/fa43f89dcb)] - \[ci skip\] (William Blythe)
+* [[`a2c127bd04`](https://github.com/willyb321/TimeTable/commit/a2c127bd04)] - Bump version to 1.5.27. \[ci skip\] (Travis CI)
+* [[`6c1e85c1c2`](https://github.com/willyb321/TimeTable/commit/6c1e85c1c2)] - update readme (William Blythe)
+* [[`d8dc862680`](https://github.com/willyb321/TimeTable/commit/d8dc862680)] - Bump version to 1.5.26. \[ci skip\] (Travis CI)
+* [[`3204286657`](https://github.com/willyb321/TimeTable/commit/3204286657)] - added changelog (William Blythe)
+
+* [[`7c1268ddda`](https://github.com/willyb321/TimeTable/commit/7c1268ddda)] - Bump version to 1.5.25. \[ci skip\] (Travis CI)
+* [[`687d443fac`](https://github.com/willyb321/TimeTable/commit/687d443fac)] - removed another dep (William Blythe)
+* [[`17020863ee`](https://github.com/willyb321/TimeTable/commit/17020863ee)] - Bump version to 1.5.24. \[ci skip\] (Travis CI)
+* [[`990bfe526f`](https://github.com/willyb321/TimeTable/commit/990bfe526f)] - i dont know anymore (William Blythe)
+* [[`09bddec538`](https://github.com/willyb321/TimeTable/commit/09bddec538)] - Bump version to 1.5.23. \[ci skip\] (Travis CI)
+* [[`97aa7079fc`](https://github.com/willyb321/TimeTable/commit/97aa7079fc)] - testing stuff (William Blythe)
+* [[`a924e6a9bf`](https://github.com/willyb321/TimeTable/commit/a924e6a9bf)] - Bump version to 1.5.22. \[ci skip\] (Travis CI)
+* [[`eaece7db39`](https://github.com/willyb321/TimeTable/commit/eaece7db39)] - re-enable cache (William Blythe)
+
+* [[`d67f989414`](https://github.com/willyb321/TimeTable/commit/d67f989414)] - Merge branch 'master' of https://github.com/willyb321/electron-menubar-timetable (William Blythe)
+* [[`b2c7262ffd`](https://github.com/willyb321/TimeTable/commit/b2c7262ffd)] - re-enable cache (William Blythe)
+
+* [[`d4a7399e96`](https://github.com/willyb321/TimeTable/commit/d4a7399e96)] - Bump version to 1.5.21. \[ci skip\] (Travis CI)
+* [[`abeba72ee1`](https://github.com/willyb321/TimeTable/commit/abeba72ee1)] - temporarily disable cache in travis (William Blythe)
+* [[`d81b5db141`](https://github.com/willyb321/TimeTable/commit/d81b5db141)] - Bump version to 1.5.20. \[ci skip\] (Travis CI)
+* [[`4733a51a84`](https://github.com/willyb321/TimeTable/commit/4733a51a84)] - removed more unneeded deps (William Blythe)
+* [[`3349e89656`](https://github.com/willyb321/TimeTable/commit/3349e89656)] - Bump version to 1.5.19. \[ci skip\] (Travis CI)
+* [[`9cc88dede2`](https://github.com/willyb321/TimeTable/commit/9cc88dede2)] - pipe standard install to /dev/null because it looks nicer (William Blythe)
+* [[`c62356e38c`](https://github.com/willyb321/TimeTable/commit/c62356e38c)] - Bump version to 1.5.18. \[ci skip\] (Travis CI)
+* [[`5b679a7c5d`](https://github.com/willyb321/TimeTable/commit/5b679a7c5d)] - Merge branch 'master' of https://github.com/willyb321/electron-menubar-timetable (William Blythe)
+* [[`8cab2afc67`](https://github.com/willyb321/TimeTable/commit/8cab2afc67)] - oh sod it (William Blythe)
+* [[`ec9b772351`](https://github.com/willyb321/TimeTable/commit/ec9b772351)] - Bump version to 1.5.17. \[ci skip\] (Travis CI)
+* [[`fc34ec1efe`](https://github.com/willyb321/TimeTable/commit/fc34ec1efe)] - maybe this wont make an infinite loop (William Blythe)
+* [[`0cce75cf26`](https://github.com/willyb321/TimeTable/commit/0cce75cf26)] - whoops made an infinite loop (William Blythe)
+* [[`f8b6ac32bc`](https://github.com/willyb321/TimeTable/commit/f8b6ac32bc)] - Bump version to 1.5.16. \[ci skip\] (Travis CI)
+* [[`3e7ea0a87f`](https://github.com/willyb321/TimeTable/commit/3e7ea0a87f)] - fix travis invalid password (William Blythe)
+* [[`c3bb91cd09`](https://github.com/willyb321/TimeTable/commit/c3bb91cd09)] - Bump version to 1.5.15. \[ci skip\] (Travis CI)
+* [[`2f51cbaffa`](https://github.com/willyb321/TimeTable/commit/2f51cbaffa)] - made more use of npm, and updated travis cache (William Blythe)
+* [[`0349f60c1e`](https://github.com/willyb321/TimeTable/commit/0349f60c1e)] - Bump version to 1.5.14. \[ci skip\] (Travis CI)
+* [[`d9a8f50189`](https://github.com/willyb321/TimeTable/commit/d9a8f50189)] - remove slash whoops (William Blythe)
+* [[`7f3ee6eaf7`](https://github.com/willyb321/TimeTable/commit/7f3ee6eaf7)] - Merge branch 'master' of https://github.com/willyb321/electron-menubar-timetable (William Blythe)
+* [[`27831251ec`](https://github.com/willyb321/TimeTable/commit/27831251ec)] - started using electron-zip-packager again (William Blythe)
+* [[`c7e1a067cb`](https://github.com/willyb321/TimeTable/commit/c7e1a067cb)] - Bump version to 1.5.13. \[ci skip\] (Travis CI)
+* [[`6565dbc44b`](https://github.com/willyb321/TimeTable/commit/6565dbc44b)] - move npm version to after deploy (William)
+* [[`960089c222`](https://github.com/willyb321/TimeTable/commit/960089c222)] - Bump version to 1.5.12. \[ci skip\] (Travis CI)
+* [[`77a7f5ac77`](https://github.com/willyb321/TimeTable/commit/77a7f5ac77)] - whoops (William Blythe)
+* [[`a2f4423454`](https://github.com/willyb321/TimeTable/commit/a2f4423454)] - Bump version to 1.5.11. \[ci skip\] (Travis CI)
+* [[`7223a1a4ec`](https://github.com/willyb321/TimeTable/commit/7223a1a4ec)] - Removed it because file size got bigger (William Blythe)
+* [[`9857008e20`](https://github.com/willyb321/TimeTable/commit/9857008e20)] - Bump version to 1.5.10. \[ci skip\] (Travis CI)
+* [[`91e0691d0f`](https://github.com/willyb321/TimeTable/commit/91e0691d0f)] - Add electron-zip-packager to save time probably. (William Blythe)
+* [[`53cf3b9de3`](https://github.com/willyb321/TimeTable/commit/53cf3b9de3)] - Bump version to 1.5.9. \[ci skip\] (Travis CI)
+* [[`d25b5cb11d`](https://github.com/willyb321/TimeTable/commit/d25b5cb11d)] - Update electron-packager to 7.1.0 (William Blythe)
+* [[`7ac02673c3`](https://github.com/willyb321/TimeTable/commit/7ac02673c3)] - Bump version to 1.5.8. \[ci skip\] (Travis CI)
+* [[`5325bfccc6`](https://github.com/willyb321/TimeTable/commit/5325bfccc6)] - Updated electron-prebuilt to 1.2.5 (William Blythe)
+* [[`fbe0ffe14a`](https://github.com/willyb321/TimeTable/commit/fbe0ffe14a)] - Updated menubar to 4.1.2 \[ci skip\] (William Blythe)
+* [[`049b1bea92`](https://github.com/willyb321/TimeTable/commit/049b1bea92)] - Bump version to 1.5.7. \[ci skip\] (Travis CI)
+* [[`30c33079cf`](https://github.com/willyb321/TimeTable/commit/30c33079cf)] - Update electron to 1.2.4, and also electron-config to 0.2.0 (William Blythe)
+* [[`04d94b80c8`](https://github.com/willyb321/TimeTable/commit/04d94b80c8)] - Bump version to 1.5.6. \[ci skip\] (Travis CI)
+* [[`1909cb2097`](https://github.com/willyb321/TimeTable/commit/1909cb2097)] - Set app version from npm package version because thats better (William Blythe)
+* [[`c736424406`](https://github.com/willyb321/TimeTable/commit/c736424406)] - Bump version to 1.5.5. \[ci skip\] (Travis CI)
+* [[`057b8dd1a3`](https://github.com/willyb321/TimeTable/commit/057b8dd1a3)] - Made button better (William Blythe)
+* [[`7cfedc42ba`](https://github.com/willyb321/TimeTable/commit/7cfedc42ba)] - Bump version to 1.5.4. \[ci skip\] (Travis CI)
+* [[`1f426ca12d`](https://github.com/willyb321/TimeTable/commit/1f426ca12d)] - probably made file size much smaller (William Blythe)
+* [[`1c03848137`](https://github.com/willyb321/TimeTable/commit/1c03848137)] - Bump version to 1.5.3. \[ci skip\] (Travis CI)
+* [[`4597a3da3b`](https://github.com/willyb321/TimeTable/commit/4597a3da3b)] - Move semver stuff to after success (William Blythe)
+* [[`153ee72842`](https://github.com/willyb321/TimeTable/commit/153ee72842)] - Bump version to 1.5.2. \[ci skip\] (Travis CI)
+* [[`97689255fe`](https://github.com/willyb321/TimeTable/commit/97689255fe)] - what about this (William Blythe)
+
+* [[`e62a94eb7a`](https://github.com/willyb321/TimeTable/commit/e62a94eb7a)] - why (William Blythe)
+* [[`fcc653b6ec`](https://github.com/willyb321/TimeTable/commit/fcc653b6ec)] - whoops wrong ur; (William Blythe)
+* [[`c074f38c61`](https://github.com/willyb321/TimeTable/commit/c074f38c61)] - try this maybe? (William Blythe)
+
+* [[`c18787a12f`](https://github.com/willyb321/TimeTable/commit/c18787a12f)] - Merge pull request #14 from willyb321/dev-test (William)
+* [[`36fc0bda4c`](https://github.com/willyb321/TimeTable/commit/36fc0bda4c)] - I dont even know why that was there (William Blythe)
+* [[`d8caeae4f3`](https://github.com/willyb321/TimeTable/commit/d8caeae4f3)] - Eh sod it (William Blythe)
+* [[`3d79cf2996`](https://github.com/willyb321/TimeTable/commit/3d79cf2996)] - What abut this (William Blythe)
+
+* [[`7c4a985701`](https://github.com/willyb321/TimeTable/commit/7c4a985701)] - Just to tesst (William Blythe)
+* [[`b4fefcb3ec`](https://github.com/willyb321/TimeTable/commit/b4fefcb3ec)] - whoooooops (William Blythe)
+* [[`e02f80cc7f`](https://github.com/willyb321/TimeTable/commit/e02f80cc7f)] - Wot bout this (William Blythe)
+* [[`7dd8c568fa`](https://github.com/willyb321/TimeTable/commit/7dd8c568fa)] - What about this eh (William Blythe)
+* [[`247491df81`](https://github.com/willyb321/TimeTable/commit/247491df81)] - What if this works (William Blythe)
+* [[`7fc137029f`](https://github.com/willyb321/TimeTable/commit/7fc137029f)] - Made more use of NPMs package.json because its fun (William Blythe)
+* [[`701d537c67`](https://github.com/willyb321/TimeTable/commit/701d537c67)] - Merge pull request #13 from willyb321/dev-test (William)
+* [[`b58188177f`](https://github.com/willyb321/TimeTable/commit/b58188177f)] - Make standard ignore clearconf() (William Blythe)
+* [[`96bb4e6b0e`](https://github.com/willyb321/TimeTable/commit/96bb4e6b0e)] - Merge pull request #12 from willyb321/dev-test (William)
+* [[`5cf5c8c8b1`](https://github.com/willyb321/TimeTable/commit/5cf5c8c8b1)] - Added a button to clear the config/fix images (William Blythe)
+* [[`f131606c38`](https://github.com/willyb321/TimeTable/commit/f131606c38)] - Merge pull request #11 from willyb321/dev-test (William)
+* [[`66a223380c`](https://github.com/willyb321/TimeTable/commit/66a223380c)] - Standard bitched at me lol (William Blythe)
+* [[`02764d933b`](https://github.com/willyb321/TimeTable/commit/02764d933b)] - Added electron-config, and tweaked dialog to allow storing image path. (William Blythe)
+* [[`987571a20b`](https://github.com/willyb321/TimeTable/commit/987571a20b)] - Merge pull request #10 from willyb321/dev-test (William)
+* [[`d8be12f1ce`](https://github.com/willyb321/TimeTable/commit/d8be12f1ce)] - Update electron-prebuilt (William Blythe)
+* [[`891c80b638`](https://github.com/willyb321/TimeTable/commit/891c80b638)] - Update electron packager. \[ci skip\] (William Blythe)
+* [[`78296cab69`](https://github.com/willyb321/TimeTable/commit/78296cab69)] - Merge pull request #9 from willyb321/dev-test (William)
+* [[`c6dfe80c41`](https://github.com/willyb321/TimeTable/commit/c6dfe80c41)] - added some stuff to package.json also removed deps (William Blythe)
+* [[`fa9126e4a2`](https://github.com/willyb321/TimeTable/commit/fa9126e4a2)] - Merge pull request #8 from willyb321/dev-test (William)
+* [[`dfc156f1e8`](https://github.com/willyb321/TimeTable/commit/dfc156f1e8)] - added an icon because why not, made better use of npm (William Blythe)
+* [[`08dddbd231`](https://github.com/willyb321/TimeTable/commit/08dddbd231)] - Merge pull request #7 from willyb321/dev-test (William)
+* [[`42da7aacc0`](https://github.com/willyb321/TimeTable/commit/42da7aacc0)] - remove not used deps (William Blythe)
+* [[`7861b1c74d`](https://github.com/willyb321/TimeTable/commit/7861b1c74d)] - added coffee-script to deps for future use (William Blythe)
+* [[`8a43251f14`](https://github.com/willyb321/TimeTable/commit/8a43251f14)] - did some formatting, etc (William Blythe)
+* [[`a39703978b`](https://github.com/willyb321/TimeTable/commit/a39703978b)] - Merge pull request #6 from willyb321/dev-test (William)
+* [[`0510303fb5`](https://github.com/willyb321/TimeTable/commit/0510303fb5)] - did a bunch'o stuff (William Blythe)
+* [[`3cd2c0a564`](https://github.com/willyb321/TimeTable/commit/3cd2c0a564)] - ran standard-format (William Blythe)
+* [[`3368e73e55`](https://github.com/willyb321/TimeTable/commit/3368e73e55)] - Merge pull request #5 from willyb321/dev-test (William)
+* [[`921e6380df`](https://github.com/willyb321/TimeTable/commit/921e6380df)] - move requires to top of file. (William Blythe)
+* [[`5f547451f9`](https://github.com/willyb321/TimeTable/commit/5f547451f9)] - Merge pull request #4 from willyb321/dev-test (William)
+* [[`0cfc22dbfe`](https://github.com/willyb321/TimeTable/commit/0cfc22dbfe)] - fixed travis almost deploying all branches (William Blythe)
+* [[`e58ce5598e`](https://github.com/willyb321/TimeTable/commit/e58ce5598e)] - bump ver, fix coding style, prettify (William Blythe)
+* [[`296581e71b`](https://github.com/willyb321/TimeTable/commit/296581e71b)] - moved js from index.html to another file. (William Blythe)
+* [[`ae2378c5c0`](https://github.com/willyb321/TimeTable/commit/ae2378c5c0)] - couldn't get the icon to work. :/ (William Blythe)
+* [[`f5506ee263`](https://github.com/willyb321/TimeTable/commit/f5506ee263)] - version 1.4.0 (William Blythe)
+* [[`9135a93481`](https://github.com/willyb321/TimeTable/commit/9135a93481)] - updated deps (William Blythe)
+* [[`710c73e7d5`](https://github.com/willyb321/TimeTable/commit/710c73e7d5)] - maybe this icon will work (William Blythe)
+* [[`5f99ae3767`](https://github.com/willyb321/TimeTable/commit/5f99ae3767)] - whoops (William Blythe)
+* [[`b02a4b167a`](https://github.com/willyb321/TimeTable/commit/b02a4b167a)] - bugger it (William Blythe)
+* [[`097de3f756`](https://github.com/willyb321/TimeTable/commit/097de3f756)] - PLS (William Blythe)
+* [[`89dcd1ef78`](https://github.com/willyb321/TimeTable/commit/89dcd1ef78)] - what now (William Blythe)
+* [[`1ecd7a195e`](https://github.com/willyb321/TimeTable/commit/1ecd7a195e)] - well i got one bit working (William Blythe)
+* [[`4cd4a4520d`](https://github.com/willyb321/TimeTable/commit/4cd4a4520d)] - what now (William Blythe)
+* [[`c216fd00aa`](https://github.com/willyb321/TimeTable/commit/c216fd00aa)] - testing (William Blythe)
+* [[`6664981675`](https://github.com/willyb321/TimeTable/commit/6664981675)] - wait a minute (William Blythe)
+* [[`5f38ca1108`](https://github.com/willyb321/TimeTable/commit/5f38ca1108)] - i don't even know what to say (William Blythe)
+* [[`740fa733a5`](https://github.com/willyb321/TimeTable/commit/740fa733a5)] - testing (William Blythe)
+* [[`2d698f724f`](https://github.com/willyb321/TimeTable/commit/2d698f724f)] - hmmmmmm (William Blythe)
+* [[`925f175a83`](https://github.com/willyb321/TimeTable/commit/925f175a83)] - what about this? (William Blythe)
+* [[`5a7b49fd61`](https://github.com/willyb321/TimeTable/commit/5a7b49fd61)] - wot bout this? (William Blythe)
+
+* [[`ec637e350a`](https://github.com/willyb321/TimeTable/commit/ec637e350a)] - maybe this will work (William Blythe)
+* [[`02df648b8b`](https://github.com/willyb321/TimeTable/commit/02df648b8b)] - testing gulp electron (William Blythe)
+* [[`c49e668cfc`](https://github.com/willyb321/TimeTable/commit/c49e668cfc)] - test this redux (William Blythe)
+
+* [[`4befb43a86`](https://github.com/willyb321/TimeTable/commit/4befb43a86)] - test this (William Blythe)
+* [[`57d92772d1`](https://github.com/willyb321/TimeTable/commit/57d92772d1)] - why (William Blythe)
+* [[`3c1803bce4`](https://github.com/willyb321/TimeTable/commit/3c1803bce4)] - whoooops (William Blythe)
+* [[`aa462ddd45`](https://github.com/willyb321/TimeTable/commit/aa462ddd45)] - testing gulp-electron (William Blythe)
+* [[`32afe707c2`](https://github.com/willyb321/TimeTable/commit/32afe707c2)] - test binary deployment (William Blythe)
+* [[`28b7143240`](https://github.com/willyb321/TimeTable/commit/28b7143240)] - remove unnecessary deps (William Blythe)
+* [[`f8f46eebf6`](https://github.com/willyb321/TimeTable/commit/f8f46eebf6)] - eh (William Blythe)
+* [[`cb776a8cba`](https://github.com/willyb321/TimeTable/commit/cb776a8cba)] - hmmmm this should do it (William Blythe)
+* [[`61bad51f3d`](https://github.com/willyb321/TimeTable/commit/61bad51f3d)] - \[ci skip\] add deps (William Blythe)
+* [[`e20fbe1bca`](https://github.com/willyb321/TimeTable/commit/e20fbe1bca)] - wot bout this (William Blythe)
+* [[`4da3d9e944`](https://github.com/willyb321/TimeTable/commit/4da3d9e944)] - bam pls work (William Blythe)
+* [[`9da935a38a`](https://github.com/willyb321/TimeTable/commit/9da935a38a)] - hmm (William Blythe)
+* [[`e644edad75`](https://github.com/willyb321/TimeTable/commit/e644edad75)] - well i somehow broke it (William Blythe)
+* [[`90fcedfecd`](https://github.com/willyb321/TimeTable/commit/90fcedfecd)] - maybe (William Blythe)
+* [[`6210e456cb`](https://github.com/willyb321/TimeTable/commit/6210e456cb)] - oh sod it (William Blythe)
+* [[`e5fbda91ba`](https://github.com/willyb321/TimeTable/commit/e5fbda91ba)] - pls work (William Blythe)
+* [[`03fec57086`](https://github.com/willyb321/TimeTable/commit/03fec57086)] - mayyyybe (William Blythe)
+* [[`7db7889ccc`](https://github.com/willyb321/TimeTable/commit/7db7889ccc)] - maybe this (William Blythe)
+* [[`0ec0adaf38`](https://github.com/willyb321/TimeTable/commit/0ec0adaf38)] - pls (William Blythe)
+* [[`629f38f338`](https://github.com/willyb321/TimeTable/commit/629f38f338)] - what now damnit (William Blythe)
+
+* [[`a6535a7176`](https://github.com/willyb321/TimeTable/commit/a6535a7176)] - ffs (William Blythe)
+* [[`fee9a79bfe`](https://github.com/willyb321/TimeTable/commit/fee9a79bfe)] - pls work (William Blythe)
+* [[`4a187acca2`](https://github.com/willyb321/TimeTable/commit/4a187acca2)] - pls (William Blythe)
+* [[`6d2d2296ee`](https://github.com/willyb321/TimeTable/commit/6d2d2296ee)] - wot about this? (William Blythe)
+
+* [[`1c60fa494b`](https://github.com/willyb321/TimeTable/commit/1c60fa494b)] - wot bout this (William Blythe)
+* [[`6f0313bbaa`](https://github.com/willyb321/TimeTable/commit/6f0313bbaa)] - nearly made an inf loop (William Blythe)
+* [[`b382d58a91`](https://github.com/willyb321/TimeTable/commit/b382d58a91)] - indenting i swear (William Blythe)
+* [[`84a3631517`](https://github.com/willyb321/TimeTable/commit/84a3631517)] - every time i swear (William Blythe)
+* [[`766f41f953`](https://github.com/willyb321/TimeTable/commit/766f41f953)] - maybe this will do the auto bump (William Blythe)
+* [[`e03e57e881`](https://github.com/willyb321/TimeTable/commit/e03e57e881)] - update electron-builder \[ci skip\] (William Blythe)
+* [[`e6b090b7f3`](https://github.com/willyb321/TimeTable/commit/e6b090b7f3)] - ah bugger it (William Blythe)
+* [[`6adf2da62c`](https://github.com/willyb321/TimeTable/commit/6adf2da62c)] - arg (William Blythe)
+* [[`54e7233110`](https://github.com/willyb321/TimeTable/commit/54e7233110)] - maybe this? (William Blythe)
+* [[`0ef9af577e`](https://github.com/willyb321/TimeTable/commit/0ef9af577e)] - maybe this'll work (William)
+* [[`90fb71dfcf`](https://github.com/willyb321/TimeTable/commit/90fb71dfcf)] - well i fixed that probably (William Blythe)
+* [[`50426e2838`](https://github.com/willyb321/TimeTable/commit/50426e2838)] - whoops forgot the - (William Blythe)
+* [[`dadb1f77b1`](https://github.com/willyb321/TimeTable/commit/dadb1f77b1)] - add npm version patch (William Blythe)
+* [[`6728d42726`](https://github.com/willyb321/TimeTable/commit/6728d42726)] - oops i broke the build tag. (William)
+* [[`6917aa0896`](https://github.com/willyb321/TimeTable/commit/6917aa0896)] - potential fix for twitter url (William Blythe)
+* [[`e8e8432c11`](https://github.com/willyb321/TimeTable/commit/e8e8432c11)] - added some more damn badges. (William Blythe)
+* [[`fda460f59c`](https://github.com/willyb321/TimeTable/commit/fda460f59c)] - make it even better (William)
+* [[`2e1195207c`](https://github.com/willyb321/TimeTable/commit/2e1195207c)] - make build date not UTC, reformatted tags (William)
+* [[`3e32871163`](https://github.com/willyb321/TimeTable/commit/3e32871163)] - update max axe (William)
+* [[`9150a606e1`](https://github.com/willyb321/TimeTable/commit/9150a606e1)] - changed var requires to lets, because its better (William Blythe)
+* [[`617a120897`](https://github.com/willyb321/TimeTable/commit/617a120897)] - replaced some badges with shields.io(cont) (William)
+* [[`ec1985f231`](https://github.com/willyb321/TimeTable/commit/ec1985f231)] - add timezone (William)
+* [[`d5558a2661`](https://github.com/willyb321/TimeTable/commit/d5558a2661)] - add istanbul (William Blythe)
+* [[`6dbf540c70`](https://github.com/willyb321/TimeTable/commit/6dbf540c70)] - remove debug code and add more badges (William Blythe)
+* [[`cd211bc2cb`](https://github.com/willyb321/TimeTable/commit/cd211bc2cb)] - maybe this will work? (William)
+
+* [[`1ae6c92bf9`](https://github.com/willyb321/TimeTable/commit/1ae6c92bf9)] - im a bit dumb (William)
+* [[`f56b24b2df`](https://github.com/willyb321/TimeTable/commit/f56b24b2df)] - whoops (William)
+* [[`6c01702fb0`](https://github.com/willyb321/TimeTable/commit/6c01702fb0)] - maybe this will work? (William)
+
+* [[`af75567433`](https://github.com/willyb321/TimeTable/commit/af75567433)] - testing tags maybe this time (William)
+* [[`19840c7d60`](https://github.com/willyb321/TimeTable/commit/19840c7d60)] - test tagging (William)
+* [[`df714c12bd`](https://github.com/willyb321/TimeTable/commit/df714c12bd)] - added some badges (William)
+* [[`5dd67e2aff`](https://github.com/willyb321/TimeTable/commit/5dd67e2aff)] - updated deps, almost made a conflict :thumbsup: (William Blythe)
+* [[`63e3cf2ba6`](https://github.com/willyb321/TimeTable/commit/63e3cf2ba6)] - rip (William)
+* [[`8b5dcbd4cb`](https://github.com/willyb321/TimeTable/commit/8b5dcbd4cb)] - bam, deps (William)
+* [[`4dd4f8ef2e`](https://github.com/willyb321/TimeTable/commit/4dd4f8ef2e)] - see extended (William Blythe)
+* [[`30750d9ecd`](https://github.com/willyb321/TimeTable/commit/30750d9ecd)] - pipe npm install to /dev/null because thats nicer. (William)
+* [[`870432b42a`](https://github.com/willyb321/TimeTable/commit/870432b42a)] - pls dont infinite loop! (William)
+* [[`13219ae249`](https://github.com/willyb321/TimeTable/commit/13219ae249)] - testing releases (William)
+* [[`9f924f3fe9`](https://github.com/willyb321/TimeTable/commit/9f924f3fe9)] - Create .travis.yml (William)
+* [[`1d6c33b40d`](https://github.com/willyb321/TimeTable/commit/1d6c33b40d)] - Create .travis.yml (William)
+* [[`46a62569da`](https://github.com/willyb321/TimeTable/commit/46a62569da)] - Update .travis.yml (William)
+* [[`29eaa6525e`](https://github.com/willyb321/TimeTable/commit/29eaa6525e)] - god damnit (William)
+* [[`227674982f`](https://github.com/willyb321/TimeTable/commit/227674982f)] - Update .travis.yml (William)
+* [[`8c3c2e4ece`](https://github.com/willyb321/TimeTable/commit/8c3c2e4ece)] - pls work (William)
+* [[`52eed974df`](https://github.com/willyb321/TimeTable/commit/52eed974df)] - PLS (William)
+* [[`3446f7ee8b`](https://github.com/willyb321/TimeTable/commit/3446f7ee8b)] - test (William)
+* [[`fe5bac4416`](https://github.com/willyb321/TimeTable/commit/fe5bac4416)] - maybe this will work (William Blythe)
+* [[`fb3b9d1095`](https://github.com/willyb321/TimeTable/commit/fb3b9d1095)] - maybe this'll work (William)
+* [[`c5ba51696b`](https://github.com/willyb321/TimeTable/commit/c5ba51696b)] - testing releases (William)
+* [[`b110540107`](https://github.com/willyb321/TimeTable/commit/b110540107)] - testing releases may work (William Blythe)
+* [[`da0fd2c36e`](https://github.com/willyb321/TimeTable/commit/da0fd2c36e)] - make it easier to update deps, and updated them (William Blythe)
+* [[`6f64e6cfce`](https://github.com/willyb321/TimeTable/commit/6f64e6cfce)] - prettifying code (William Blythe)
+* [[`a780b30ac3`](https://github.com/willyb321/TimeTable/commit/a780b30ac3)] - updated the readme with more info (William)
+* [[`20acb91944`](https://github.com/willyb321/TimeTable/commit/20acb91944)] - updated the readme with more info (William)
+* [[`1e19b3e728`](https://github.com/willyb321/TimeTable/commit/1e19b3e728)] - upd ver because i forgot (William)
+* [[`a28459c990`](https://github.com/willyb321/TimeTable/commit/a28459c990)] - told ya (William)
+* [[`4f8f92b006`](https://github.com/willyb321/TimeTable/commit/4f8f92b006)] - big update. more commits to come probably (William Blythe)
+* [[`71f2d3dab8`](https://github.com/willyb321/TimeTable/commit/71f2d3dab8)] - Update README.md (William)
+* [[`3e13018cf9`](https://github.com/willyb321/TimeTable/commit/3e13018cf9)] - ***Revert*** "added stuff" (Will)
+* [[`4920b75379`](https://github.com/willyb321/TimeTable/commit/4920b75379)] - ***Revert*** "added stuff" (Will)
+* [[`82fadfad70`](https://github.com/willyb321/TimeTable/commit/82fadfad70)] - added stuff (Will)
+* [[`f57dcf030a`](https://github.com/willyb321/TimeTable/commit/f57dcf030a)] - added stuff (Will)
+* [[`7361e837e7`](https://github.com/willyb321/TimeTable/commit/7361e837e7)] - cleaned up and stuff (William)
+* [[`ef29d73867`](https://github.com/willyb321/TimeTable/commit/ef29d73867)] - Update README.md (William)
+* [[`30b615e670`](https://github.com/willyb321/TimeTable/commit/30b615e670)] - update spectron *again* (William Blythe)
+* [[`e107162bad`](https://github.com/willyb321/TimeTable/commit/e107162bad)] - update deps and version (William Blythe)
+* [[`5fcba2f0f1`](https://github.com/willyb321/TimeTable/commit/5fcba2f0f1)] - Merge pull request #3 from willyb321/test (William)
+* [[`9e56b6e0b7`](https://github.com/willyb321/TimeTable/commit/9e56b6e0b7)] - Delete TTIcon (William)
+* [[`2c3cd542b7`](https://github.com/willyb321/TimeTable/commit/2c3cd542b7)] - updates deps (William Blythe)
+* [[`b0722146e6`](https://github.com/willyb321/TimeTable/commit/b0722146e6)] - Delete appveyor.yml (William)
+* [[`5952b4a927`](https://github.com/willyb321/TimeTable/commit/5952b4a927)] - Create appveyor.yml (William)
+* [[`c6d1a218b0`](https://github.com/willyb321/TimeTable/commit/c6d1a218b0)] - prettifying code (William Blythe)
+* [[`77e6997fde`](https://github.com/willyb321/TimeTable/commit/77e6997fde)] - beautify (William Blythe)
+* [[`a8c3092f49`](https://github.com/willyb321/TimeTable/commit/a8c3092f49)] - make icon better (William Blythe)
+* [[`12d638a69b`](https://github.com/willyb321/TimeTable/commit/12d638a69b)] - i don't know what i did (William Blythe)
+* [[`81618d4045`](https://github.com/willyb321/TimeTable/commit/81618d4045)] - updated version because i always forget (William Blythe)
+* [[`43ec2c1576`](https://github.com/willyb321/TimeTable/commit/43ec2c1576)] - update stuff (William Blythe)
+* [[`c6292882a3`](https://github.com/willyb321/TimeTable/commit/c6292882a3)] - remove bit deli badge because not work (William)
+* [[`f19bbf7ef5`](https://github.com/willyb321/TimeTable/commit/f19bbf7ef5)] - forgot to update version (William Blythe)
+* [[`a5973702b5`](https://github.com/willyb321/TimeTable/commit/a5973702b5)] - update package.json and deps (William Blythe)
+* [[`23bb3b4382`](https://github.com/willyb321/TimeTable/commit/23bb3b4382)] - test (William Blythe)
+* [[`b421509dec`](https://github.com/willyb321/TimeTable/commit/b421509dec)] - did some stuff (William Blythe)
+
+* [[`49db27562b`](https://github.com/willyb321/TimeTable/commit/49db27562b)] - updated package.json because I'm blind (William Blythe)
+* [[`35fc270d87`](https://github.com/willyb321/TimeTable/commit/35fc270d87)] - beautifying code (William Blythe)
+* [[`f8ba8785fd`](https://github.com/willyb321/TimeTable/commit/f8ba8785fd)] - moved the badge (William)
+* [[`5388341c67`](https://github.com/willyb321/TimeTable/commit/5388341c67)] - Merge pull request #2 from bitdeli-chef/master (William)
+* [[`3552a3687e`](https://github.com/willyb321/TimeTable/commit/3552a3687e)] - Add a Bitdeli badge to README (Bitdeli Chef)
+* [[`d1402781e4`](https://github.com/willyb321/TimeTable/commit/d1402781e4)] - made readme look better probably (William)
+* [[`64ef6eb9d2`](https://github.com/willyb321/TimeTable/commit/64ef6eb9d2)] - updated icon to look half decent maybe (William Blythe)
+* [[`90ed7ad758`](https://github.com/willyb321/TimeTable/commit/90ed7ad758)] - added .icns file and also changed notification click to close (William Blythe)
+* [[`8e4a4f8c31`](https://github.com/willyb321/TimeTable/commit/8e4a4f8c31)] - added platform notice (William)
+
+* [[`ddabf5b68f`](https://github.com/willyb321/TimeTable/commit/ddabf5b68f)] - added a notification, removed window open on startup (William Blythe)
+* [[`70e0d95930`](https://github.com/willyb321/TimeTable/commit/70e0d95930)] - added line to gitignore (William Blythe)
+* [[`2d37906da7`](https://github.com/willyb321/TimeTable/commit/2d37906da7)] - whoops forgot to remove that, also updated package.json (William Blythe)
+* [[`ffd6b7e5f9`](https://github.com/willyb321/TimeTable/commit/ffd6b7e5f9)] - replace the icon (William Blythe)
+* [[`3dfd3e6111`](https://github.com/willyb321/TimeTable/commit/3dfd3e6111)] - rename (William Blythe)
+* [[`248beb10f4`](https://github.com/willyb321/TimeTable/commit/248beb10f4)] - test stuff (William Blythe)
+* [[`05930d9b11`](https://github.com/willyb321/TimeTable/commit/05930d9b11)] - pls work (William Blythe)
+* [[`c570cc7129`](https://github.com/willyb321/TimeTable/commit/c570cc7129)] - test (William Blythe)
+* [[`7b270ffcce`](https://github.com/willyb321/TimeTable/commit/7b270ffcce)] - open at startup, preload, build config (William Blythe)
+* [[`6b520de980`](https://github.com/willyb321/TimeTable/commit/6b520de980)] - Update .travis.yml (William)
+* [[`d53fdc49bc`](https://github.com/willyb321/TimeTable/commit/d53fdc49bc)] - whoops forgot to update package.json (William Blythe)
+* [[`0b8944db00`](https://github.com/willyb321/TimeTable/commit/0b8944db00)] - testing more stuff (William Blythe)
+* [[`54429a5bec`](https://github.com/willyb321/TimeTable/commit/54429a5bec)] - testing (William Blythe)
+* [[`6f5653cdc0`](https://github.com/willyb321/TimeTable/commit/6f5653cdc0)] - added a thing (William Blythe)
+* [[`bbd82526aa`](https://github.com/willyb321/TimeTable/commit/bbd82526aa)] - Update README.md (William)
+* [[`97a1259468`](https://github.com/willyb321/TimeTable/commit/97a1259468)] - added example gif and removed image (William Blythe)
+* [[`ce1b4f22ee`](https://github.com/willyb321/TimeTable/commit/ce1b4f22ee)] - added example image and also updated readme (William Blythe)
+* [[`d56f834774`](https://github.com/willyb321/TimeTable/commit/d56f834774)] - i really cannot spell (William Blythe)
+* [[`4c43801a65`](https://github.com/willyb321/TimeTable/commit/4c43801a65)] - remove unneeded files (William Blythe)
+* [[`66c6dda55a`](https://github.com/willyb321/TimeTable/commit/66c6dda55a)] - damnit (William Blythe)
+* [[`dbff23cb72`](https://github.com/willyb321/TimeTable/commit/dbff23cb72)] - fixer upper (William Blythe)
+* [[`80bed3e62b`](https://github.com/willyb321/TimeTable/commit/80bed3e62b)] - Update README.md (William)
+* [[`e666ec34f9`](https://github.com/willyb321/TimeTable/commit/e666ec34f9)] - testing (William Blythe)
+* [[`dbe2fe6c9f`](https://github.com/willyb321/TimeTable/commit/dbe2fe6c9f)] - test (William)
+* [[`8f2f660ece`](https://github.com/willyb321/TimeTable/commit/8f2f660ece)] - testing (William)
+* [[`052f5fd1d2`](https://github.com/willyb321/TimeTable/commit/052f5fd1d2)] - Update .travis.yml (William)
+* [[`684f801dab`](https://github.com/willyb321/TimeTable/commit/684f801dab)] - testing (William)
+* [[`83b3b325bc`](https://github.com/willyb321/TimeTable/commit/83b3b325bc)] - add travis ci (William Blythe)
+* [[`969703aa88`](https://github.com/willyb321/TimeTable/commit/969703aa88)] - replaced images with placeholders (William Blythe)
+* [[`bf3418b7bd`](https://github.com/willyb321/TimeTable/commit/bf3418b7bd)] - added icon (William Blythe)
+* [[`a95ef6babe`](https://github.com/willyb321/TimeTable/commit/a95ef6babe)] - Update README.md (William)
+* [[`cc9b1259cb`](https://github.com/willyb321/TimeTable/commit/cc9b1259cb)] - Create README.md (William)
+* [[`49fb74043c`](https://github.com/willyb321/TimeTable/commit/49fb74043c)] - added the stuff (William Blythe)
