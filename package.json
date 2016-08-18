@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "electron": "^1.3.3",
-    "electron-zip-packager": "^2.0.0",
+    "electron-zip-packager": "git://github.com/user/project.git",
     "menubar": "^5.0.0",
     "standard": "^7.1.2"
   },
