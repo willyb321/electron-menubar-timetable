@@ -13,7 +13,7 @@
   },
   "main": "./main.js",
   "scripts": {
-    "lint": "standard",
+    "lint": "xo",
     "build": "electron-zip-packager . --platform=darwin --arch=x64 --icon=./TimeTable.icns --prune --app-version=${npm_package_version}",
     "pretest": "echo pls work",
     "test": "npm run lint",
@@ -26,15 +26,15 @@
     "electron": "^1.3.5",
     "electron-zip-packager": "^3.0.0",
     "menubar": "^5.0.0",
-    "standard": "^8.0.0"
+    "standard": "^8.0.0",
+    "xo": "^0.12.0"
   },
   "dependencies": {
     "electron-config": "^0.2.1",
     "menubar": "^5.1.0"
   },
-  "standard": {
-    "ignore": [
-      "test.js"
-    ]
+  "xo": {
+   "ignores": ["test.js"]
   }
-}
+  }
+  
