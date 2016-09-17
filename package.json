@@ -23,19 +23,17 @@
     "start": "npm run electron"
   },
   "devDependencies": {
-    "electron": "^1.3.5",
+    "electron": "^1.4.0",
     "electron-zip-packager": "^3.0.0",
-    "menubar": "^5.0.0",
+    "menubar": "^5.1.0",
     "standard": "^8.0.0",
-    "xo": "^0.12.0"
+    "xo": "^0.16.0"
   },
   "dependencies": {
     "electron-config": "^0.2.1",
     "menubar": "^5.1.0"
   },
   "xo": {
-    "ignores": [
-      "test.js"
-    ]
+    "ignores": ["test.js"]
   }
 }

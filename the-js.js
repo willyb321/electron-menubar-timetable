@@ -1,9 +1,11 @@
 // requires be here
 var path;
 let remote = require('electron').remote;
+
 let dialog = remote.require('electron').dialog;
-let image = document.getElementById('imgTT'); // eslint-disable-line
+let image = document.getElementById('imgTT'); // eslint-disable-line no-undef
 const Config = require('electron-config');
+
 const conf = new Config();
 if (conf.get('imgPath') === undefined) {
 	path = dialog.showOpenDialog({
@@ -22,7 +24,7 @@ function changeImg() { // find the image, and then change the src to the path.
 	}
 }
 
-function clearConf() { //eslint-disable-line
+function clearConf() { // eslint-disable-line no-unused-vars
 	conf.delete('imgPath');
 	var path = dialog.showOpenDialog({
 		properties: ['openFile', 'multiSelections']
