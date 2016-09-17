@@ -1,5 +1,8 @@
 # Change Log
 
+## [build-448-master-2016-09-17-01-13](https://github.com/willyb321/electron-menubar-timetable/tree/build-448-master-2016-09-17-01-13) (2016-09-17)
+[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-442-master-2016-09-13-05-52...build-448-master-2016-09-17-01-13)
+
 ## [build-442-master-2016-09-13-05-52](https://github.com/willyb321/electron-menubar-timetable/tree/build-442-master-2016-09-13-05-52) (2016-09-13)
 [Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-439-master-2016-09-03-11-16...build-442-master-2016-09-13-05-52)
 

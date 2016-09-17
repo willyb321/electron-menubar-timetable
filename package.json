@@ -1,6 +1,6 @@
 {
   "name": "TimeTable",
-  "version": "1.5.66",
+  "version": "1.5.67",
   "description": "Get your TimeTable in your menubar!",
   "license": "MIT",
   "author": "Willyb321",
@@ -34,6 +34,8 @@
     "menubar": "^5.1.0"
   },
   "xo": {
-    "ignores": ["test.js"]
+    "ignores": [
+      "test.js"
+    ]
   }
 }
