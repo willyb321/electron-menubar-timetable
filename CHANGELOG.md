@@ -1,5 +1,12 @@
 # Change Log
 
+## [build-456-master-2016-09-22-09-55](https://github.com/willyb321/electron-menubar-timetable/tree/build-456-master-2016-09-22-09-55) (2016-09-22)
+[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-452-master-2016-09-18-11-16...build-456-master-2016-09-22-09-55)
+
+**Merged pull requests:**
+
+- electron@1.4.1 untested ⚠️ [\#40](https://github.com/willyb321/electron-menubar-timetable/pull/40) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
+
 ## [build-452-master-2016-09-18-11-16](https://github.com/willyb321/electron-menubar-timetable/tree/build-452-master-2016-09-18-11-16) (2016-09-18)
 [Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-448-master-2016-09-17-01-13...build-452-master-2016-09-18-11-16)
 
