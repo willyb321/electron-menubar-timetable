@@ -23,7 +23,7 @@
     "start": "npm run electron"
   },
   "devDependencies": {
-    "electron": "^1.4.0",
+    "electron": "^1.4.1",
     "electron-zip-packager": "^3.0.0",
     "menubar": "^5.1.0",
     "standard": "^8.1.0",
