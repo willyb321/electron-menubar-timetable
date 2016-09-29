@@ -1,5 +1,12 @@
 # Change Log
 
+## [build-464-master-2016-09-29-12-44](https://github.com/willyb321/electron-menubar-timetable/tree/build-464-master-2016-09-29-12-44) (2016-09-29)
+[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-460-master-2016-09-27-08-51...build-464-master-2016-09-29-12-44)
+
+**Merged pull requests:**
+
+- Update electron-zip-packager to version 4.0.0 🚀 [\#42](https://github.com/willyb321/electron-menubar-timetable/pull/42) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
+
 ## [build-460-master-2016-09-27-08-51](https://github.com/willyb321/electron-menubar-timetable/tree/build-460-master-2016-09-27-08-51) (2016-09-26)
 [Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-456-master-2016-09-22-09-55...build-460-master-2016-09-27-08-51)
 
