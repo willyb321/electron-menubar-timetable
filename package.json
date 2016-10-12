@@ -27,7 +27,7 @@
     "electron-zip-packager": "^4.0.0",
     "menubar": "^5.1.0",
     "standard": "^8.4.0",
-    "xo": "^0.16.0"
+    "xo": "^0.17.0"
   },
   "dependencies": {
     "electron-config": "^0.2.1",
