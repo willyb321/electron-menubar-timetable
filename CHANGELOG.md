@@ -1,5 +1,12 @@
 # Change Log
 
+## [build-486-master-2016-10-12-01-30](https://github.com/willyb321/electron-menubar-timetable/tree/build-486-master-2016-10-12-01-30) (2016-10-12)
+[Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-480-master-2016-10-11-11-18...build-486-master-2016-10-12-01-30)
+
+**Merged pull requests:**
+
+- Update xo to version 0.17.0 🚀 [\#47](https://github.com/willyb321/electron-menubar-timetable/pull/47) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
+
 ## [build-480-master-2016-10-11-11-18](https://github.com/willyb321/electron-menubar-timetable/tree/build-480-master-2016-10-11-11-18) (2016-10-11)
 [Full Changelog](https://github.com/willyb321/electron-menubar-timetable/compare/build-476-master-2016-10-06-09-22...build-480-master-2016-10-11-11-18)
 
