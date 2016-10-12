@@ -1,7 +1,7 @@
 let menubar = require('menubar');
 
 let mb = menubar();
-mb.on('ready', function ready() {
+mb.on('ready', function ready() { // eslint-disable-line func-namess
 	mb.setOption('width', '800');
 	mb.setOption('height', '600');
 	mb.setOption('preload-window', 'true');
