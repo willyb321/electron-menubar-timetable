@@ -5,6 +5,7 @@ mb.on('ready', function ready() { // eslint-disable-line func-names
 	mb.setOption('width', '800');
 	mb.setOption('height', '600');
 	mb.setOption('preload-window', 'true');
+	mb.setOption('icon', `${__dirname}/iconTemplate.png`)
 	mb.showWindow();
 	const electron = require('electron');
 		// Module to control application life.
