@@ -9,43 +9,14 @@ addons:
     packages:
     - xvfb
 install:
-- npm install &>/dev/null
-- gem install github_changelog_generator
+- yarn --pure-lockfile
 - export DISPLAY=':99.0'
 - Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
-before_script: 
-- npm install -g standard &>/dev/null
-- npm install standard &>/dev/null
 before_install:
+- sudo apt-key adv --fetch-keys http://dl.yarnpkg.com/debian/pubkey.gpg
+- echo "deb http://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+- sudo apt update && sudo apt install -y yarn
 - export TZ=Australia/Sydney
-- rvm install ruby-2.3.1
 script:
 - npm test
-- git config user.name "Travis CI"
-- git config user.email "travis@travis-ci.com"
-- npm run build
-before_deploy:
-- npm version patch -m "Update version to %s [ci skip]" --no-git-tag-version
-deploy:
-  skip_cleanup: true
-  provider: releases
-  api_key:
-    secure: 0JOU1MGxICDnNDE8DUr7R6DR+iSa2xSvz0jPNNv7qKpWxZ7Au4ECUNvrlVp74JBKsfUTXduMH5EBHnyt9rJieAhqQJPudi+2mviHeZFyJWo+crsn0qb/bXjD2iqbm2FalKTBtshIXN8HcV/Kfz7RAbZOHAmZCljLShvF2Klr4tpMtn6pnr2ReavUglNtNPC2F2mGa6pAVV+MJbc8/SJ/Go2gTLRyt6KTBhsjvdCESIDqHjRTedH00ZxzuFIrrSWThpuDVPkKV8rCjtOHUBWAPEHj5lG2K1kQAe6HEobt1N6Y78jYkb9GKDSsgKHjQ0bmd1YbwS3voE11EbNenPBVkh0n3kM/4o1eKjUG4kW56LnVBzRtY18NCJW8WMbet4BW0NMT5aqJDqmtOj48SPh0GLZoT1bvh5ZGHr6IQHie3e1mUqGrOWJL97MHNckMrBod1d5GUq7otf0O8BA6+qtvZ0aC+Wx2Lrrd3wsvXsOjkZ4wzzBR2qjztcnKNzPNBJcnwbbyYi7i0p8rnS3caFcD29Kqq4yXCaq8J6KC6S9cFEpKdmofrrMh0zsXSPpB7yscRCf7TOn8lHwsHQ6Jhdjy6OQMzoVJW6hZpOg/D7I1GbDUleqC0aF1mGM11ZfKDZLy4R8WQ1yFtZvaMhGf2F4l8m+f97t1WFFpl5UnCl8f0Hc=
-  file: /home/travis/build/willyb321/electron-menubar-timetable/TimeTable-darwin-x64.zip
-  on:
-    tags: false
-    repo: willyb321/electron-menubar-timetable
-    branch: master
-  branches:
-
-  except:
-  - /^*-v[0-9]/
-after_success:
-- export GIT_TAG=build-$TRAVIS_BUILD_NUMBER-$TRAVIS_BRANCH-$(date "+%Y-%m-%d-%I-%M")
-- git tag $GIT_TAG -a -m "Generated tag from TravisCI build $TRAVIS_BUILD_NUMBER"
-- git push origin $GIT_TAG
-after_deploy:
-- github_changelog_generator
-- git commit -am "Update CHANGELOG.md & bump version [ci skip]"
-- git push --quiet "https://$GH_TOKEN:x-oauth-basic@github.com/willyb321/electron-menubar-timetable.git" HEAD:master > /dev/null 2>&1
-
+- npm run dist

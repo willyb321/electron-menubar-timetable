@@ -1,7 +1,5 @@
-
 node_modules/
-
 npm-debug.log
 mytt/
-
+dist/
 TimeTable-darwin-x64.zip

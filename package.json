@@ -14,20 +14,15 @@
   "main": "./main.js",
   "scripts": {
     "lint": "xo",
-    "build": "electron-zip-packager . --platform=darwin --arch=x64 --icon=./TimeTable.icns --prune --app-version=${npm_package_version}",
-    "pretest": "echo pls work",
     "test": "npm run lint",
-    "electron": "electron .",
-    "deps": "ncu -u -a",
-    "prestart": "npm install",
-    "start": "npm run electron"
+    "start": "electron .",
+    "pack": "build --dir",
+  	"dist": "build"
   },
   "devDependencies": {
-    "electron": "^1.4.4",
-    "electron-zip-packager": "^4.0.0",
-    "menubar": "^5.1.0",
-    "standard": "^8.4.0",
-    "xo": "^0.17.0"
+    "electron": "^1.4.6",
+    "xo": "^0.17.0",
+    "electron-builder": "7.26.0"
   },
   "dependencies": {
     "electron-config": "^0.2.1",
@@ -37,5 +32,17 @@
     "ignores": [
       "test.js"
     ]
-  }
+  },
+"build": {
+    "appId": "com.willyb321.electron-menubar-timetable"
+    },
+    "mac": {
+      "target": [
+        "dmg"
+      ],
+      "category": "public.app-category.reference",
+      "publish": [
+        "github"
+      ]
+    }
 }
