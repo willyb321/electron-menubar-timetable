@@ -1,6 +1,7 @@
 language: node_js
 node_js:
 - v7
+os: osx
 osx_image: xcode8
 cache:
   directories:
