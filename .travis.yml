@@ -1,20 +1,33 @@
-language: node_js
-node_js:
-- v7
+osx_image: xcode7.3
 sudo: required
 dist: trusty
+language: c
+
+matrix:
+  include:
+    - os: osx
+    - os: linux
+      env: CC=clang CXX=clang++ npm_config_clang=1
+      compiler: clang
+
 cache:
   directories:
   - node_modules
+  - $HOME/.electron
+  - $HOME/.cache
+
+
 addons:
   apt:
     packages:
-    - xvfb
+    - libgnome-keyring-dev
+    - icnsutils
 install:
 - yarn --pure-lockfile
 - export DISPLAY=':99.0'
 - Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
 before_install:
+- nvm install 7
 - sudo apt-key adv --fetch-keys http://dl.yarnpkg.com/debian/pubkey.gpg
 - echo "deb http://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 - sudo apt-get update && sudo apt-get install -y yarn
@@ -22,3 +35,6 @@ before_install:
 script:
 - npm test
 - npm run release
+branches:
+  except:
+    - "/^v\\d+\\.\\d+\\.\\d+$/"
