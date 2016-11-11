@@ -8,9 +8,9 @@ language: c
 matrix:
   include:
     - os: osx
-    - os: linux
-      env: CC=clang CXX=clang++ npm_config_clang=1
-      compiler: clang
+    # - os: linux
+      # env: CC=clang CXX=clang++ npm_config_clang=1
+      # compiler: clang
 cache:
   directories:
   - node_modules
@@ -29,9 +29,9 @@ install:
 - yarn
 - export DISPLAY=':99.0'
 - Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
-before_install:
-- if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew update          ; fi
-- if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew install gnu-tar libicns graphicsmagick; fi
+# before_install:
+# - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew update          ; fi
+# - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew install gnu-tar libicns graphicsmagick; fi
 - nvm install 7
 - npm install -g yarn
 - export TZ=Australia/Sydney
