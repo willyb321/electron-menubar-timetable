@@ -23,6 +23,8 @@ addons:
     packages:
     - libgnome-keyring-dev
     - icnsutils
+    - graphicsmagick
+    - xz-utils
 install:
 - yarn
 - export DISPLAY=':99.0'
@@ -30,7 +32,6 @@ install:
 before_install:
 - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew update          ; fi
 - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew install gnu-tar libicns graphicsmagick; fi
-- if [[ "$TRAVIS_OS_NAME" == "linux"]]; then sudo apt-get install --no-install-recommends -y icnsutils graphicsmagick xz-utils; fi
 - nvm install 7
 - npm install -g yarn
 - export TZ=Australia/Sydney
