@@ -22,7 +22,7 @@
   "devDependencies": {
     "electron": "^1.4.6",
     "xo": "^0.17.0",
-    "electron-builder": "7.26.0"
+    "electron-builder": "8.3.0"
   },
   "dependencies": {
     "electron-config": "^0.2.1",
