@@ -1,6 +1,6 @@
 {
   "name": "TimeTable",
-  "version": "1.5.77",
+  "version": "1.6.0",
   "description": "Get your TimeTable in your menubar!",
   "license": "MIT",
   "author": "Willyb321",
@@ -17,7 +17,7 @@
     "test": "npm run lint",
     "start": "electron .",
     "pack": "build --dir",
-  	"dist": "build"
+    "dist": "build"
   },
   "devDependencies": {
     "electron": "^1.4.6",
@@ -33,15 +33,15 @@
       "test.js"
     ]
   },
-"build": {
+  "build": {
     "appId": "com.willyb321.electron-menubar-timetable"
-    },
-    "mac": {
-      "target": [
-        "dmg"
-      ],
-      "dmg": {
-      	"contents": [
+  },
+  "mac": {
+    "target": [
+      "dmg"
+    ],
+    "dmg": {
+      "contents": [
         {
           "x": 110,
           "y": 150
@@ -53,16 +53,15 @@
           "path": "/Applications"
         }
       ]
-      },
-      "linux": {
+    },
+    "linux": {
       "target": [
         "deb"
       ]
     }
   },
-
-      "category": "public.app-category.reference",
-      "publish": [
-        "github"
-      ]
-    }
+  "category": "public.app-category.reference",
+  "publish": [
+    "github"
+  ]
+}
