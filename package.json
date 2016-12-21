@@ -1,6 +1,6 @@
 {
   "name": "TimeTable",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "description": "Get your TimeTable in your menubar!",
   "license": "MIT",
   "author": "Willyb321",
@@ -18,7 +18,7 @@
     "start": "electron .",
     "pack": "build --dir",
     "dist": "build",
-   	"release": "build -m"
+    "release": "build -m"
   },
   "devDependencies": {
     "electron": "^1.4.13",
