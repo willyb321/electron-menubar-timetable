@@ -2,7 +2,7 @@ const path = require('path');
 let menubar = require('menubar');
 
 let mb = menubar();
-mb.setOption('icon', path.join(__dirname, 'img', 'icon.png'));
+mb.setOption('icon', path.join(__dirname, 'TTIcon.png'));
 mb.on('ready', function ready() { // eslint-disable-line func-names
 	mb.setOption('width', '800');
 	mb.setOption('height', '600');
@@ -15,9 +15,7 @@ mb.on('ready', function ready() { // eslint-disable-line func-names
 		app
 	} = electron;
 	// Module to create native browser window.
-	const {
-		BrowserWindow
-	} = electron;
+	const {BrowserWindow} = electron;
 	// Keep a global reference of the window object, if you don't, the window will
 	// be closed automatically when the JavaScript object is garbage collected.
 	let win = BrowserWindow; // BrowserWindow in which to show the dialog
