@@ -17,7 +17,8 @@
     "test": "npm run lint",
     "start": "electron .",
     "pack": "build --dir",
-    "dist": "build"
+    "dist": "build",
+   	"release": "build -m"
   },
   "devDependencies": {
     "electron": "^1.4.13",

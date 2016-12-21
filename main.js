@@ -2,7 +2,7 @@ const path = require('path');
 let menubar = require('menubar');
 
 let mb = menubar();
-mb.setOption('icon', path.join(__dirname, 'TTIcon.png'));
+mb.setOption('icon', path.join(__dirname, 'iconTemplate.png'));
 mb.on('ready', function ready() { // eslint-disable-line func-names
 	mb.setOption('width', '800');
 	mb.setOption('height', '600');
