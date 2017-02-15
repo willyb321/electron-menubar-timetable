@@ -23,7 +23,7 @@
   "devDependencies": {
     "electron": "^1.4.13",
     "xo": "^0.17.1",
-    "electron-builder": "11.4.4"
+    "electron-builder": "13.9.0"
   },
   "dependencies": {
     "electron-config": "^0.2.1",
