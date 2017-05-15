@@ -4,6 +4,8 @@
 
 # Electron Timetable
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/willyb321/electron-menubar-timetable.svg)](https://greenkeeper.io/)
+
  [![Travis](https://img.shields.io/travis/willyb321/electron-menubar-timetable.svg?maxAge=3600)]()
  [![Dependency Status](https://www.versioneye.com/user/projects/57555eb37757a0003bd4b14f/badge.svg?style=flat)](https://www.versioneye.com/user/projects/57555eb37757a0003bd4b14f)
  [![Github All Releases](https://img.shields.io/github/downloads/willyb321/electron-menubar-timetable/total.svg?maxAge=3600)](https://github.com/willyb321/electron-menubar-timetable/releases/latest)
