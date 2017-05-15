@@ -21,13 +21,13 @@
     "release": "build -m"
   },
   "devDependencies": {
-    "electron": "^1.4.13",
-    "xo": "^0.17.1",
-    "electron-builder": "13.9.0"
+    "electron": "^1.6.7",
+    "xo": "^0.18.2",
+    "electron-builder": "17.5.0"
   },
   "dependencies": {
-    "electron-config": "^0.2.1",
-    "menubar": "^5.1.0"
+    "electron-config": "^1.0.0",
+    "menubar": "^5.2.3"
   },
   "xo": {
     "ignores": [
