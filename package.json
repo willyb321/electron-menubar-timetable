@@ -26,7 +26,7 @@
     "electron-builder": "13.9.0"
   },
   "dependencies": {
-    "electron-config": "^0.2.1",
+    "electron-config": "^1.0.0",
     "menubar": "^5.1.0"
   },
   "xo": {
