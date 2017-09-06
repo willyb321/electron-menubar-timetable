@@ -21,7 +21,7 @@
     "release": "build -m"
   },
   "devDependencies": {
-    "electron": "^1.6.7",
+    "electron": "^1.7.6",
     "xo": "^0.18.2",
     "electron-builder": "17.5.0"
   },
