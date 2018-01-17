@@ -1,41 +1,55 @@
 {
 	"WeekA": {
-		"Monday": [
+		"1": [
 			{
-				"startTime": "0930",
-				"endTime": "1230"
+				"startTime": "09:30",
+				"endTime": "12:30",
+				"name": "IDT",
+				"room": "G128"
 			}
 		],
-		"Tuesday": [
+		"2": [
 			 {
-				"startTime": "0930",
-				"endTime": "1230"
+				"startTime": "09:30",
+				"endTime": "12:30",
+				"name": "IDT",
+				"room": "G128"
 			},
 			 {
-				"startTime": "1300",
-				"endTime": "1600"
+				"startTime": "13:00",
+				"endTime": "16:00",
+				"name": "IDT",
+				"room": "G128"
 			}
 		],
-		"Wednesday": [
+		"3": [
 			{
-				"startTime": "1300",
-				"endTime": "1500"
+				"startTime": "13:00",
+				"endTime": "15:00",
+				"name": "IDT",
+				"room": "B120"
 			},
 			{
-				"startTime": "1500",
-				"endTime": "1700"
+				"startTime": "15:00",
+				"endTime": "17:00",
+				"name": "IDT",
+				"room": "B120"
 			}
 		],
-		"Thursday": [
+		"4": [
 			{
-				"startTime": "0930",
-				"endTime": "1130"
+				"startTime": "09:30",
+				"endTime": "11:30",
+				"name": "IDT",
+				"room": "G128"
 			},
 			{
-				"startTime": "1200",
-				"endTime": "1500"
+				"startTime": "12:00",
+				"endTime": "15:00",
+				"name": "IDT",
+				"room": "G128"
 			}
 		],
-		"Friday": []
+		"5": []
 	}
 }
