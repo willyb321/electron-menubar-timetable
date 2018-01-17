@@ -1,0 +1,53 @@
+a {
+	background-color: #99e9f2;
+	text-decoration: none;
+	border-color: #3bc9db;
+	padding: 2px;
+	border: 20px;
+	transition: ease-in-out 200ms;
+	box-sizing: border-box;
+	text-decoration: none;
+	text-decoration-color: rgb(73, 80, 87);
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 0px;
+	line-height: 21px;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 10px;
+	padding-bottom: 13px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 10px;
+	background-color: rgb(241, 243, 245);
+	border-bottom-color: rgb(73, 80, 87);
+	border-bottom-left-radius: 22px;
+	border-bottom-right-radius: 22px;
+	border-bottom-style: none;
+	border-bottom-width: 0px;
+	border-image-outset: 0;
+	border-image-repeat: stretch stretch;
+	border-image-slice: 100%;
+	border-image-source: none;
+	border-image-width: 1;
+	border-left-color: rgb(73, 80, 87);
+	border-left-style: none;
+	border-left-width: 0px;
+	border-right-color: rgb(73, 80, 87);
+	border-right-style: none;
+	border-right-width: 0px;
+	border-top-color: rgb(73, 80, 87);
+	border-top-left-radius: 22px;
+	border-top-right-radius: 22px;
+	border-top-style: none;
+	border-top-width: 0px;
+}
+
+a:hover {
+	background-color: #0b7285;
+	transition: ease-in-out 200ms;
+}

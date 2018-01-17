@@ -22,12 +22,17 @@ if (!conf.has('json.path')) {
 		} finally {
 			if (ttJSON) {
 				conf.set('json.path', file[0]);
+				conf.set('json.json', ttJSON);
 			}
 		}
 	}
 } else {
 	try {
-		ttJSON = require(conf.get('json.path'));
+		if (conf.has('json.json')) {
+			ttJSON = conf.get('json.json');
+		} else {
+			ttJSON = require(conf.get('json.path'));
+		}
 	} catch (err) {
 		console.log(err);
 		conf.clear();
@@ -65,4 +70,10 @@ for (const week in ttJSON) {
 		document.body.appendChild(elem);
 		renderer.draw('#timetable-' + day); // Any css selector
 	}
+}
+
+function clearTimeTable() {
+	conf.clear();
+	dialog.showMessageBox({type: 'info', buttons: [], title: 'Config cleared.', message: 'Config cleared. Exiting. Re open and you will be prompted to check your timetable.'});
+	app.quit();
 }
