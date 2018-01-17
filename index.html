@@ -2,14 +2,16 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <title>TimeTable In your menubar!</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="./styles/timetablejs.css">
+	<link rel="stylesheet" href="./styles/demo.css">
+    <title>TimeTable</title>
 </head>
 
 <body>
-	<center><button id="clearConfig" onclick=clearConf()>Fix image</button></center>
-    <img id="imgTT" src="./img/a.png" onclick="changeImg()" width=100% height=25%></img>
-    <script type="text/javascript" src="./the-js.js"></script>
+	<div class="timetable"></div>
+	<script src="./scripts/timetable.min.js"></script>
+    <script type="text/javascript" src="./render.js"></script>
 </body>
 
 </html>

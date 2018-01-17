@@ -1,0 +1,41 @@
+{
+	"WeekA": {
+		"Monday": [
+			{
+				"startTime": "0930",
+				"endTime": "1230"
+			}
+		],
+		"Tuesday": [
+			 {
+				"startTime": "0930",
+				"endTime": "1230"
+			},
+			 {
+				"startTime": "1300",
+				"endTime": "1600"
+			}
+		],
+		"Wednesday": [
+			{
+				"startTime": "1300",
+				"endTime": "1500"
+			},
+			{
+				"startTime": "1500",
+				"endTime": "1700"
+			}
+		],
+		"Thursday": [
+			{
+				"startTime": "0930",
+				"endTime": "1130"
+			},
+			{
+				"startTime": "1200",
+				"endTime": "1500"
+			}
+		],
+		"Friday": []
+	}
+}
