@@ -46,8 +46,10 @@ a {
 	border-top-style: none;
 	border-top-width: 0px;
 }
-
 a:hover {
 	background-color: #0b7285;
 	transition: ease-in-out 200ms;
+}
+::-webkit-scrollbar {
+    display: none;
 }
