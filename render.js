@@ -1,16 +1,17 @@
-// requires be here
+// Requires be here
 // const remote = require('electron').remote;
 const unhandled = require('electron-unhandled');
 
 unhandled();
-const {dialog, app} = require('electron').remote
+const {dialog, app} = require('electron').remote;
 
 const Config = require('electron-config');
 
 const conf = new Config();
-console.log(Timetable)
+console.log(Timetable);
 let ttJSON;
 const moment = require('moment');
+
 if (!conf.has('json.path')) {
 	const file = dialog.showOpenDialog({properties: ['openFile'], filters: [{extensions: ['json']}]});
 	if (file) {
@@ -26,7 +27,7 @@ if (!conf.has('json.path')) {
 	}
 } else {
 	try {
-		ttJSON = require(conf.get('json.path'))
+		ttJSON = require(conf.get('json.path'));
 	} catch (err) {
 		console.log(err);
 		conf.clear();
@@ -43,9 +44,9 @@ for (const week in ttJSON) {
 	for (const day in ttJSON[week]) {
 		const timetable = new Timetable();
 		const rooms = [];
-		for (let period of ttJSON[week][day]) {
+		for (const period of ttJSON[week][day]) {
 			try {
-				timetable.addLocations([period.room])
+				timetable.addLocations([period.room]);
 			} catch (err) {
 				if (err.message !== 'Location already exists') {
 					console.log(err);
@@ -58,11 +59,10 @@ for (const week in ttJSON) {
 			}
 		}
 		const renderer = new Timetable.Renderer(timetable);
-		const elem = document.createElement('div')
+		const elem = document.createElement('div');
 		elem.className = `timetable`;
 		elem.id = `timetable-${day}`;
 		document.body.appendChild(elem);
-		renderer.draw('#timetable-' + day); // any css selector
-
+		renderer.draw('#timetable-' + day); // Any css selector
 	}
 }
