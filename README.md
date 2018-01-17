@@ -18,45 +18,30 @@
 
 TimeTable in the menubar using electron. I have a [website](http://bit.ly/1XXz4iH) for this project.
 
-***  
+***
 
-## [View the website](http://tehsuperwilly.xyz/elect8ad5)  
-
-***  
-
-## How to use? (Easy way)  
-
-1. Download the latest release, unzip and then run timetable.app.  
-2. Select your timetable images in the dialog that comes up.  
-
-***  
-
-## How to use? (Hard way)  
-2. Clone the repo.  
-3. ```$ cd electron-menubar-timetable```  
-4. ```$ npm install```  
-5. ```$ npm run build```  
-6. Run the newly created application.  
-7. Select your timetable images in the dialog that comes up.  
-8. ???  
-9. Profit.  
-
-***  
-At the moment, only macOS is supported, because Windows/Linux doesn't have a menubar.  
-
-***  
-
-## Changelog  
-See [CHANGELOG.md](https://github.com/willyb321/electron-menubar-timetable/blob/master/CHANGELOG.md) for the changes happening.  
-
-# Credits
-<https://github.com/maxogden/menubar> - used for menubar  
-<https://electron.atom.io> - for the main thing
-
-# See some of my other projects:
-[My GitHub profile](https://github.com/willyb321)  
-[NPM Cards](https://github.com/willyb321/npm_cards)  
+## [View the website](http://tehsuperwilly.xyz/elect8ad5)
 
 ***
-# Example
-![Example](/example.gif "Example")
+
+## How to use? (Easy way)
+
+1. Download the latest release, unzip and then run timetable.app.
+2. Select your timetable images in the dialog that comes up.
+
+***
+
+## How to use? (Hard way)
+2. Clone the repo.
+3. ```$ cd electron-menubar-timetable```
+4. ```$ npm install```
+5. ```$ npm run build```
+6. Run the newly created application.
+7. Select your timetable images in the dialog that comes up.
+8. ???
+9. Profit.
+
+***
+
+## Changelog
+See [CHANGELOG.md](https://github.com/willyb321/electron-menubar-timetable/blob/master/CHANGELOG.md) for the changes happening.
