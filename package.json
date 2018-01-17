@@ -29,10 +29,7 @@
     "electron-config": "^1.0.0",
     "electron-unhandled": "^1.0.0",
     "electron-window-state": "^4.1.1",
-    "menubar": "^5.2.3",
-    "moment": "^2.20.1",
-    "tableify": "^1.1.0",
-    "timetable.js": "git+https://github.com/Grible/timetable.js.git"
+    "moment": "^2.20.1"
   },
   "xo": {
     "ignores": [
