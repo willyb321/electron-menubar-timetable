@@ -1,29 +1,25 @@
 {
-	"WeekA": {
-		"1": [
-			{
-				"startTime": "09:30",
-				"endTime": "12:30",
-				"name": "IDT",
-				"room": "G128"
-			}
-		],
-		"2": [
-			 {
+	"WeekA": [
+		[{
+			"startTime": "09:30",
+			"endTime": "12:30",
+			"name": "IDT",
+			"room": "G128"
+		}],
+		[{
 				"startTime": "09:30",
 				"endTime": "12:30",
 				"name": "IDT",
 				"room": "G128"
 			},
-			 {
+			{
 				"startTime": "13:00",
 				"endTime": "16:00",
 				"name": "IDT",
 				"room": "G128"
 			}
 		],
-		"3": [
-			{
+		[{
 				"startTime": "13:00",
 				"endTime": "15:00",
 				"name": "IDT",
@@ -36,8 +32,7 @@
 				"room": "B120"
 			}
 		],
-		"4": [
-			{
+		[{
 				"startTime": "09:30",
 				"endTime": "11:30",
 				"name": "IDT",
@@ -49,7 +44,6 @@
 				"name": "IDT",
 				"room": "G128"
 			}
-		],
-		"5": []
-	}
+		]
+	]
 }

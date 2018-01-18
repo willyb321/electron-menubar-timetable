@@ -1,6 +1,10 @@
 // Requires be here
 // const remote = require('electron').remote;
 const unhandled = require('electron-unhandled');
+const Ajv = require('ajv');
+
+const ajv = new Ajv();
+const schema = require('./timetable.schema.json');
 
 unhandled();
 const {dialog, app} = require('electron').remote;
@@ -8,7 +12,6 @@ const {dialog, app} = require('electron').remote;
 const Config = require('electron-config');
 
 const conf = new Config();
-console.log(Timetable);
 let ttJSON;
 const moment = require('moment');
 
@@ -45,24 +48,20 @@ if (!ttJSON) {
 	dialog.showMessageBox({type: 'error', buttons: [], title: 'Timetable failed to load.', message: 'Timetable failed to load. Exiting.'});
 	app.quit();
 }
+const valid = ajv.validate(schema, ttJSON);
+if (!valid) {
+	console.log(ajv.errors);
+	dialog.showMessageBox({type: 'error', buttons: [], title: 'Timetable failed to load.', message: 'Timetable failed to validate. Errors are printed.'});
+	for (const i of ajv.errors) {
+		document.querySelector('#validerr').innerHTML += `${i.dataPath}: ${i.message}\n`;
+	}
+	conf.delete('json.json');
+}
 for (const week in ttJSON) {
 	for (const day in ttJSON[week]) {
 		const timetable = new Timetable();
 		const rooms = [];
-		for (const period of ttJSON[week][day]) {
-			try {
-				timetable.addLocations([period.room]);
-			} catch (err) {
-				if (err.message !== 'Location already exists') {
-					console.log(err);
-				}
-			}
-			const startDate = moment({hour: period.startTime.split(':')[0], minute: period.startTime.split(':')[1]}).day(day).toDate();
-			const endDate = moment({hour: period.endTime.split(':')[0], minute: period.endTime.split(':')[1]}).day(day).toDate();
-			if (startDate && endDate) {
-				timetable.addEvent(period.name || 'Class', period.room || 'A Place', startDate, endDate);
-			}
-		}
+		processPeriods(week, day, timetable);
 		const renderer = new Timetable.Renderer(timetable);
 		const elem = document.createElement('div');
 		elem.className = `timetable`;
@@ -76,4 +75,21 @@ function clearTimeTable() {
 	conf.clear();
 	dialog.showMessageBox({type: 'info', buttons: [], title: 'Config cleared.', message: 'Config cleared. Exiting. Re open and you will be prompted to check your timetable.'});
 	app.quit();
+}
+
+function processPeriods(week, day, timetable) {
+	for (const period of ttJSON[week][day]) {
+		try {
+			timetable.addLocations([period.room]);
+		} catch (err) {
+			if (err.message !== 'Location already exists') {
+				console.log(err);
+			}
+		}
+		const startDate = moment({hour: period.startTime.split(':')[0], minute: period.startTime.split(':')[1]}).day(day).toDate();
+		const endDate = moment({hour: period.endTime.split(':')[0], minute: period.endTime.split(':')[1]}).day(day).toDate();
+		if (startDate && endDate) {
+			timetable.addEvent(period.name || 'Class', period.room || 'A Place', startDate, endDate);
+		}
+	}
 }
