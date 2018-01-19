@@ -55,13 +55,24 @@
               "examples": [
                 "G128"
               ]
+            },
+            "day": {
+              "$id": "/properties/WeekA/items/0/items/0/properties/day",
+              "type": "integer",
+              "title": "The Day Schema",
+              "description": "Day of week (0-6).",
+              "default": "",
+              "examples": [
+                0
+              ]
             }
           },
           "required": [
             "startTime",
             "endTime",
             "name",
-            "room"
+			"room",
+			"day"
           ]
         }
       }

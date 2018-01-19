@@ -61,13 +61,10 @@ Timetable.Renderer = function (tt) {
 			return this;
 		},
 		addLocations(newLocations) {
-			function hasProperFormat() {
-				return Array.isArray(newLocations);
-			}
-
+			const hasProperFormat = locs => Array.isArray(locs);
 			const existingLocations = this.locations;
 
-			if (hasProperFormat()) {
+			if (hasProperFormat(newLocations)) {
 				newLocations.forEach(loc => {
 					if (!locationExistsIn(loc, existingLocations)) {
 						existingLocations.push(loc);
