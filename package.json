@@ -1,7 +1,8 @@
 {
-  "name": "TimeTable",
+  "name": "electron-timetable",
+  "productName": "Electron Timetable",
   "version": "1.6.3",
-  "description": "Get your TimeTable in your menubar!",
+  "description": "Timetable application",
   "license": "MIT",
   "author": "Willyb321",
   "repository": {
@@ -11,7 +12,7 @@
   "bugs": {
     "url": "https://github.com/willyb321/electron-menubar-timetable/issues"
   },
-  "main": "./main.js",
+  "main": "index.js",
   "scripts": {
     "lint": "xo",
     "test": "npm run lint",
@@ -22,14 +23,17 @@
   },
   "devDependencies": {
     "electron": "^1.6.7",
-    "xo": "^0.18.2",
-    "electron-builder": "17.5.0"
+    "electron-builder": "^19.54.0",
+    "xo": "^0.18.2"
   },
   "dependencies": {
+    "about-window": "^1.8.0",
     "ajv": "^6.0.1",
+    "electron-collection": "^1.2.0",
     "electron-config": "^1.0.0",
     "electron-unhandled": "^1.0.0",
     "electron-window-state": "^4.1.1",
+    "is-electron-renderer": "^2.0.1",
     "moment": "^2.20.1"
   },
   "xo": {
@@ -38,34 +42,37 @@
     ]
   },
   "build": {
-    "appId": "com.willyb321.electron-menubar-timetable"
-  },
-  "mac": {
-    "target": [
-      "dmg"
-    ],
-    "dmg": {
-      "contents": [
-        {
-          "x": 110,
-          "y": 150
-        },
-        {
-          "x": 240,
-          "y": 150,
-          "type": "link",
-          "path": "/Applications"
-        }
+    "electronCompile": false,
+    "nodeGypRebuild": false,
+    "appId": "com.willyb321.electron-timetable",
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    },
+    "mac": {
+      "category": "public.app-category.reference",
+      "publish": [
+        "github"
+      ]
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "publish": [
+        "github"
       ]
     },
     "linux": {
+      "category": "Utility",
+      "maintainer": "Willyb321",
+      "synopsis": "Timetable application",
       "target": [
-        "deb"
+        "AppImage"
+      ],
+      "publish": [
+        "github"
       ]
     }
-  },
-  "category": "public.app-category.reference",
-  "publish": [
-    "github"
-  ]
+  }
 }

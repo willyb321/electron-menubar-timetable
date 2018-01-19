@@ -1,12 +1,11 @@
-// Requires be here
-// const remote = require('electron').remote;
 const unhandled = require('electron-unhandled');
+unhandled();
+
 const Ajv = require('ajv');
 
 const ajv = new Ajv();
 const schema = require('./timetable.schema.json');
 
-unhandled();
 const {dialog, app} = require('electron').remote;
 
 const Config = require('electron-config');
@@ -14,35 +13,9 @@ const Config = require('electron-config');
 const conf = new Config();
 let ttJSON;
 const moment = require('moment');
+const loadTimeTable = require('./util');
 
-if (!conf.has('json.path')) {
-	const file = dialog.showOpenDialog({properties: ['openFile'], filters: [{extensions: ['json']}]});
-	if (file) {
-		try {
-			ttJSON = require(file[0]);
-		} catch (err) {
-			console.log(err);
-		} finally {
-			if (ttJSON) {
-				conf.set('json.path', file[0]);
-				conf.set('json.json', ttJSON);
-			}
-		}
-	}
-} else {
-	try {
-		if (conf.has('json.json')) {
-			ttJSON = conf.get('json.json');
-		} else {
-			ttJSON = require(conf.get('json.path'));
-		}
-	} catch (err) {
-		console.log(err);
-		conf.clear();
-		dialog.showMessageBox({type: 'error', buttons: [], title: 'Timetable failed to load.', message: 'Timetable failed to load. Exiting.'});
-		app.quit();
-	}
-}
+ttJSON = loadTimeTable(false);
 
 if (!ttJSON) {
 	dialog.showMessageBox({type: 'error', buttons: [], title: 'Timetable failed to load.', message: 'Timetable failed to load. Exiting.'});
@@ -53,7 +26,6 @@ if (!valid) {
 	console.log(ajv.errors);
 	dialog.showMessageBox({type: 'error', buttons: [], title: 'Timetable failed to load.', message: 'Timetable failed to validate. Errors are printed.'});
 	for (const i of ajv.errors) {
-
 		document.querySelector('#validerr').innerHTML += `${i.dataPath}: ${i.message}\n`;
 	}
 	conf.delete('json.json');
@@ -81,7 +53,6 @@ for (const week in ttJSON) {
 	}
 	const renderer = new Timetable.Renderer(timetable);
 	renderer.draw('#timetable'); // Any css selector
-
 }
 
 function clearTimeTable() {
@@ -98,6 +69,11 @@ function processPeriods(week, day, timetable) {
 			if (err.message !== 'Location already exists') {
 				console.log(err);
 			}
+		}
+		if (!period.startTime || !period.endTime) {
+			dialog.showMessageBox({type: 'error', buttons: [], title: 'Timetable missing start / end time.', message: 'Please add start and end time in the format HH:MM [a|p]m.'});
+			conf.clear();
+			app.quit();
 		}
 		const startDate = moment({hour: period.startTime.split(':')[0], minute: period.startTime.split(':')[1]}).day(day).toDate();
 		const endDate = moment({hour: period.endTime.split(':')[0], minute: period.endTime.split(':')[1]}).day(day).toDate();

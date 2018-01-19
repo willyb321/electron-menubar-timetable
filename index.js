@@ -1,17 +1,33 @@
-const path = require('path');
-const electron = require('electron');
-const windowStateKeeper = require('electron-window-state');
-// Module to control application life.
-
-const {app} = electron;
-// Module to create native browser window.
-const {BrowserWindow} = electron;
-// Keep a global reference of the window object, if you don't, the window will
-// be closed automatically when the JavaScript object is garbage collected.
-let win = BrowserWindow; // BrowserWindow in which to show the dialog
 const unhandled = require('electron-unhandled');
 
 unhandled();
+
+const path = require('path');
+const electron = require('electron');
+const windowStateKeeper = require('electron-window-state');
+const Config = require('electron-config');
+
+const {
+	defaultMenu
+} = require('electron-collection');
+
+const {
+	Menu,
+	app,
+	shell,
+	BrowserWindow
+} = electron;
+const openAboutWindow = require('about-window').default;
+require('electron-debug')({
+	showDevTools: true
+});
+const conf = new Config();
+
+// Module to create native browser window.
+// Keep a global reference of the window object, if you don't, the window will
+// be closed automatically when the JavaScript object is garbage collected.
+let win = BrowserWindow; // BrowserWindow in which to show the dialog
+
 function createWindow() {
 	const mainWindowState = windowStateKeeper({
 		defaultWidth: 1280,
@@ -46,7 +62,31 @@ function createWindow() {
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
-app.on('ready', createWindow);
+app.on('ready', () => {
+	createWindow();
+	const menu = defaultMenu(app, shell);
+	menu.splice(0, 0, {
+		label: 'File',
+		submenu: [{
+			label: 'Reload timetable',
+			click: (item, focusedWindow) => {
+				const loadTimeTable = require('./util');
+				loadTimeTable(true);
+				win.reload();
+			}
+		}]
+	})
+	menu[3].submenu[1] = {
+		label: 'About',
+		click: (item, focusedWindow) => {
+			openAboutWindow({
+				icon_path: path.join(__dirname, 'TTIcon.png')
+			});
+		}
+	};
+
+	Menu.setApplicationMenu(Menu.buildFromTemplate(menu));
+});
 // Quit when all windows are closed.
 app.on('window-all-closed', () => {
 	// On OS X it is common for applications and their menu bar
@@ -62,5 +102,3 @@ app.on('activate', () => {
 		createWindow();
 	}
 });
-// In this file you can include the rest of your app's specific main process
-// code. You can also put them in separate files and require them here.
