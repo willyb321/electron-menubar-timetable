@@ -1,7 +1,7 @@
 {
   "name": "electron-timetable",
   "productName": "Electron Timetable",
-  "version": "1.6.3",
+  "version": "2.0.0",
   "description": "Timetable application",
   "license": "MIT",
   "author": "Willyb321",
