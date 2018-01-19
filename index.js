@@ -76,7 +76,7 @@ app.on('ready', () => {
 			}
 		}]
 	})
-	menu[3].submenu[1] = {
+	menu[4].submenu[1] = {
 		label: 'About',
 		click: (item, focusedWindow) => {
 			openAboutWindow({
