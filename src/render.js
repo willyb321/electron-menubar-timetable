@@ -4,7 +4,7 @@ unhandled();
 const Ajv = require('ajv');
 
 const ajv = new Ajv();
-const schema = require('./timetable.schema.json');
+const schema = require('../timetable.schema.json');
 
 const {dialog, app} = require('electron').remote;
 

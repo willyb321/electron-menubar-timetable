@@ -12,24 +12,26 @@
   "bugs": {
     "url": "https://github.com/willyb321/electron-menubar-timetable/issues"
   },
-  "main": "index.js",
+  "main": "src/es6-init.js",
   "scripts": {
     "lint": "xo",
     "test": "npm run lint",
     "start": "electron .",
-    "pack": "build --dir",
-    "dist": "build",
-    "release": "build -m"
+    "dist": "electron-builder",
+    "release": "electron-builder"
   },
   "devDependencies": {
     "electron": "^1.6.7",
     "electron-builder": "^19.54.0",
+    "electron-compilers": "^5.9.0",
     "xo": "^0.18.2"
   },
   "dependencies": {
     "about-window": "^1.8.0",
     "ajv": "^6.0.1",
+    "babel-preset-react": "^6.24.1",
     "electron-collection": "^1.2.0",
+    "electron-compile": "^6.4.2",
     "electron-config": "^1.0.0",
     "electron-unhandled": "^1.0.0",
     "electron-window-state": "^4.1.1",
@@ -42,7 +44,7 @@
     ]
   },
   "build": {
-    "electronCompile": false,
+    "electronCompile": true,
     "nodeGypRebuild": false,
     "appId": "com.willyb321.electron-timetable",
     "nsis": {

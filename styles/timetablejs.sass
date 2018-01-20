@@ -1,0 +1,139 @@
+.timetable
+  text-align: center
+  display: flex
+  flex-direction: row
+  align-items: stretch
+  width: 100%
+  box-sizing: border-box
+  &::after
+    clear: both
+    content: ""
+    display: table
+  *
+    box-sizing: inherit
+    &:before, &:after
+      box-sizing: inherit
+  ul, li
+    margin: 0
+    padding: 0
+    list-style-type: none
+  aside, section
+    float: left
+  aside
+    max-width: 30%
+    padding: 0 !important
+    margin-top: 46px
+    border-right: 5px solid transparent
+    li
+      padding: 0 15px
+      background-color: #EFEFEF
+      line-height: 46px
+      &:not(:last-of-type)
+        border-bottom: 1px solid #fff
+    .row-heading
+      display: inline-block
+      max-width: 100%
+      overflow: hidden
+      text-overflow: ellipsis
+      white-space: nowrap
+      word-wrap: normal
+  ul
+    list-style-type: none
+    margin: 0
+  aside li, time li
+    height: 46px
+  section
+    flex-grow: 1
+    padding: 0 !important
+    overflow-x: scroll
+    -webkit-overflow-scrolling: touch
+    time
+      white-space: nowrap
+      display: inline-block
+    header
+      height: 46px
+      transform-style: preserve-3d
+      font-size: 0
+      &::after
+        clear: both
+        content: ""
+        display: table
+      li
+        display: inline-block
+        font-size: 1rem
+        overflow: visible
+        width: 0
+        line-height: 46px
+        display: inline-block
+        position: relative
+        &:not(:last-of-type)
+          width: 96px
+        .time-label
+          display: block
+          position: absolute
+          left: 0
+        &:not(:first-of-type) .time-label
+          transform: translateX(-50%)
+        &:last-of-type .time-label
+          transform: translateX(-100%)
+  ul.room-timeline
+    border-left: none
+    position: relative
+    overflow: hidden
+    li
+      position: relative
+      background-color: #F4F4F4
+      &:nth-of-type(odd)
+        background-color: #FDFDFD
+      &:first-of-type
+        border-top: 1px solid #E5E5E5
+      &:last-of-type
+        border-bottom: 1px solid #E5E5E5
+      &:not(:last-of-type)
+        border-bottom: none
+      &:first-child .time-entry
+        height: 44px
+      &:after
+        content: ""
+        position: absolute
+        z-index: 1
+        left: 0
+        top: 0
+        right: 0
+        bottom: 0
+      &:before
+        content: ""
+        position: absolute
+        z-index: 1
+        left: 0
+        top: 0
+        right: 0
+        bottom: 0
+        background-image: linear-gradient(to right, #E5E5E5 1px, transparent 1px)
+        background-size: 24px auto
+      &:after
+        background-image: linear-gradient(to right, #E5E5E5, #E5E5E5 1px, #F4F4F4 1px, #F4F4F4 2px, #E5E5E5 2px, #E5E5E5 3px, transparent 3px, transparent)
+        background-size: 96px auto
+        background-position: -2px 0
+  .time-entry
+    background-color: #EC6A5E
+    transition: 200ms background-color
+    height: 45px
+    display: block
+    position: absolute
+    z-index: 2
+    padding: 0 10px
+    white-space: normal
+    overflow: hidden
+    color: #fff
+    border: 1px solid #e32c1b
+    border-right: none
+    border-left: none
+    transform-style: preserve-3d
+    small
+      position: relative
+      top: 50%
+      transform: translateY(-50%)
+      display: block
+    &:hover
+      background-color: #e74030
