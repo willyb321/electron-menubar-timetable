@@ -80,7 +80,7 @@ app.on('ready', () => {
 		label: 'About',
 		click: (item, focusedWindow) => {
 			openAboutWindow({
-				icon_path: path.join(__dirname, 'TTIcon.png')
+				icon_path: path.join(__dirname, '512x512.png')
 			});
 		}
 	};
